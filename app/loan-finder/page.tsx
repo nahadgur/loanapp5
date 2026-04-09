@@ -143,43 +143,43 @@ export default function LoanFinderPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+    <div className="min-h-screen bg-white text-gray-900">
       <Header />
 
       <div className="max-w-2xl mx-auto px-4 py-10">
-        <Link href="/" className="inline-flex items-center gap-2 text-slate-400 hover:text-white transition-colors mb-8 text-sm">
+        <Link href="/" className="inline-flex items-center gap-2 text-gray-500 hover:text-black transition-colors mb-8 text-sm">
           <ArrowLeft className="w-4 h-4" /> Back to all tools
         </Link>
 
         {/* Header */}
         <div className="text-center mb-8">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-purple-500/10 border border-purple-500/20 rounded-full mb-5">
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-gray-100 border border-purple-500/20  mb-5">
             <Sparkles className="w-4 h-4 text-purple-400" />
             <span className="text-purple-400 text-sm font-medium">Smart Loan Finder</span>
           </div>
-          <h1 className="text-2xl md:text-3xl font-bold text-white mb-2">Find Your Best Loan Match</h1>
-          <p className="text-slate-400 text-sm">3 quick questions — we match you with the top 3 apps for your situation</p>
+          <h1 className="text-2xl md:text-3xl font-serif font-bold text-gray-900 mb-2">Find Your Best Loan Match</h1>
+          <p className="text-gray-500 text-sm">3 quick questions — we match you with the top 3 apps for your situation</p>
         </div>
 
         {!done ? (
-          <div className="bg-slate-800/50 border border-slate-700 rounded-2xl overflow-hidden">
+          <div className="bg-gray-50 border border-black overflow-hidden">
             {/* Progress */}
-            <div className="h-1.5 bg-slate-700">
+            <div className="h-1.5 bg-gray-200">
               <div className="h-full bg-purple-500 transition-all duration-500" style={{ width: `${progress}%` }} />
             </div>
 
             <div className="p-7">
               <div className="flex items-center justify-between mb-6">
-                <span className="text-xs text-slate-500">Step {currentStep + 1} of {STEPS.length}</span>
+                <span className="text-xs text-gray-400">Step {currentStep + 1} of {STEPS.length}</span>
                 <div className="flex gap-1.5">
                   {STEPS.map((_, i) => (
-                    <div key={i} className={`w-2 h-2 rounded-full transition-colors ${i <= currentStep ? 'bg-purple-500' : 'bg-slate-600'}`} />
+                    <div key={i} className={`w-2 h-2  transition-colors ${i <= currentStep ? 'bg-purple-500' : 'bg-gray-50'}`} />
                   ))}
                 </div>
               </div>
 
-              <h2 className="text-xl font-bold text-white mb-2">{step.question}</h2>
-              {step.subtext && <p className="text-slate-400 text-sm mb-6">{step.subtext}</p>}
+              <h2 className="text-xl font-serif font-bold text-gray-900 mb-2">{step.question}</h2>
+              {step.subtext && <p className="text-gray-500 text-sm mb-6">{step.subtext}</p>}
 
               <div className="space-y-3">
                 {step.options.map(opt => {
@@ -188,22 +188,22 @@ export default function LoanFinderPage() {
                     <button
                       key={opt.value}
                       onClick={() => selectOption(step.id, opt.value)}
-                      className={`w-full text-left p-4 rounded-xl border transition-all flex items-center gap-4 ${
+                      className={`w-full text-left p-4 border transition-all flex items-center gap-4 ${
                         selected
-                          ? 'border-purple-500 bg-purple-500/10 text-white'
-                          : 'border-slate-600 bg-slate-700/30 text-slate-300 hover:border-purple-500/50 hover:bg-slate-700/50'
+                          ? 'border-purple-500 bg-gray-100 text-gray-900'
+                          : 'border-black bg-gray-200/30 text-gray-600 hover:border-purple-500/50 hover:bg-gray-100'
                       }`}
                     >
                       <span className="text-2xl">{opt.icon}</span>
                       <span className="flex-1 text-sm font-medium">{opt.label}</span>
-                      <ChevronRight className="w-4 h-4 text-slate-500 shrink-0" />
+                      <ChevronRight className="w-4 h-4 text-gray-400 shrink-0" />
                     </button>
                   )
                 })}
               </div>
 
               {currentStep > 0 && (
-                <button onClick={() => setCurrentStep(currentStep - 1)} className="mt-5 text-xs text-slate-500 hover:text-slate-300 transition-colors">
+                <button onClick={() => setCurrentStep(currentStep - 1)} className="mt-5 text-xs text-gray-400 hover:text-gray-600 transition-colors">
                   ← Back
                 </button>
               )}
@@ -213,49 +213,49 @@ export default function LoanFinderPage() {
           /* Results */
           <div className="space-y-4">
             <div className="text-center mb-6">
-              <h2 className="text-xl font-bold text-white mb-1">Your Top 3 Matches</h2>
-              <p className="text-slate-400 text-sm">
+              <h2 className="text-xl font-serif font-bold text-gray-900 mb-1">Your Top 3 Matches</h2>
+              <p className="text-gray-500 text-sm">
                 Based on {formatCurrency(Number(answers.amount))} · {answers.income} income · {answers.speed} need
               </p>
             </div>
 
             {matches.length === 0 ? (
-              <div className="text-center py-12 text-slate-400">
+              <div className="text-center py-12 text-gray-500">
                 <p>No perfect matches found. Try adjusting your amount.</p>
               </div>
             ) : (
               matches.map((app, i) => (
-                <div key={app.id} className={`border rounded-2xl overflow-hidden ${
-                  i === 0 ? 'border-purple-500/40 bg-gradient-to-r from-purple-500/10 to-slate-800/50' : 'border-slate-700 bg-slate-800/40'
+                <div key={app.id} className={`border overflow-hidden ${
+                  i === 0 ? 'border-emerald-600 bg-emerald-50' : 'border-black bg-gray-50'
                 }`}>
                   <div className="p-5">
                     <div className="flex items-start gap-4">
                       <div className="text-2xl shrink-0">{i === 0 ? '🥇' : i === 1 ? '🥈' : '🥉'}</div>
                       <div className="flex-1 min-w-0">
                         <div className="flex flex-wrap items-center gap-2 mb-1">
-                          <h3 className="font-bold text-white">{app.name}</h3>
-                          <span className={`text-xs px-2 py-0.5 rounded-full font-medium border ${
+                          <h3 className="font-bold text-gray-900">{app.name}</h3>
+                          <span className={`text-xs px-2 py-0.5  font-medium border ${
                             i === 0 ? 'bg-purple-500/20 text-purple-400 border-purple-500/30' :
-                            i === 1 ? 'bg-blue-500/20 text-blue-400 border-blue-500/30' :
-                                      'bg-slate-500/20 text-slate-400 border-slate-500/30'
+                            i === 1 ? 'bg-blue-500/20 text-gray-600 border-blue-500/30' :
+                                      'bg-gray-50 text-gray-500 border-gray-200'
                           }`}>
                             {MATCH_LABELS[i]}
                           </span>
                         </div>
 
                         <div className="grid grid-cols-2 gap-x-4 gap-y-1 text-xs mt-2 mb-3">
-                          <div><span className="text-slate-500">Rate:</span> <span className="text-slate-300">{app.interestRate}</span></div>
-                          <div><span className="text-slate-500">Speed:</span> <span className="text-slate-300">{app.processingTime}</span></div>
-                          <div><span className="text-slate-500">Max:</span> <span className="text-slate-300">{formatCurrency(app.maxAmount)}</span></div>
-                          <div><span className="text-slate-500">Approval:</span> <span className="text-emerald-400">{approvalLabels[answers.income] || 'Good'}</span></div>
+                          <div><span className="text-gray-400">Rate:</span> <span className="text-gray-600">{app.interestRate}</span></div>
+                          <div><span className="text-gray-400">Speed:</span> <span className="text-gray-600">{app.processingTime}</span></div>
+                          <div><span className="text-gray-400">Max:</span> <span className="text-gray-600">{formatCurrency(app.maxAmount)}</span></div>
+                          <div><span className="text-gray-400">Approval:</span> <span className="text-emerald-600">{approvalLabels[answers.income] || 'Good'}</span></div>
                         </div>
 
-                        <p className="text-slate-400 text-xs leading-relaxed mb-3">{app.description}</p>
+                        <p className="text-gray-500 text-xs leading-relaxed mb-3">{app.description}</p>
 
                         <div className="flex flex-wrap items-center gap-2">
                           <a href={app.downloadLink} target="_blank" rel="noopener noreferrer"
-                            className={`px-4 py-2 font-semibold rounded-lg text-xs transition-colors ${
-                              i === 0 ? 'bg-purple-500 hover:bg-purple-400 text-white' : 'bg-emerald-500 hover:bg-emerald-400 text-slate-900'
+                            className={`px-4 py-2 font-semibold text-xs transition-colors ${
+                              i === 0 ? 'bg-purple-500 hover:bg-purple-400 text-gray-900' : 'bg-emerald-600 hover:bg-emerald-600 text-gray-500'
                             }`}>
                             Apply for {app.name} →
                           </a>
@@ -266,7 +266,7 @@ export default function LoanFinderPage() {
                             </span>
                           )}
                           {!app.crbReporting && (
-                            <span className="text-xs text-emerald-400">✓ No CRB reporting</span>
+                            <span className="text-xs text-emerald-600">✓ No CRB reporting</span>
                           )}
                         </div>
                       </div>
@@ -274,9 +274,9 @@ export default function LoanFinderPage() {
                   </div>
 
                   {/* Why matched */}
-                  <div className="border-t border-slate-700/50 px-5 py-3 bg-slate-900/20">
-                    <p className="text-xs text-slate-500">
-                      <span className="text-slate-400 font-medium">Why matched: </span>
+                  <div className="border-t-2 border-black px-5 py-3 bg-white/20">
+                    <p className="text-xs text-gray-400">
+                      <span className="text-gray-500 font-medium">Why matched: </span>
                       {app.id === 'hustler-fund' ? 'Cheapest rate in Kenya at 8% p.a. — ideal for your profile.' :
                        app.category === 'bank'    ? 'Bank-backed product — lower rates and higher limits.' :
                        app.processingTime === 'Instant' ? 'Instant disbursement matches your urgency.' :
@@ -290,16 +290,16 @@ export default function LoanFinderPage() {
             {/* Compare all */}
             <div className="flex flex-wrap gap-3 pt-2">
               <Link href="/#compare"
-                className="flex-1 text-center py-3 border border-slate-600 hover:border-emerald-500 text-slate-300 hover:text-white rounded-xl text-sm transition-colors">
+                className="flex-1 text-center py-3 border border-black hover:border-black text-gray-600 hover:text-gray-900 text-sm transition-colors">
                 Compare All Apps
               </Link>
               <Link href="/total-cost-calculator"
-                className="flex-1 text-center py-3 border border-slate-600 hover:border-emerald-500 text-slate-300 hover:text-white rounded-xl text-sm transition-colors">
+                className="flex-1 text-center py-3 border border-black hover:border-black text-gray-600 hover:text-gray-900 text-sm transition-colors">
                 See Total Cost
               </Link>
             </div>
 
-            <button onClick={restart} className="w-full flex items-center justify-center gap-2 py-3 text-slate-500 hover:text-slate-300 text-sm transition-colors">
+            <button onClick={restart} className="w-full flex items-center justify-center gap-2 py-3 text-gray-400 hover:text-gray-600 text-sm transition-colors">
               <RotateCcw className="w-4 h-4" />
               Start Again
             </button>
@@ -311,31 +311,31 @@ export default function LoanFinderPage() {
       <section className="mt-14 mb-2">
         <h2 className="text-sm font-semibold text-stone-500 uppercase tracking-wider mb-4 px-4 sm:px-0">Before you apply</h2>
         <div className="grid sm:grid-cols-2 gap-3 px-4 sm:px-0">
-          <Link href="/total-cost-calculator" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 rounded-xl p-4 transition-all group">
+          <Link href="/total-cost-calculator" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
             <span className="text-xl shrink-0">🧮</span>
             <div>
-              <p className="font-semibold text-white text-sm group-hover:text-amber-400 transition-colors">Calculate True Cost</p>
+              <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">Calculate True Cost</p>
               <p className="text-stone-500 text-xs mt-0.5">See total repayment including all fees first</p>
             </div>
           </Link>
-          <Link href="/cbk-licensed" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 rounded-xl p-4 transition-all group">
+          <Link href="/cbk-licensed" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
             <span className="text-xl shrink-0">✅</span>
             <div>
-              <p className="font-semibold text-white text-sm group-hover:text-amber-400 transition-colors">CBK Licensed List</p>
+              <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">CBK Licensed List</p>
               <p className="text-stone-500 text-xs mt-0.5">Verify your chosen app is regulated</p>
             </div>
           </Link>
-          <Link href="/crb-check" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 rounded-xl p-4 transition-all group">
+          <Link href="/crb-check" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
             <span className="text-xl shrink-0">📊</span>
             <div>
-              <p className="font-semibold text-white text-sm group-hover:text-amber-400 transition-colors">Check Your CRB</p>
+              <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">Check Your CRB</p>
               <p className="text-stone-500 text-xs mt-0.5">Know your credit status before applying</p>
             </div>
           </Link>
-          <Link href="/blacklist" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 rounded-xl p-4 transition-all group">
+          <Link href="/blacklist" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
             <span className="text-xl shrink-0">🚫</span>
             <div>
-              <p className="font-semibold text-white text-sm group-hover:text-amber-400 transition-colors">Apps to Avoid</p>
+              <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">Apps to Avoid</p>
               <p className="text-stone-500 text-xs mt-0.5">Blacklisted and predatory lenders in Kenya</p>
             </div>
           </Link>

@@ -87,7 +87,7 @@ const BLACKLIST: BlacklistEntry[] = [
 
 const SEVERITY_CONFIG = {
   high:    { label: 'HIGH RISK — Avoid', color: 'bg-red-500/15 border-red-500/30', badge: 'bg-red-500/20 text-red-400 border-red-500/30', icon: XCircle },
-  medium:  { label: 'MEDIUM RISK', color: 'bg-amber-500/10 border-amber-500/20', badge: 'bg-amber-500/20 text-amber-400 border-amber-500/30', icon: AlertTriangle },
+  medium:  { label: 'MEDIUM RISK', color: 'bg-amber-50 border-amber-500/20', badge: 'bg-amber-500/20 text-amber-400 border-amber-500/30', icon: AlertTriangle },
   warning: { label: 'USE CAUTION', color: 'bg-yellow-500/10 border-yellow-500/20', badge: 'bg-yellow-500/20 text-yellow-400 border-yellow-500/30', icon: AlertTriangle },
 };
 
@@ -110,25 +110,25 @@ export default function BlacklistPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+    <div className="min-h-screen bg-white text-gray-900">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       <Header />
 
       {/* Hero */}
       <section className="py-14 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-red-500/10 border border-red-500/20 rounded-full mb-6">
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-red-50 border border-red-500/20  mb-6">
             <AlertTriangle className="w-4 h-4 text-red-400" />
             <span className="text-red-400 text-sm font-medium">Consumer Protection Warning — {LAST_VERIFIED}</span>
           </div>
-          <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
+          <h1 className="text-3xl md:text-4xl font-serif font-bold text-gray-900 mb-4">
             Wall of Shame: Loan Apps to Avoid in Kenya
           </h1>
-          <p className="text-slate-400 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-gray-500 max-w-2xl mx-auto leading-relaxed">
             These apps have been flagged for predatory behaviour, operating without a CBK licence, or using illegal
             debt collection tactics. We publish this list to protect Kenyan borrowers.
           </p>
-          <p className="text-xs text-slate-600 mt-3">
+          <p className="text-xs text-gray-400 mt-3">
             Know an app that should be listed? Use the CBK complaints link below to report it.
           </p>
         </div>
@@ -137,15 +137,15 @@ export default function BlacklistPage() {
       {/* Warning signs to watch for */}
       <section className="px-4 mb-10">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-lg font-bold text-white mb-4">5 Warning Signs of a Predatory Loan App</h2>
+          <h2 className="text-lg font-serif font-bold text-gray-900 mb-4">5 Warning Signs of a Predatory Loan App</h2>
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3 lg:grid-cols-5">
             {WARNING_SIGNS.map((sign) => (
-              <div key={sign.label} className="bg-slate-800/50 border border-slate-700 rounded-xl p-4 text-center">
-                <div className="w-10 h-10 bg-red-500/10 rounded-xl flex items-center justify-center mx-auto mb-3">
+              <div key={sign.label} className="bg-gray-50 border border-black p-4 text-center">
+                <div className="w-10 h-10 bg-red-50 flex items-center justify-center mx-auto mb-3">
                   <sign.icon className="w-5 h-5 text-red-400" />
                 </div>
-                <h3 className="text-white text-xs font-bold mb-1">{sign.label}</h3>
-                <p className="text-slate-500 text-xs leading-relaxed">{sign.desc}</p>
+                <h3 className="text-gray-900 text-xs font-bold mb-1">{sign.label}</h3>
+                <p className="text-gray-400 text-xs leading-relaxed">{sign.desc}</p>
               </div>
             ))}
           </div>
@@ -155,38 +155,38 @@ export default function BlacklistPage() {
       {/* The blacklist */}
       <section className="px-4 pb-10">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-xl font-bold text-white mb-5">{BLACKLIST.length} Apps Flagged — Avoid These</h2>
+          <h2 className="text-xl font-serif font-bold text-gray-900 mb-5">{BLACKLIST.length} Apps Flagged — Avoid These</h2>
           <div className="space-y-4">
             {BLACKLIST.map((entry) => {
               const sc = SEVERITY_CONFIG[entry.severity];
               const Icon = sc.icon;
               return (
-                <div key={entry.name} className={`border rounded-2xl p-5 ${sc.color}`}>
+                <div key={entry.name} className={`border p-5 ${sc.color}`}>
                   <div className="flex items-start justify-between gap-3 mb-3">
                     <div className="flex items-center gap-3">
-                      <div className="w-9 h-9 bg-red-500/10 rounded-xl flex items-center justify-center shrink-0">
+                      <div className="w-9 h-9 bg-red-50 flex items-center justify-center shrink-0">
                         <Icon className="w-5 h-5 text-red-400" />
                       </div>
                       <div>
-                        <h3 className="font-bold text-white">{entry.name}</h3>
-                        <p className="text-xs text-slate-500">{entry.cbkStatus}</p>
+                        <h3 className="font-bold text-gray-900">{entry.name}</h3>
+                        <p className="text-xs text-gray-400">{entry.cbkStatus}</p>
                       </div>
                     </div>
-                    <span className={`text-xs px-2.5 py-1 rounded-full border font-semibold shrink-0 ${sc.badge}`}>
+                    <span className={`text-xs px-2.5 py-1  border font-semibold shrink-0 ${sc.badge}`}>
                       {sc.label}
                     </span>
                   </div>
 
                   <div className="space-y-1.5 mb-3">
                     {entry.reason.map((r, i) => (
-                      <div key={i} className="flex items-start gap-2 text-sm text-slate-300">
+                      <div key={i} className="flex items-start gap-2 text-sm text-gray-600">
                         <XCircle className="w-3.5 h-3.5 text-red-400 shrink-0 mt-0.5" />
                         {r}
                       </div>
                     ))}
                   </div>
 
-                  <div className="flex items-start gap-2 text-xs text-slate-500 bg-slate-900/30 rounded-lg px-3 py-2">
+                  <div className="flex items-start gap-2 text-xs text-gray-400 bg-gray-50 px-3 py-2">
                     <AlertTriangle className="w-3.5 h-3.5 text-amber-500 shrink-0 mt-0.5" />
                     <span>{entry.complaints}</span>
                   </div>
@@ -199,9 +199,9 @@ export default function BlacklistPage() {
 
       {/* What to do if victimised */}
       <section className="px-4 pb-10">
-        <div className="max-w-4xl mx-auto bg-slate-800/50 border border-slate-700 rounded-2xl p-6">
-          <h2 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
-            <CheckCircle2 className="w-5 h-5 text-emerald-400" />
+        <div className="max-w-4xl mx-auto bg-gray-50 border border-black p-6">
+          <h2 className="text-lg font-serif font-bold text-gray-900 mb-4 flex items-center gap-2">
+            <CheckCircle2 className="w-5 h-5 text-emerald-600" />
             What to Do If an App Has Harassed You
           </h2>
           <div className="grid sm:grid-cols-2 gap-4">
@@ -212,12 +212,12 @@ export default function BlacklistPage() {
               { step: '4', title: 'Block the app immediately', desc: 'Revoke app permissions in your phone settings (Settings → Apps → Permissions). Uninstall the app and change your M-Pesa PIN.' },
             ].map((item) => (
               <div key={item.step} className="flex items-start gap-3">
-                <span className="w-7 h-7 bg-emerald-500/20 text-emerald-400 rounded-full text-sm flex items-center justify-center shrink-0 font-bold">
+                <span className="w-7 h-7 bg-emerald-100 text-emerald-600  text-sm flex items-center justify-center shrink-0 font-bold">
                   {item.step}
                 </span>
                 <div>
-                  <h3 className="text-white text-sm font-semibold mb-1">{item.title}</h3>
-                  <p className="text-slate-400 text-xs leading-relaxed">{item.desc}</p>
+                  <h3 className="text-gray-900 text-sm font-semibold mb-1">{item.title}</h3>
+                  <p className="text-gray-500 text-xs leading-relaxed">{item.desc}</p>
                 </div>
               </div>
             ))}
@@ -228,16 +228,16 @@ export default function BlacklistPage() {
       {/* CTA */}
       <section className="px-4 pb-16">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-slate-400 text-sm mb-5">
+          <p className="text-gray-500 text-sm mb-5">
             Want to borrow safely? Only use apps from the CBK licensed list.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/cbk-licensed"
-              className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-400 text-slate-900 font-semibold rounded-lg text-sm transition-colors">
+              className="px-5 py-2.5 bg-black hover:bg-emerald-600 text-gray-900 font-mono font-bold uppercase text-sm transition-colors">
               See CBK Licensed Apps
             </Link>
             <Link href="/#compare"
-              className="px-5 py-2.5 border border-slate-600 hover:border-emerald-500 text-white rounded-lg text-sm transition-colors">
+              className="px-5 py-2.5 border border-black hover:border-black text-gray-900 text-sm transition-colors">
               Compare Safe Loan Apps
             </Link>
           </div>
@@ -247,7 +247,7 @@ export default function BlacklistPage() {
       {/* Disclaimer */}
       <section className="px-4 pb-10">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs text-slate-600 text-center leading-relaxed">
+          <p className="text-xs text-gray-400 text-center leading-relaxed">
             This blacklist is compiled from public CBK consumer protection alerts, verified social media complaints, and app store reviews.
             It is for informational purposes only. Apps listed here may have updated their practices since publication.
             Last updated {LAST_VERIFIED}. If you believe an entry is incorrect, contact us.
@@ -259,31 +259,31 @@ export default function BlacklistPage() {
       <section className="mt-14 mb-2">
         <h2 className="text-sm font-semibold text-stone-500 uppercase tracking-wider mb-4 px-4 sm:px-0">Related guides</h2>
         <div className="grid sm:grid-cols-2 gap-3 px-4 sm:px-0">
-          <Link href="/cbk-licensed" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 rounded-xl p-4 transition-all group">
+          <Link href="/cbk-licensed" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
             <span className="text-xl shrink-0">✅</span>
             <div>
-              <p className="font-semibold text-white text-sm group-hover:text-amber-400 transition-colors">CBK Licensed Apps</p>
+              <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">CBK Licensed Apps</p>
               <p className="text-stone-500 text-xs mt-0.5">The safe, regulated alternatives to use instead</p>
             </div>
           </Link>
-          <Link href="/crb-check" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 rounded-xl p-4 transition-all group">
+          <Link href="/crb-check" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
             <span className="text-xl shrink-0">📊</span>
             <div>
-              <p className="font-semibold text-white text-sm group-hover:text-amber-400 transition-colors">CRB Check Guide</p>
+              <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">CRB Check Guide</p>
               <p className="text-stone-500 text-xs mt-0.5">If a blacklisted app listed you on CRB — fix it here</p>
             </div>
           </Link>
-          <Link href="/total-cost-calculator" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 rounded-xl p-4 transition-all group">
+          <Link href="/total-cost-calculator" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
             <span className="text-xl shrink-0">🧮</span>
             <div>
-              <p className="font-semibold text-white text-sm group-hover:text-amber-400 transition-colors">True Cost Calculator</p>
+              <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">True Cost Calculator</p>
               <p className="text-stone-500 text-xs mt-0.5">Compare real costs before choosing an app</p>
             </div>
           </Link>
-          <Link href="/loan-finder" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 rounded-xl p-4 transition-all group">
+          <Link href="/loan-finder" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
             <span className="text-xl shrink-0">🔍</span>
             <div>
-              <p className="font-semibold text-white text-sm group-hover:text-amber-400 transition-colors">Find a Safe Loan</p>
+              <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">Find a Safe Loan</p>
               <p className="text-stone-500 text-xs mt-0.5">Match to a regulated lender for your situation</p>
             </div>
           </Link>

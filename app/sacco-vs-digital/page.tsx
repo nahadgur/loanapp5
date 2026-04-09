@@ -128,21 +128,21 @@ export default function SaccoVsDigitalPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+    <div className="min-h-screen bg-white text-gray-900">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       <Header />
 
       {/* Hero */}
       <section className="py-14 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-500/10 border border-emerald-500/20 rounded-full mb-6">
-            <Scale className="w-4 h-4 text-emerald-400" />
-            <span className="text-emerald-400 text-sm font-medium">Updated April 2026</span>
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-50 border-2 border-emerald-600  mb-6">
+            <Scale className="w-4 h-4 text-emerald-600" />
+            <span className="text-emerald-600 text-sm font-medium">Updated April 2026</span>
           </div>
-          <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
+          <h1 className="text-3xl md:text-4xl font-serif font-bold text-gray-900 mb-4">
             Sacco Loans vs Digital Apps: Which Is Cheaper in Kenya?
           </h1>
-          <p className="text-slate-400 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-gray-500 max-w-2xl mx-auto leading-relaxed">
             If you qualify for a Sacco loan, you are almost certainly paying too much by using Tala, Branch,
             or M-Shwari. Here is the full side-by-side breakdown.
           </p>
@@ -153,22 +153,22 @@ export default function SaccoVsDigitalPage() {
       <section className="px-4 mb-8">
         <div className="max-w-4xl mx-auto">
           <div className="grid sm:grid-cols-2 gap-4">
-            <div className="bg-emerald-500/10 border border-emerald-500/20 rounded-2xl p-5">
+            <div className="bg-emerald-50 border-2 border-emerald-600 p-5">
               <div className="flex items-center gap-2 mb-3">
-                <Trophy className="w-5 h-5 text-emerald-400" />
-                <h2 className="font-bold text-white">Winner: Sacco (for planned loans)</h2>
+                <Trophy className="w-5 h-5 text-emerald-600" />
+                <h2 className="font-bold text-gray-900">Winner: Sacco (for planned loans)</h2>
               </div>
-              <p className="text-slate-400 text-sm leading-relaxed">
+              <p className="text-gray-500 text-sm leading-relaxed">
                 For any loan above KES 10,000 that you can plan 3+ days ahead, a Sacco loan is 5–10× cheaper
                 than a digital app. The rate difference is not marginal — it is transformational.
               </p>
             </div>
-            <div className="bg-blue-500/10 border border-blue-500/20 rounded-2xl p-5">
+            <div className="bg-gray-100 border border-black p-5">
               <div className="flex items-center gap-2 mb-3">
-                <Clock className="w-5 h-5 text-blue-400" />
-                <h2 className="font-bold text-white">Winner: Digital (for emergencies)</h2>
+                <Clock className="w-5 h-5 text-gray-600" />
+                <h2 className="font-bold text-gray-900">Winner: Digital (for emergencies)</h2>
               </div>
-              <p className="text-slate-400 text-sm leading-relaxed">
+              <p className="text-gray-500 text-sm leading-relaxed">
                 For genuine financial emergencies — hospital bill tonight, school fees due tomorrow —
                 a digital app like Hustler Fund or M-Shwari is your only realistic option. Use it,
                 but pay off fast.
@@ -181,31 +181,31 @@ export default function SaccoVsDigitalPage() {
       {/* Comparison table */}
       <section className="px-4 mb-8">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-xl font-bold text-white mb-5">Full Comparison Table</h2>
-          <div className="overflow-x-auto rounded-2xl border border-slate-700">
+          <h2 className="text-xl font-serif font-bold text-gray-900 mb-5">Full Comparison Table</h2>
+          <div className="overflow-x-auto border border-black">
             <table className="w-full">
               <thead>
-                <tr className="bg-slate-800/80 border-b border-slate-700">
-                  <th className="text-left py-3.5 px-4 text-slate-400 font-medium text-sm">Criteria</th>
-                  <th className="text-left py-3.5 px-4 text-emerald-400 font-semibold text-sm">Sacco Loan</th>
-                  <th className="text-left py-3.5 px-4 text-blue-400 font-semibold text-sm">Digital App</th>
-                  <th className="text-center py-3.5 px-4 text-slate-400 font-medium text-sm">Winner</th>
+                <tr className="bg-gray-50 border-b border-black">
+                  <th className="text-left py-3.5 px-4 text-gray-500 font-medium text-sm">Criteria</th>
+                  <th className="text-left py-3.5 px-4 text-emerald-600 font-semibold text-sm">Sacco Loan</th>
+                  <th className="text-left py-3.5 px-4 text-gray-600 font-semibold text-sm">Digital App</th>
+                  <th className="text-center py-3.5 px-4 text-gray-500 font-medium text-sm">Winner</th>
                 </tr>
               </thead>
               <tbody>
                 {COMPARISON.map((row, i) => (
-                  <tr key={i} className="border-b border-slate-700/50 hover:bg-slate-800/30 transition-colors">
+                  <tr key={i} className="border-b-2 border-black hover:bg-gray-100 transition-colors">
                     <td className="py-4 px-4">
-                      <div className="font-medium text-white text-sm">{row.criteria}</div>
-                      {row.note && <div className="text-xs text-slate-500 mt-0.5">{row.note}</div>}
+                      <div className="font-medium text-gray-900 text-sm">{row.criteria}</div>
+                      {row.note && <div className="text-xs text-gray-400 mt-0.5">{row.note}</div>}
                     </td>
-                    <td className="py-4 px-4 text-slate-300 text-sm">{row.sacco}</td>
-                    <td className="py-4 px-4 text-slate-300 text-sm">{row.digital}</td>
+                    <td className="py-4 px-4 text-gray-600 text-sm">{row.sacco}</td>
+                    <td className="py-4 px-4 text-gray-600 text-sm">{row.digital}</td>
                     <td className="py-4 px-4 text-center">
-                      <span className={`text-xs font-semibold px-2.5 py-1 rounded-full ${
-                        row.winner === 'sacco'   ? 'bg-emerald-500/20 text-emerald-400' :
-                        row.winner === 'digital' ? 'bg-blue-500/20 text-blue-400' :
-                                                   'bg-slate-600/30 text-slate-400'
+                      <span className={`text-xs font-semibold px-2.5 py-1  ${
+                        row.winner === 'sacco'   ? 'bg-emerald-100 text-emerald-600' :
+                        row.winner === 'digital' ? 'bg-blue-500/20 text-gray-600' :
+                                                   'bg-gray-50 text-gray-500'
                       }`}>
                         {row.winner === 'sacco' ? 'Sacco ✓' : row.winner === 'digital' ? 'Digital ✓' : 'Tie'}
                       </span>
@@ -220,9 +220,9 @@ export default function SaccoVsDigitalPage() {
 
       {/* Real example */}
       <section className="px-4 mb-8">
-        <div className="max-w-4xl mx-auto bg-slate-800/50 border border-slate-700 rounded-2xl p-6">
-          <h2 className="text-lg font-bold text-white mb-5 flex items-center gap-2">
-            <TrendingDown className="w-5 h-5 text-emerald-400" />
+        <div className="max-w-4xl mx-auto bg-gray-50 border border-black p-6">
+          <h2 className="text-lg font-serif font-bold text-gray-900 mb-5 flex items-center gap-2">
+            <TrendingDown className="w-5 h-5 text-emerald-600" />
             Real Example: KES 100,000 Loan over 12 Months
           </h2>
           <div className="grid sm:grid-cols-3 gap-4">
@@ -253,24 +253,24 @@ export default function SaccoVsDigitalPage() {
               },
             ].map(item => (
               <div key={item.name} className={`rounded-xl p-4 border ${
-                item.color === 'emerald' ? 'bg-emerald-500/10 border-emerald-500/20' :
-                item.color === 'amber'   ? 'bg-amber-500/10 border-amber-500/20' :
-                                          'bg-red-500/10 border-red-500/20'
+                item.color === 'emerald' ? 'bg-emerald-50 border-emerald-300' :
+                item.color === 'amber'   ? 'bg-amber-50 border-amber-500/20' :
+                                          'bg-red-50 border-red-500/20'
               }`}>
-                <h3 className="font-bold text-white text-sm mb-3">{item.name}</h3>
+                <h3 className="font-bold text-gray-900 text-sm mb-3">{item.name}</h3>
                 <div className="space-y-2 text-xs">
-                  <div><span className="text-slate-500">Rate:</span> <span className="text-slate-300">{item.rate}</span></div>
-                  <div><span className="text-slate-500">Monthly:</span> <span className="text-slate-300">{item.monthly}</span></div>
-                  <div><span className="text-slate-500">Total repaid:</span> <span className={`font-bold ${
-                    item.color === 'emerald' ? 'text-emerald-400' : item.color === 'amber' ? 'text-amber-400' : 'text-red-400'
+                  <div><span className="text-gray-400">Rate:</span> <span className="text-gray-600">{item.rate}</span></div>
+                  <div><span className="text-gray-400">Monthly:</span> <span className="text-gray-600">{item.monthly}</span></div>
+                  <div><span className="text-gray-400">Total repaid:</span> <span className={`font-bold ${
+                    item.color === 'emerald' ? 'text-emerald-600' : item.color === 'amber' ? 'text-amber-400' : 'text-red-400'
                   }`}>{item.total}</span></div>
-                  <div><span className="text-slate-500">Interest paid:</span> <span className="text-slate-300">{item.interest}</span></div>
+                  <div><span className="text-gray-400">Interest paid:</span> <span className="text-gray-600">{item.interest}</span></div>
                 </div>
               </div>
             ))}
           </div>
-          <p className="text-xs text-slate-500 mt-4">
-            A Sacco member saves over <strong className="text-emerald-400">KES 85,000</strong> in interest versus a comparable M-Shwari loan. This is not a rounding error — it is a fundamentally different product.
+          <p className="text-xs text-gray-400 mt-4">
+            A Sacco member saves over <strong className="text-emerald-600">KES 85,000</strong> in interest versus a comparable M-Shwari loan. This is not a rounding error — it is a fundamentally different product.
           </p>
         </div>
       </section>
@@ -279,13 +279,13 @@ export default function SaccoVsDigitalPage() {
       <section className="px-4 mb-8">
         <div className="max-w-4xl mx-auto grid sm:grid-cols-2 gap-6">
           <div>
-            <h2 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
-              <Users className="w-5 h-5 text-emerald-400" />
+            <h2 className="text-lg font-serif font-bold text-gray-900 mb-4 flex items-center gap-2">
+              <Users className="w-5 h-5 text-emerald-600" />
               Why Saccos Win
             </h2>
             <div className="space-y-2.5">
               {SACCO_PROS.map((pro, i) => (
-                <div key={i} className="flex items-start gap-2.5 text-sm text-slate-300">
+                <div key={i} className="flex items-start gap-2.5 text-sm text-gray-600">
                   <span className="text-emerald-500 mt-0.5">✓</span>
                   {pro}
                 </div>
@@ -293,14 +293,14 @@ export default function SaccoVsDigitalPage() {
             </div>
           </div>
           <div>
-            <h2 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
-              <Clock className="w-5 h-5 text-blue-400" />
+            <h2 className="text-lg font-serif font-bold text-gray-900 mb-4 flex items-center gap-2">
+              <Clock className="w-5 h-5 text-gray-600" />
               When Digital Apps Win
             </h2>
             <div className="space-y-2.5">
               {DIGITAL_PROS.map((pro, i) => (
-                <div key={i} className="flex items-start gap-2.5 text-sm text-slate-300">
-                  <span className="text-blue-400 mt-0.5">✓</span>
+                <div key={i} className="flex items-start gap-2.5 text-sm text-gray-600">
+                  <span className="text-gray-600 mt-0.5">✓</span>
                   {pro}
                 </div>
               ))}
@@ -312,24 +312,24 @@ export default function SaccoVsDigitalPage() {
       {/* Popular Saccos */}
       <section className="px-4 mb-8">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-xl font-bold text-white mb-5">Popular Kenyan Saccos Open to the Public</h2>
+          <h2 className="text-xl font-serif font-bold text-gray-900 mb-5">Popular Kenyan Saccos Open to the Public</h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {POPULAR_SACCOS.map(sacco => (
-              <div key={sacco.name} className="bg-slate-800/50 border border-slate-700 rounded-xl p-4 flex items-start justify-between gap-3">
+              <div key={sacco.name} className="bg-gray-50 border border-black p-4 flex items-start justify-between gap-3">
                 <div>
-                  <h3 className="font-semibold text-white text-sm">{sacco.name}</h3>
-                  <p className="text-xs text-slate-500 mt-0.5">{sacco.focus}</p>
+                  <h3 className="font-semibold text-gray-900 text-sm">{sacco.name}</h3>
+                  <p className="text-xs text-gray-400 mt-0.5">{sacco.focus}</p>
                 </div>
                 <div className="text-right shrink-0">
-                  <div className="text-emerald-400 text-xs font-semibold">{sacco.rate}</div>
+                  <div className="text-emerald-600 text-xs font-semibold">{sacco.rate}</div>
                   {sacco.ussd !== 'App only' && (
-                    <code className="text-xs font-mono text-slate-400">{sacco.ussd}</code>
+                    <code className="text-xs font-mono text-gray-500">{sacco.ussd}</code>
                   )}
                 </div>
               </div>
             ))}
           </div>
-          <p className="text-xs text-slate-600 mt-3">
+          <p className="text-xs text-gray-400 mt-3">
             To join a Sacco, visit the Sacco&apos;s offices or website with your national ID and first month&apos;s savings contribution.
             Most Saccos require 3–6 months of savings before your first loan.
           </p>
@@ -338,14 +338,14 @@ export default function SaccoVsDigitalPage() {
 
       {/* CTA */}
       <section className="px-4 pb-16">
-        <div className="max-w-4xl mx-auto bg-slate-800/50 border border-slate-700 rounded-2xl p-6 flex flex-col sm:flex-row items-center gap-5 justify-between">
+        <div className="max-w-4xl mx-auto bg-gray-50 border border-black p-6 flex flex-col sm:flex-row items-center gap-5 justify-between">
           <div>
-            <h2 className="text-lg font-bold text-white mb-1">Need a loan right now?</h2>
-            <p className="text-slate-400 text-sm">Compare the cheapest regulated digital apps while you work toward Sacco membership.</p>
+            <h2 className="text-lg font-serif font-bold text-gray-900 mb-1">Need a loan right now?</h2>
+            <p className="text-gray-500 text-sm">Compare the cheapest regulated digital apps while you work toward Sacco membership.</p>
           </div>
           <div className="flex gap-3 shrink-0">
             <Link href="/#compare"
-              className="inline-flex items-center gap-2 px-5 py-2.5 bg-emerald-500 hover:bg-emerald-400 text-slate-900 font-semibold rounded-lg text-sm transition-colors">
+              className="inline-flex items-center gap-2 px-5 py-2.5 bg-black hover:bg-emerald-600 text-gray-900 font-mono font-bold uppercase text-sm transition-colors">
               Compare Apps <ChevronRight className="w-4 h-4" />
             </Link>
           </div>
@@ -356,31 +356,31 @@ export default function SaccoVsDigitalPage() {
       <section className="mt-14 mb-2">
         <h2 className="text-sm font-semibold text-stone-500 uppercase tracking-wider mb-4 px-4 sm:px-0">Related guides</h2>
         <div className="grid sm:grid-cols-2 gap-3 px-4 sm:px-0">
-          <Link href="/cbk-licensed" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 rounded-xl p-4 transition-all group">
+          <Link href="/cbk-licensed" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
             <span className="text-xl shrink-0">✅</span>
             <div>
-              <p className="font-semibold text-white text-sm group-hover:text-amber-400 transition-colors">CBK Licensed Apps</p>
+              <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">CBK Licensed Apps</p>
               <p className="text-stone-500 text-xs mt-0.5">All regulated digital loan options compared</p>
             </div>
           </Link>
-          <Link href="/total-cost-calculator" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 rounded-xl p-4 transition-all group">
+          <Link href="/total-cost-calculator" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
             <span className="text-xl shrink-0">🧮</span>
             <div>
-              <p className="font-semibold text-white text-sm group-hover:text-amber-400 transition-colors">True Cost Calculator</p>
+              <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">True Cost Calculator</p>
               <p className="text-stone-500 text-xs mt-0.5">Compare SACCO vs app costs side by side</p>
             </div>
           </Link>
-          <Link href="/loan-finder" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 rounded-xl p-4 transition-all group">
+          <Link href="/loan-finder" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
             <span className="text-xl shrink-0">🔍</span>
             <div>
-              <p className="font-semibold text-white text-sm group-hover:text-amber-400 transition-colors">Loan Finder</p>
+              <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">Loan Finder</p>
               <p className="text-stone-500 text-xs mt-0.5">Find the right option for your situation</p>
             </div>
           </Link>
-          <Link href="/crb-check" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 rounded-xl p-4 transition-all group">
+          <Link href="/crb-check" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
             <span className="text-xl shrink-0">📊</span>
             <div>
-              <p className="font-semibold text-white text-sm group-hover:text-amber-400 transition-colors">CRB Check Guide</p>
+              <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">CRB Check Guide</p>
               <p className="text-stone-500 text-xs mt-0.5">Check your credit before applying to a SACCO</p>
             </div>
           </Link>

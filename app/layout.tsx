@@ -1,21 +1,24 @@
 import type { Metadata } from 'next';
-import { DM_Sans, Space_Grotesk } from 'next/font/google';
+import { Inter, Playfair_Display, JetBrains_Mono } from 'next/font/google';
 import Script from 'next/script';
 import './globals.css';
 
-const dmSans = DM_Sans({ 
+const inter = Inter({
   subsets: ['latin'],
-  variable: '--font-dm-sans',
+  variable: '--font-sans',
 });
-
-const spaceGrotesk = Space_Grotesk({ 
+const playfair = Playfair_Display({
   subsets: ['latin'],
-  variable: '--font-space-grotesk',
+  variable: '--font-serif',
+});
+const jetbrains = JetBrains_Mono({
+  subsets: ['latin'],
+  variable: '--font-mono',
 });
 
 export const metadata: Metadata = {
   title: 'LoanApp.co.ke - Compare Loan Apps in Kenya | Find the Cheapest Rates',
-  description: 'Compare interest rates, limits, and terms across 12+ loan apps in Kenya. Calculate exactly what you\'ll pay back with M-Shwari, Tala, Branch, Fuliza, Hustler Fund, and more.',
+  description: "Compare interest rates, limits, and terms across 12+ loan apps in Kenya. Calculate exactly what you'll pay back with M-Shwari, Tala, Branch, Fuliza, Hustler Fund, and more.",
   keywords: 'loan apps Kenya, M-Pesa loans, Tala, Branch, M-Shwari, Fuliza, Hustler Fund, KCB M-Pesa, loan comparison Kenya, cheapest loans Kenya',
   openGraph: {
     title: 'LoanApp.co.ke - Compare Loan Apps in Kenya',
@@ -28,18 +31,11 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${dmSans.variable} ${spaceGrotesk.variable}`}>
+    <html lang="en" className={`${inter.variable} ${playfair.variable} ${jetbrains.variable} scroll-smooth`}>
       <head>
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-97GK6M5TC2"
-          strategy="afterInteractive"
-        />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-97GK6M5TC2" strategy="afterInteractive" />
         <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
@@ -49,7 +45,9 @@ export default function RootLayout({
           `}
         </Script>
       </head>
-      <body className="font-sans antialiased">{children}</body>
+      <body className="antialiased bg-white text-gray-900 font-sans selection:bg-emerald-200 selection:text-emerald-900">
+        {children}
+      </body>
     </html>
   );
 }

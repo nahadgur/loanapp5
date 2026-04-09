@@ -8,8 +8,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['var(--font-dm-sans)', 'sans-serif'],
-        display: ['var(--font-space-grotesk)', 'sans-serif'],
+        sans:  ['var(--font-sans)',  'ui-sans-serif',  'system-ui', 'sans-serif'],
+        serif: ['var(--font-serif)', 'ui-serif',       'Georgia',   'serif'],
+        mono:  ['var(--font-mono)',  'ui-monospace',   'SFMono-Regular', 'monospace'],
+      },
+      boxShadow: {
+        brutal: '8px 8px 0px 0px rgba(0,0,0,1)',
+        'brutal-sm': '4px 4px 0px 0px rgba(0,0,0,1)',
       },
     },
   },

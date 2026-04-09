@@ -2,98 +2,71 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --font-dm-sans: 'DM Sans', sans-serif;
-  --font-space-grotesk: 'Space Grotesk', sans-serif;
+/* ── Selection ── */
+::selection {
+  background: #a7f3d0;
+  color: #065f46;
 }
 
-body {
-  font-family: var(--font-dm-sans);
-}
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #f9fafb; }
+::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 0; }
+::-webkit-scrollbar-thumb:hover { background: #9ca3af; }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-space-grotesk);
-}
+/* ── Number input arrows ── */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
+input[type="number"] { -moz-appearance: textfield; }
 
-/* Custom scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: rgb(30 41 59);
-}
-
-::-webkit-scrollbar-thumb {
-  background: rgb(71 85 105);
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: rgb(100 116 139);
-}
-
-/* Range input styling */
-input[type="range"] {
-  -webkit-appearance: none;
-  appearance: none;
-  background: transparent;
-}
-
+/* ── Range input ── */
+input[type="range"] { -webkit-appearance: none; appearance: none; background: transparent; }
 input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: #10b981;
-  cursor: pointer;
+  -webkit-appearance: none; appearance: none;
+  width: 20px; height: 20px;
+  background: #000; cursor: pointer;
   margin-top: -6px;
-  box-shadow: 0 2px 6px rgba(16, 185, 129, 0.4);
+  border-radius: 0;
   transition: transform 0.15s ease;
 }
-
-input[type="range"]::-webkit-slider-thumb:hover {
-  transform: scale(1.1);
-}
-
+input[type="range"]::-webkit-slider-thumb:hover { transform: scale(1.1); }
 input[type="range"]::-webkit-slider-runnable-track {
-  width: 100%;
-  height: 8px;
-  background: rgb(51 65 85);
-  border-radius: 4px;
+  width: 100%; height: 4px;
+  background: #e5e7eb;
 }
-
 input[type="range"]::-moz-range-thumb {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: #10b981;
-  cursor: pointer;
-  border: none;
-  box-shadow: 0 2px 6px rgba(16, 185, 129, 0.4);
+  width: 20px; height: 20px;
+  background: #000; cursor: pointer;
+  border: none; border-radius: 0;
 }
+input[type="range"]::-moz-range-track { width: 100%; height: 4px; background: #e5e7eb; }
 
-input[type="range"]::-moz-range-track {
-  width: 100%;
-  height: 8px;
-  background: rgb(51 65 85);
-  border-radius: 4px;
-}
+/* ── Table hover ── */
+table tbody tr { transition: background-color 0.15s ease; }
 
-/* Table hover effect */
-table tbody tr {
-  transition: background-color 0.15s ease;
-}
+/* ── Smooth scroll ── */
+html { scroll-behavior: smooth; }
 
-/* Smooth scroll */
-html {
-  scroll-behavior: smooth;
-}
+/* ── Blog / prose overrides ── */
+.blog-content h2 { font-family: var(--font-serif); font-weight: 700; }
+.blog-content h3 { font-family: var(--font-serif); font-weight: 700; }
+.blog-content a   { color: #059669; text-decoration: underline; }
+.blog-content a:hover { color: #047857; }
 
-/* Selection color */
-::selection {
-  background: rgba(16, 185, 129, 0.3);
-  color: white;
+/* ── Nav fill-slide utility ── */
+.nav-fill {
+  position: relative;
+  overflow: hidden;
 }
+.nav-fill::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: #000;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-out;
+  z-index: 0;
+}
+.nav-fill:hover::before { transform: translateY(0); }
+.nav-fill span { position: relative; z-index: 1; }
+.nav-fill:hover span { color: #fff; }
