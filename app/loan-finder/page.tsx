@@ -260,12 +260,12 @@ export default function LoanFinderPage() {
                         <div className="flex flex-wrap items-center gap-2">
                           <a href={app.downloadLink} target="_blank" rel="noopener noreferrer"
                             className={`px-4 py-2 font-semibold text-xs transition-colors ${
-                              i === 0 ? 'bg-purple-500 hover:bg-purple-400 text-gray-900' : 'bg-emerald-600 hover:bg-emerald-600 text-gray-500'
+                              i === 0 ? 'bg-purple-600 hover:bg-purple-500 text-white' : 'bg-emerald-600 hover:bg-emerald-500 text-white'
                             }`}>
                             Apply for {app.name}
                           </a>
                           {app.crbReporting && (
-                            <span className="flex items-center gap-1 text-xs text-amber-400">
+                            <span className="flex items-center gap-1 text-xs text-amber-600">
                               <AlertTriangle className="w-3 h-3" />
                               Reports to CRB
                             </span>
@@ -314,34 +314,34 @@ export default function LoanFinderPage() {
 
       {/* Related guides */}
       <section className="mt-14 mb-2">
-        <h2 className="text-sm font-semibold text-stone-500 uppercase tracking-wider mb-4 px-4 sm:px-0">Before you apply</h2>
+        <h2 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-4 px-4 sm:px-0">Before you apply</h2>
         <div className="grid sm:grid-cols-2 gap-3 px-4 sm:px-0">
-          <Link href="/total-cost-calculator" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
+          <Link href="/total-cost-calculator" className="flex items-start gap-3 bg-gray-50 border border-gray-200 hover:border-black p-4 transition-all group">
             <span className="text-xl shrink-0"></span>
             <div>
-              <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">Calculate True Cost</p>
-              <p className="text-stone-500 text-xs mt-0.5">See total repayment including all fees first</p>
+              <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-600 transition-colors">Calculate True Cost</p>
+              <p className="text-gray-500 text-xs mt-0.5">See total repayment including all fees first</p>
             </div>
           </Link>
-          <Link href="/cbk-licensed" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
+          <Link href="/cbk-licensed" className="flex items-start gap-3 bg-gray-50 border border-gray-200 hover:border-black p-4 transition-all group">
             <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0" />
             <div>
-              <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">CBK Licensed List</p>
-              <p className="text-stone-500 text-xs mt-0.5">Verify your chosen app is regulated</p>
+              <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-600 transition-colors">CBK Licensed List</p>
+              <p className="text-gray-500 text-xs mt-0.5">Verify your chosen app is regulated</p>
             </div>
           </Link>
-          <Link href="/crb-check" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
+          <Link href="/crb-check" className="flex items-start gap-3 bg-gray-50 border border-gray-200 hover:border-black p-4 transition-all group">
             <BarChart2 className="w-5 h-5 text-gray-500 shrink-0" />
             <div>
-              <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">Check Your CRB</p>
-              <p className="text-stone-500 text-xs mt-0.5">Know your credit status before applying</p>
+              <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-600 transition-colors">Check Your CRB</p>
+              <p className="text-gray-500 text-xs mt-0.5">Know your credit status before applying</p>
             </div>
           </Link>
-          <Link href="/blacklist" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
+          <Link href="/blacklist" className="flex items-start gap-3 bg-gray-50 border border-gray-200 hover:border-black p-4 transition-all group">
             <span className="text-xl shrink-0">x</span>
             <div>
-              <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">Apps to Avoid</p>
-              <p className="text-stone-500 text-xs mt-0.5">Blacklisted and predatory lenders in Kenya</p>
+              <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-600 transition-colors">Apps to Avoid</p>
+              <p className="text-gray-500 text-xs mt-0.5">Blacklisted and predatory lenders in Kenya</p>
             </div>
           </Link>
         </div>

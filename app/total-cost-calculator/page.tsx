@@ -97,7 +97,7 @@ export default function TotalCostCalculatorPage() {
               <div className="flex items-center gap-2 mb-3">
                 <input type="number" min={100} max={1000000} value={rawInput}
                   onChange={e => { setRawInput(e.target.value); const n = Number(e.target.value); if (n >= 100) setPrincipal(n) }}
-                  className="w-full bg-white/10 border border-white/20 px-3 py-2.5 text-gray-900 font-bold focus:outline-none focus:border-emerald-500 text-sm transition-colors" />
+                  className="w-full bg-gray-50 border border-gray-300 px-3 py-2.5 text-gray-900 font-bold focus:outline-none focus:border-emerald-500 text-sm transition-colors" />
               </div>
               <input type="range" min={500} max={100000} step={500} value={Math.min(principal, 100000)}
                 onChange={e => { const n = Number(e.target.value); setPrincipal(n); setRawInput(String(n)) }}
@@ -105,7 +105,7 @@ export default function TotalCostCalculatorPage() {
               <div className="flex flex-wrap gap-1.5">
                 {QUICK_AMOUNTS.map(q => (
                   <button key={q} onClick={() => { setPrincipal(q); setRawInput(String(q)) }}
-                    className={`px-2.5 py-1 text-xs transition-colors ${principal === q ? 'bg-emerald-600/30 text-emerald-300 border border-emerald-500/40' : 'bg-white/5 text-gray-500 hover:bg-white/10'}`}>
+                    className={`px-2.5 py-1 text-xs transition-colors ${principal === q ? 'bg-emerald-100 text-emerald-800 border border-emerald-400' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'}`}>
                     {fmt(q)}
                   </button>
                 ))}
@@ -123,7 +123,7 @@ export default function TotalCostCalculatorPage() {
               <div className="flex flex-wrap gap-1.5">
                 {QUICK_DAYS.map(d => (
                   <button key={d} onClick={() => setDays(d)}
-                    className={`px-2.5 py-1 text-xs transition-colors ${days === d ? 'bg-emerald-600/30 text-emerald-300 border border-emerald-500/40' : 'bg-white/5 text-gray-500 hover:bg-white/10'}`}>
+                    className={`px-2.5 py-1 text-xs transition-colors ${days === d ? 'bg-emerald-100 text-emerald-800 border border-emerald-400' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'}`}>
                     {d}d
                   </button>
                 ))}
@@ -166,7 +166,7 @@ export default function TotalCostCalculatorPage() {
                             <span className="font-bold text-gray-900">{app.name}</span>
                             {isWinner && <span className="text-xs bg-emerald-100 text-emerald-600 border border-emerald-300 px-2 py-0.5 ">Cheapest</span>}
                             {isBlacklisted && <span className="text-xs bg-red-500/20 text-red-400 border border-red-500/30 px-2 py-0.5 "> Flagged</span>}
-                            {!app.crbReporting && <span className="text-xs bg-blue-500/20 text-gray-600 border border-blue-500/30 px-2 py-0.5 ">No CRB</span>}
+                            {!app.crbReporting && <span className="text-xs bg-blue-100 text-blue-800 border border-blue-300 px-2 py-0.5 ">No CRB</span>}
                           </div>
                           <p className="text-xs text-gray-400 mt-0.5">{app.interestRate} · {app.processingTime}</p>
                         </div>
@@ -185,7 +185,7 @@ export default function TotalCostCalculatorPage() {
                           </div>
                           <div className="text-center">
                             <div className="text-xs text-gray-400">Eff. rate</div>
-                            <div className="font-semibold text-amber-400">{c.effectivePct}%</div>
+                            <div className="font-semibold text-amber-600">{c.effectivePct}%</div>
                           </div>
                         </div>
                         <div className="sm:hidden text-right shrink-0">
@@ -203,9 +203,9 @@ export default function TotalCostCalculatorPage() {
                             <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-3">Full Cost Breakdown</h3>
                             <div className="space-y-1.5 text-sm">
                               <div className="flex justify-between"><span className="text-gray-500">Loan principal</span><span className="text-gray-900">{fmt(principal)}</span></div>
-                              {c.facilitationFee > 0 && <div className="flex justify-between"><span className="text-gray-500">Facilitation fee ({HIDDEN_FEES[app.id]?.facilitation}%)</span><span className="text-amber-400">−{fmt(c.facilitationFee)}</span></div>}
-                              {c.insuranceFee > 0 && <div className="flex justify-between"><span className="text-gray-500">Insurance ({HIDDEN_FEES[app.id]?.insurance}%)</span><span className="text-amber-400">−{fmt(c.insuranceFee)}</span></div>}
-                              {c.processingFee > 0 && <div className="flex justify-between"><span className="text-gray-500">Processing fee (flat)</span><span className="text-amber-400">−{fmt(c.processingFee)}</span></div>}
+                              {c.facilitationFee > 0 && <div className="flex justify-between"><span className="text-gray-500">Facilitation fee ({HIDDEN_FEES[app.id]?.facilitation}%)</span><span className="text-amber-600">−{fmt(c.facilitationFee)}</span></div>}
+                              {c.insuranceFee > 0 && <div className="flex justify-between"><span className="text-gray-500">Insurance ({HIDDEN_FEES[app.id]?.insurance}%)</span><span className="text-amber-600">−{fmt(c.insuranceFee)}</span></div>}
+                              {c.processingFee > 0 && <div className="flex justify-between"><span className="text-gray-500">Processing fee (flat)</span><span className="text-amber-600">−{fmt(c.processingFee)}</span></div>}
                               <div className="flex justify-between border-t border-black pt-1.5"><span className="text-emerald-600 font-medium">You actually receive</span><span className="text-emerald-600 font-bold">{fmt(c.amountReceived)}</span></div>
                               <div className="flex justify-between"><span className="text-gray-500">Interest ({app.interestRateMonthly}%/mo)</span><span className="text-red-400">{fmt(c.rawInterest)}</span></div>
                               <div className="flex justify-between"><span className="text-gray-500">Excise duty on interest (15%)</span><span className="text-red-400">{fmt(c.exciseDuty)}</span></div>
@@ -215,7 +215,7 @@ export default function TotalCostCalculatorPage() {
                           <div>
                             <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-3">Notes</h3>
                             {HIDDEN_FEES[app.id]?.note && (
-                              <div className="flex items-start gap-2 text-xs text-amber-400/80 bg-amber-50 p-3 mb-3">
+                              <div className="flex items-start gap-2 text-xs text-amber-700 bg-amber-50 p-3 mb-3">
                                 <Info className="w-3.5 h-3.5 shrink-0 mt-0.5" />
                                 {HIDDEN_FEES[app.id].note}
                               </div>
@@ -223,11 +223,11 @@ export default function TotalCostCalculatorPage() {
                             <div className="space-y-2 text-xs text-gray-500">
                               <div className="flex items-center gap-2"><span className="text-gray-400">Speed:</span> <span className="text-gray-600">{app.processingTime}</span></div>
                               <div className="flex items-center gap-2"><span className="text-gray-400">Max term:</span> <span className="text-gray-600">{app.maxTermDays} days</span></div>
-                              <div className="flex items-center gap-2"><span className="text-gray-400">CRB reporting:</span> <span className={app.crbReporting ? 'text-amber-400' : 'text-emerald-600'}>{app.crbReporting ? 'Yes — defaults affect credit score' : 'No'}</span></div>
+                              <div className="flex items-center gap-2"><span className="text-gray-400">CRB reporting:</span> <span className={app.crbReporting ? 'text-amber-600' : 'text-emerald-600'}>{app.crbReporting ? 'Yes — defaults affect credit score' : 'No'}</span></div>
                             </div>
                             {!isBlacklisted && (
                               <a href={app.downloadLink} target="_blank" rel="noopener noreferrer"
-                                className="inline-block mt-4 px-4 py-2 bg-black hover:bg-emerald-600 text-gray-900 font-mono font-bold uppercase text-xs transition-colors">
+                                className="inline-block mt-4 px-4 py-2 bg-black hover:bg-emerald-600 text-white font-mono font-bold uppercase text-xs transition-colors">
                                 Apply for {app.name}  ›
                               </a>
                             )}
@@ -262,34 +262,34 @@ export default function TotalCostCalculatorPage() {
 
       {/* Related guides */}
       <section className="mt-14 mb-2">
-        <h2 className="text-sm font-semibold text-stone-500 uppercase tracking-wider mb-4 px-4 sm:px-0">Related guides</h2>
+        <h2 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-4 px-4 sm:px-0">Related guides</h2>
         <div className="grid sm:grid-cols-2 gap-3 px-4 sm:px-0">
-          <Link href="/loan-finder" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
+          <Link href="/loan-finder" className="flex items-start gap-3 bg-gray-50 border border-gray-200 hover:border-black p-4 transition-all group">
             <span className="text-xl shrink-0"></span>
             <div>
-              <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">Loan Finder</p>
-              <p className="text-stone-500 text-xs mt-0.5">Find the cheapest loan for your exact amount</p>
+              <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-600 transition-colors">Loan Finder</p>
+              <p className="text-gray-500 text-xs mt-0.5">Find the cheapest loan for your exact amount</p>
             </div>
           </Link>
-          <Link href="/cbk-licensed" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
+          <Link href="/cbk-licensed" className="flex items-start gap-3 bg-gray-50 border border-gray-200 hover:border-black p-4 transition-all group">
             <span className="text-xl shrink-0"></span>
             <div>
-              <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">CBK Licensed Apps</p>
-              <p className="text-stone-500 text-xs mt-0.5">Only compare regulated, legal lenders</p>
+              <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-600 transition-colors">CBK Licensed Apps</p>
+              <p className="text-gray-500 text-xs mt-0.5">Only compare regulated, legal lenders</p>
             </div>
           </Link>
-          <Link href="/crb-check" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
+          <Link href="/crb-check" className="flex items-start gap-3 bg-gray-50 border border-gray-200 hover:border-black p-4 transition-all group">
             <span className="text-xl shrink-0"></span>
             <div>
-              <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">CRB Check</p>
-              <p className="text-stone-500 text-xs mt-0.5">Check your credit status before applying</p>
+              <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-600 transition-colors">CRB Check</p>
+              <p className="text-gray-500 text-xs mt-0.5">Check your credit status before applying</p>
             </div>
           </Link>
-          <Link href="/sacco-vs-digital" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
+          <Link href="/sacco-vs-digital" className="flex items-start gap-3 bg-gray-50 border border-gray-200 hover:border-black p-4 transition-all group">
             <span className="text-xl shrink-0"></span>
             <div>
-              <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">SACCO vs Digital Loans</p>
-              <p className="text-stone-500 text-xs mt-0.5">Is a SACCO cheaper for your amount?</p>
+              <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-600 transition-colors">SACCO vs Digital Loans</p>
+              <p className="text-gray-500 text-xs mt-0.5">Is a SACCO cheaper for your amount?</p>
             </div>
           </Link>
         </div>
