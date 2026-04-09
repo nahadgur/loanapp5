@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from 'react'
 import Link from 'next/link'
-import { Sparkles, ChevronRight, ArrowLeft, Trophy, AlertTriangle, RotateCcw } from '@/components/Icons'
+import { Sparkles, ChevronRight, ArrowLeft, Trophy, AlertTriangle, RotateCcw, CheckCircle2, XCircle, Banknote, TrendingDown, Wallet, Landmark, Zap, Clock, BarChart2, ArrowRight } from '@/components/Icons'
 import { loanApps, formatCurrency } from '@/data/loanApps'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
@@ -21,10 +21,10 @@ const STEPS: Step[] = [
     question: 'How much do you need?',
     subtext: 'Select the approximate amount — we will find apps that can cover it.',
     options: [
-      { label: 'Under KES 2,000', value: '1000',   icon: '💵' },
-      { label: 'KES 2,000–10,000', value: '5000',  icon: '💸' },
-      { label: 'KES 10,000–50,000', value: '25000', icon: '💰' },
-      { label: 'Over KES 50,000', value: '75000',  icon: '🏦' },
+      { label: 'Under KES 2,000', value: '1000',   icon: 'Banknote' },
+      { label: 'KES 2,000–10,000', value: '5000',  icon: 'TrendingDown' },
+      { label: 'KES 10,000–50,000', value: '25000', icon: 'Wallet' },
+      { label: 'Over KES 50,000', value: '75000',  icon: 'Landmark' },
     ],
   },
   {
@@ -32,9 +32,9 @@ const STEPS: Step[] = [
     question: 'Do you have a steady income or savings?',
     subtext: 'This helps us find apps you are most likely to be approved for.',
     options: [
-      { label: 'Yes — regular salary or income', value: 'salary', icon: '✅' },
-      { label: 'Irregular — business or gig work', value: 'irregular', icon: '🔄' },
-      { label: 'No steady income right now', value: 'none', icon: '❌' },
+      { label: 'Yes — regular salary or income', value: 'salary', icon: 'CheckCircle2' },
+      { label: 'Irregular — business or gig work', value: 'irregular', icon: 'RotateCcw' },
+      { label: 'No steady income right now', value: 'none', icon: 'XCircle' },
     ],
   },
   {
@@ -42,12 +42,17 @@ const STEPS: Step[] = [
     question: 'How urgently do you need the money?',
     subtext: 'We will prioritise speed or value based on your urgency.',
     options: [
-      { label: 'Right now — within minutes', value: 'urgent',  icon: '⚡' },
-      { label: 'Today or tomorrow is fine',  value: 'today',   icon: '🕐' },
-      { label: 'Within a week — value matters more', value: 'flexible', icon: '📊' },
+      { label: 'Right now — within minutes', value: 'urgent',  icon: 'Zap' },
+      { label: 'Today or tomorrow is fine',  value: 'today',   icon: 'Clock' },
+      { label: 'Within a week — value matters more', value: 'flexible', icon: 'BarChart2' },
     ],
   },
 ]
+
+
+const ICON_MAP: Record<string, React.ComponentType<{className?: string}>> = {
+  Banknote, TrendingDown, Wallet, Landmark, CheckCircle2, RotateCcw, XCircle, Zap, Clock, BarChart2,
+}
 
 // ── Scoring logic ────────────────────────────────────────────────────────
 type Answers = Record<string, string>
@@ -230,7 +235,7 @@ export default function LoanFinderPage() {
                 }`}>
                   <div className="p-5">
                     <div className="flex items-start gap-4">
-                      <div className="text-2xl shrink-0">{i === 0 ? '🥇' : i === 1 ? '🥈' : '🥉'}</div>
+                      <div className="text-2xl shrink-0">{i === 0 ? '' : i === 1 ? '' : ''}</div>
                       <div className="flex-1 min-w-0">
                         <div className="flex flex-wrap items-center gap-2 mb-1">
                           <h3 className="font-bold text-gray-900">{app.name}</h3>
@@ -257,7 +262,7 @@ export default function LoanFinderPage() {
                             className={`px-4 py-2 font-semibold text-xs transition-colors ${
                               i === 0 ? 'bg-purple-500 hover:bg-purple-400 text-gray-900' : 'bg-emerald-600 hover:bg-emerald-600 text-gray-500'
                             }`}>
-                            Apply for {app.name} →
+                            Apply for {app.name}
                           </a>
                           {app.crbReporting && (
                             <span className="flex items-center gap-1 text-xs text-amber-400">
@@ -266,7 +271,7 @@ export default function LoanFinderPage() {
                             </span>
                           )}
                           {!app.crbReporting && (
-                            <span className="text-xs text-emerald-600">✓ No CRB reporting</span>
+                            <span className="inline-flex items-center gap-1 text-xs text-emerald-600 font-mono font-bold"><CheckCircle2 className="w-3 h-3" /> No CRB reporting</span>
                           )}
                         </div>
                       </div>
@@ -312,28 +317,28 @@ export default function LoanFinderPage() {
         <h2 className="text-sm font-semibold text-stone-500 uppercase tracking-wider mb-4 px-4 sm:px-0">Before you apply</h2>
         <div className="grid sm:grid-cols-2 gap-3 px-4 sm:px-0">
           <Link href="/total-cost-calculator" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
-            <span className="text-xl shrink-0">🧮</span>
+            <span className="text-xl shrink-0"></span>
             <div>
               <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">Calculate True Cost</p>
               <p className="text-stone-500 text-xs mt-0.5">See total repayment including all fees first</p>
             </div>
           </Link>
           <Link href="/cbk-licensed" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
-            <span className="text-xl shrink-0">✅</span>
+            <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0" />
             <div>
               <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">CBK Licensed List</p>
               <p className="text-stone-500 text-xs mt-0.5">Verify your chosen app is regulated</p>
             </div>
           </Link>
           <Link href="/crb-check" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
-            <span className="text-xl shrink-0">📊</span>
+            <BarChart2 className="w-5 h-5 text-gray-500 shrink-0" />
             <div>
               <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">Check Your CRB</p>
               <p className="text-stone-500 text-xs mt-0.5">Know your credit status before applying</p>
             </div>
           </Link>
           <Link href="/blacklist" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
-            <span className="text-xl shrink-0">🚫</span>
+            <span className="text-xl shrink-0">x</span>
             <div>
               <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">Apps to Avoid</p>
               <p className="text-stone-500 text-xs mt-0.5">Blacklisted and predatory lenders in Kenya</p>

@@ -160,12 +160,12 @@ export default function TotalCostCalculatorPage() {
                   }`}>
                     <button className="w-full text-left p-5" onClick={() => setExpanded(isOpen ? null : app.id)}>
                       <div className="flex items-center gap-3">
-                        <span className="text-base font-black shrink-0 w-6 text-center">{isWinner ? '🥇' : i + 1}</span>
+                        <span className="text-base font-black shrink-0 w-6 text-center">{isWinner ? '' : i + 1}</span>
                         <div className="flex-1 min-w-0">
                           <div className="flex flex-wrap items-center gap-2">
                             <span className="font-bold text-gray-900">{app.name}</span>
                             {isWinner && <span className="text-xs bg-emerald-100 text-emerald-600 border border-emerald-300 px-2 py-0.5 ">Cheapest</span>}
-                            {isBlacklisted && <span className="text-xs bg-red-500/20 text-red-400 border border-red-500/30 px-2 py-0.5 ">⚠️ Flagged</span>}
+                            {isBlacklisted && <span className="text-xs bg-red-500/20 text-red-400 border border-red-500/30 px-2 py-0.5 "> Flagged</span>}
                             {!app.crbReporting && <span className="text-xs bg-blue-500/20 text-gray-600 border border-blue-500/30 px-2 py-0.5 ">No CRB</span>}
                           </div>
                           <p className="text-xs text-gray-400 mt-0.5">{app.interestRate} · {app.processingTime}</p>
@@ -228,7 +228,7 @@ export default function TotalCostCalculatorPage() {
                             {!isBlacklisted && (
                               <a href={app.downloadLink} target="_blank" rel="noopener noreferrer"
                                 className="inline-block mt-4 px-4 py-2 bg-black hover:bg-emerald-600 text-gray-900 font-mono font-bold uppercase text-xs transition-colors">
-                                Apply for {app.name} →
+                                Apply for {app.name}  ›
                               </a>
                             )}
                           </div>
@@ -265,28 +265,28 @@ export default function TotalCostCalculatorPage() {
         <h2 className="text-sm font-semibold text-stone-500 uppercase tracking-wider mb-4 px-4 sm:px-0">Related guides</h2>
         <div className="grid sm:grid-cols-2 gap-3 px-4 sm:px-0">
           <Link href="/loan-finder" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
-            <span className="text-xl shrink-0">🔍</span>
+            <span className="text-xl shrink-0"></span>
             <div>
               <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">Loan Finder</p>
               <p className="text-stone-500 text-xs mt-0.5">Find the cheapest loan for your exact amount</p>
             </div>
           </Link>
           <Link href="/cbk-licensed" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
-            <span className="text-xl shrink-0">✅</span>
+            <span className="text-xl shrink-0"></span>
             <div>
               <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">CBK Licensed Apps</p>
               <p className="text-stone-500 text-xs mt-0.5">Only compare regulated, legal lenders</p>
             </div>
           </Link>
           <Link href="/crb-check" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
-            <span className="text-xl shrink-0">📊</span>
+            <span className="text-xl shrink-0"></span>
             <div>
               <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">CRB Check</p>
               <p className="text-stone-500 text-xs mt-0.5">Check your credit status before applying</p>
             </div>
           </Link>
           <Link href="/sacco-vs-digital" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
-            <span className="text-xl shrink-0">⚖️</span>
+            <span className="text-xl shrink-0"></span>
             <div>
               <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">SACCO vs Digital Loans</p>
               <p className="text-stone-500 text-xs mt-0.5">Is a SACCO cheaper for your amount?</p>

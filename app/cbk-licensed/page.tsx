@@ -271,7 +271,7 @@ export default function CBKLicensedPage() {
           <h2 className="text-lg font-serif font-bold text-gray-900 mb-4">How to Verify an App Yourself</h2>
           <ol className="space-y-3">
             {[
-              'Visit the CBK website at centralbank.go.ke and navigate to "Licensing" → "Credit Providers"',
+              'Visit the CBK website at centralbank.go.ke and navigate to "Licensing"  › "Credit Providers"',
               'Check the CBK Consumer Protection page for the latest list of licensed NDTCPs',
               'Search the app name on the CBK public register — licensed apps are listed by company name, not always app name',
               'For bank-backed products (M-Shwari, KCB M-Pesa), check the partner bank\'s CBK licence status',
@@ -293,28 +293,28 @@ export default function CBKLicensedPage() {
         <h2 className="text-sm font-semibold text-stone-500 uppercase tracking-wider mb-4 px-4 sm:px-0">Related guides</h2>
         <div className="grid sm:grid-cols-2 gap-3 px-4 sm:px-0">
           <Link href="/blacklist" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
-            <span className="text-xl shrink-0">🚫</span>
+            <span className="text-xl shrink-0">x</span>
             <div>
               <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">Loan App Blacklist</p>
               <p className="text-stone-500 text-xs mt-0.5">Apps to avoid — and why they are dangerous</p>
             </div>
           </Link>
           <Link href="/crb-check" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
-            <span className="text-xl shrink-0">📊</span>
+            <span className="text-xl shrink-0"></span>
             <div>
               <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">CRB Check Guide</p>
               <p className="text-stone-500 text-xs mt-0.5">Check your credit status before borrowing</p>
             </div>
           </Link>
           <Link href="/total-cost-calculator" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
-            <span className="text-xl shrink-0">🧮</span>
+            <span className="text-xl shrink-0"></span>
             <div>
               <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">True Cost Calculator</p>
               <p className="text-stone-500 text-xs mt-0.5">See the real cost of any loan including fees</p>
             </div>
           </Link>
           <Link href="/loan-finder" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
-            <span className="text-xl shrink-0">🔍</span>
+            <span className="text-xl shrink-0"></span>
             <div>
               <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">Loan Finder</p>
               <p className="text-stone-500 text-xs mt-0.5">Match to the right licensed app for your needs</p>

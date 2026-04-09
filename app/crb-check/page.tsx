@@ -65,9 +65,9 @@ export default function CRBCheckPage() {
           </p>
           <div className="grid sm:grid-cols-3 gap-3">
             {[
-              { icon: '🏦', title: 'Blocks bank loans', desc: 'No bank will lend to a CRB-listed person' },
-              { icon: '📱', title: 'Blocks loan apps', desc: 'Tala, Branch, M-Shwari all check CRB' },
-              { icon: '💼', title: 'Affects employment', desc: 'Some employers check CRB for finance roles' },
+              { icon: '', title: 'Blocks bank loans', desc: 'No bank will lend to a CRB-listed person' },
+              { icon: '', title: 'Blocks loan apps', desc: 'Tala, Branch, M-Shwari all check CRB' },
+              { icon: '', title: 'Affects employment', desc: 'Some employers check CRB for finance roles' },
             ].map(item => (
               <div key={item.title} className="bg-gray-200/30 p-4 text-center">
                 <div className="text-2xl mb-2">{item.icon}</div>
@@ -303,28 +303,28 @@ export default function CRBCheckPage() {
         <h2 className="text-sm font-semibold text-stone-500 uppercase tracking-wider mb-4 px-4 sm:px-0">Related guides</h2>
         <div className="grid sm:grid-cols-2 gap-3 px-4 sm:px-0">
           <Link href="/blacklist" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
-            <span className="text-xl shrink-0">🚫</span>
+            <span className="text-xl shrink-0">x</span>
             <div>
               <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">Loan App Blacklist</p>
               <p className="text-stone-500 text-xs mt-0.5">Which apps illegally list borrowers on CRB</p>
             </div>
           </Link>
           <Link href="/crb-quiz" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
-            <span className="text-xl shrink-0">❓</span>
+            <span className="text-xl shrink-0"></span>
             <div>
               <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">CRB Status Quiz</p>
               <p className="text-stone-500 text-xs mt-0.5">Find out if you are likely listed — 2 minutes</p>
             </div>
           </Link>
           <Link href="/cbk-licensed" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
-            <span className="text-xl shrink-0">✅</span>
+            <span className="text-xl shrink-0"></span>
             <div>
               <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">CBK Licensed Apps</p>
               <p className="text-stone-500 text-xs mt-0.5">Borrow safely from regulated lenders</p>
             </div>
           </Link>
           <Link href="/loan-finder" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
-            <span className="text-xl shrink-0">🔍</span>
+            <span className="text-xl shrink-0"></span>
             <div>
               <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">Loan Finder</p>
               <p className="text-stone-500 text-xs mt-0.5">Match to loans available even with CRB issues</p>

@@ -2,11 +2,11 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { Menu, X, ChevronDown } from '@/components/Icons';
+import { Menu, X, ChevronDown, AlertTriangle } from '@/components/Icons';
 
-const hubLinks = [
+const hubLinks: { href: string; label: string; warn?: boolean }[] = [
   { href: '/cbk-licensed',   label: 'CBK Licensed Apps' },
-  { href: '/blacklist',      label: 'Blacklist ⚠️' },
+  { href: '/blacklist',      label: 'Blacklist', warn: true },
   { href: '/crb-check',      label: 'CRB Guide' },
   { href: '/sacco-vs-digital', label: 'Sacco vs Digital' },
 ];
@@ -59,7 +59,7 @@ export default function Header() {
                     href={l.href}
                     className="block px-4 py-3 text-sm font-mono font-bold uppercase border-b border-gray-200 last:border-0 hover:bg-black hover:text-white transition-colors"
                   >
-                    {l.label}
+                    <span className="flex items-center gap-2">{l.warn && <AlertTriangle className="w-3.5 h-3.5 text-red-500" />}{l.label}</span>
                   </Link>
                 ))}
               </div>
@@ -106,7 +106,7 @@ export default function Header() {
                 onClick={() => setMobileOpen(false)}
                 className="block p-3 border-2 border-transparent hover:border-black hover:bg-black hover:text-white transition-all duration-200"
               >
-                {l.label}
+                <span className="flex items-center gap-2">{l.warn && <AlertTriangle className="w-3.5 h-3.5 text-red-500" />}{l.label}</span>
               </Link>
             ))}
           </div>

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { FileText } from '@/components/Icons';
+import { FileText, AlertTriangle } from '@/components/Icons';
 
 export default function Footer() {
   return (
@@ -24,13 +24,13 @@ export default function Footer() {
             <ul className="space-y-2 font-mono text-sm">
               {[
                 ['/cbk-licensed',    'CBK Licensed Apps 2026'],
-                ['/blacklist',       'Apps to Avoid ⚠️'],
+                ['/blacklist',       'Apps to Avoid'],
                 ['/crb-check',       'CRB Check & Repair'],
                 ['/sacco-vs-digital','Sacco vs Digital Apps'],
               ].map(([href, label]) => (
                 <li key={href}>
-                  <Link href={href} className="hover:text-emerald-400 hover:translate-x-1 inline-block transition-transform">
-                    {label}
+                  <Link href={href} className="hover:text-emerald-400 hover:translate-x-1 inline-flex items-center gap-1.5 transition-transform">
+                    {href === '/blacklist' && <AlertTriangle className="w-3 h-3 text-red-400" />}{label}
                   </Link>
                 </li>
               ))}
@@ -49,8 +49,8 @@ export default function Footer() {
                 ['/blog',                 'Guides & Blog'],
               ].map(([href, label]) => (
                 <li key={href}>
-                  <Link href={href} className="hover:text-emerald-400 hover:translate-x-1 inline-block transition-transform">
-                    {label}
+                  <Link href={href} className="hover:text-emerald-400 hover:translate-x-1 inline-flex items-center gap-1.5 transition-transform">
+                    {href === '/blacklist' && <AlertTriangle className="w-3 h-3 text-red-400" />}{label}
                   </Link>
                 </li>
               ))}

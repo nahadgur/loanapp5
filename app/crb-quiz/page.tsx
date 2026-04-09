@@ -293,28 +293,28 @@ export default function CRBQuizPage() {
         <h2 className="text-sm font-semibold text-stone-500 uppercase tracking-wider mb-4 px-4 sm:px-0">Next steps</h2>
         <div className="grid sm:grid-cols-2 gap-3 px-4 sm:px-0">
           <Link href="/crb-check" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
-            <span className="text-xl shrink-0">📊</span>
+            <span className="text-xl shrink-0"></span>
             <div>
               <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">Full CRB Check Guide</p>
               <p className="text-stone-500 text-xs mt-0.5">How to get your full credit report and dispute errors</p>
             </div>
           </Link>
           <Link href="/blacklist" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
-            <span className="text-xl shrink-0">🚫</span>
+            <span className="text-xl shrink-0">x</span>
             <div>
               <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">Loan App Blacklist</p>
               <p className="text-stone-500 text-xs mt-0.5">Apps known for illegal CRB listings</p>
             </div>
           </Link>
           <Link href="/cbk-licensed" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
-            <span className="text-xl shrink-0">✅</span>
+            <span className="text-xl shrink-0"></span>
             <div>
               <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">Licensed Apps Only</p>
               <p className="text-stone-500 text-xs mt-0.5">Borrow from regulated lenders to protect your CRB</p>
             </div>
           </Link>
           <Link href="/loan-finder" className="flex items-start gap-3 bg-white/5 border border-white/10 hover:border-amber-400/30 p-4 transition-all group">
-            <span className="text-xl shrink-0">🔍</span>
+            <span className="text-xl shrink-0"></span>
             <div>
               <p className="font-semibold text-gray-900 text-sm group-hover:text-amber-400 transition-colors">Find a Loan</p>
               <p className="text-stone-500 text-xs mt-0.5">Options available even with CRB issues</p>
