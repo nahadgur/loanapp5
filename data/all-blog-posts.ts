@@ -14,7 +14,7 @@ const HUB_MAP: Record<string, string> = {
   'which-loan-app-has-the-lowest-interest-rate-in-kenya': 'best-cheapest-loan-apps',
   'which-is-better-tala-or-branch-for-first-time-borrowers': 'best-cheapest-loan-apps',
   'which-loan-app-gives-the-highest-amount-in-kenya': 'best-cheapest-loan-apps',
-  'which-loan-app-in-kenya-is-actually-the-cheapest-in-2026': 'best-cheapest-loan-apps',
+  'which-loan-app-in-kenya-is-actually-the-cheapest': 'best-cheapest-loan-apps',
   'which-kenyan-loan-apps-process-weekend-disbursements-fastest': 'best-cheapest-loan-apps',
   'loan-apps-with-longest-repayment-periods-kenya': 'best-cheapest-loan-apps',
   'top-loan-apps-ussd-no-smartphone-kenya': 'best-cheapest-loan-apps',
@@ -54,7 +54,7 @@ const HUB_MAP: Record<string, string> = {
   'new-cbk-licensed-loan-apps-in-kenya-and-what-borrowers-should-check-before-applying': 'cbk-licensed-lenders',
   // H7 app reviews/comparisons
   'equity-eazzy-loan-vs-timiza-and-which-bank-app-is-better-for-smes': 'loan-app-reviews',
-  'tala-vs-branch-2026-comparison-kenya': 'loan-app-reviews',
+  'tala-vs-branch-comparison-kenya': 'loan-app-reviews',
   // H8 M-Pesa / mobile loans
   'which-is-cheaper-hustler-fund-or-m-shwari': 'mpesa-mobile-loans',
   'which-is-better-kcb-m-pesa-or-m-shwari': 'mpesa-mobile-loans',
@@ -65,7 +65,7 @@ const HUB_MAP: Record<string, string> = {
   'how-do-i-increase-my-m-shwari-loan-limit': 'mpesa-mobile-loans',
   'how-do-i-increase-my-hustler-fund-limit': 'mpesa-mobile-loans',
   'how-do-i-pay-back-fuliza-early': 'mpesa-mobile-loans',
-  'what-is-the-maximum-hustler-fund-limit-2026': 'mpesa-mobile-loans',
+  'what-is-the-maximum-hustler-fund-limit': 'mpesa-mobile-loans',
   'm-shwari-vs-kcb-m-pesa-and-which-one-gives-better-rates-limits-and-repayment-terms': 'mpesa-mobile-loans',
   'why-fuliza-can-become-one-of-the-most-expensive-ways-to-borrow-in-kenya': 'mpesa-mobile-loans',
   'how-to-move-from-the-hustler-fund-personal-product-to-the-business-product': 'mpesa-mobile-loans',

@@ -135,7 +135,7 @@ export const blogPosts3B: BlogPost[] = [
   // ── Post 2: Tala vs Branch 2026 ─────────────────────────────────────────
   {
     id: 206,
-    slug: 'tala-vs-branch-2026-comparison-kenya',
+    slug: 'tala-vs-branch-comparison-kenya',
     title: 'Tala vs Branch Kenya 2026: The Definitive Head-to-Head Comparison',
     metaTitle: 'Tala vs Branch Kenya 2026 | Which App is Better?',
     metaDescription: 'Tala vs Branch: full comparison for Kenya 2026. Interest rates, loan limits, approval speed, app permissions, CRB reporting, and who each app is really best for.',
