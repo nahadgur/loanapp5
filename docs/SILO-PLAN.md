@@ -85,5 +85,5 @@ Spokes take narrower angles (how-to, comparison, troubleshooting, eligibility).
 
 ## 6. Status tracker
 
-10 hubs (build). Spokes: ~13 existing posts mapped to hubs during the build; target
-~100 (~10/hub). Slug rules + SVG hero apply (fleet handoffs).
+10 hubs (built, /guides live). Spokes: 68 legacy posts mapped live via HUB_MAP
+(H1:7 H2:8 H3:6 H4:13 H5:3 H6:0 H7:2 H8:14 H9:7 H10:7) + 1 writer d

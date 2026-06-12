@@ -494,4 +494,89 @@ Branch has a formal complaint escalation path. If in-app support does not resolv
 <h3>What if the loan app says I still owe the money but I have proof I paid?</h3>
 <p>Your M-Pesa confirmation SMS, bank statement, or in-app payment confirmation is legal evidence of payment. Present this to the CRB directly in your dispute filing. The burden shifts to the lender to disprove your payment evidence — which they cannot do if your records are accurate.</p>`,
   },
+
+  // ── Post 4: Joining a SACCO for cheaper credit (H6 spoke, draft) ────────
+  {
+    id: 211,
+    slug: 'how-to-join-a-sacco-in-kenya-for-cheaper-loans',
+    title: 'How to Join a SACCO in Kenya for Cheaper Loans',
+    metaTitle: 'How to Join a SACCO in Kenya for Cheaper Loans 2026',
+    metaDescription:
+      'Step-by-step guide to joining a SACCO in Kenya: choosing a SASRA-licensed society, registration fees, share capital, monthly savings, and how long until you can borrow at far less than a loan app.',
+    excerpt:
+      'Joining a SACCO is the single biggest step most Kenyan borrowers can take towards cheaper credit. Here is how membership works, what it costs to join, and how long before you can borrow.',
+    category: 'How-To Guides',
+    featuredImage: null,
+    status: 'published',
+    publishedAt: '2026-06-12',
+    lastReviewedAt: '2026-06-12',
+    hub: 'sacco-vs-digital',
+    draft: true,
+    content: `<p>To join a SACCO in Kenya you pick a society whose common bond you qualify for, pay a one-off registration fee, buy the minimum share capital, and start saving monthly. After roughly six months of consistent deposits, most SACCOs will lend you a multiple of your savings at a fraction of what a loan app charges. This guide walks through each step, the real costs, and the waiting period.</p>
+
+<h2>Step 1: Choose a SACCO You Actually Qualify For</h2>
+
+<p>Every SACCO has a common bond, the rule that defines who may join. Some are tied to an employer or profession, such as teachers' or civil servants' societies. Others have an open bond, meaning any Kenyan adult with a national ID can join regardless of where they work. If you are in the informal sector or run your own business, an open-bond SACCO is usually your route in.</p>
+
+<p>Before anything else, confirm the society is properly regulated. Deposit-taking SACCOs are licensed and supervised by the Sacco Societies Regulatory Authority, and the current list of licensed societies is published at <a href="https://www.sasra.go.ke" rel="noopener">SASRA</a>. A SACCO on that register is subject to capital, liquidity and reporting rules that protect your deposits. Treat an unlisted deposit-taking society the way you would treat an unlicensed loan app: walk away. This mirrors the habit covered in our <a href="/guides/sacco-vs-digital/">guide to choosing between SACCOs and digital loan apps</a>, where regulation is the floor before cost even enters the conversation.</p>
+
+<h2>Step 2: Understand the Joining Costs</h2>
+
+<p>Joining is not free, but the costs are modest and most of the money remains yours. Expect three kinds of payment, with figures that vary by society (as at June 2026; verify with the SACCO directly, since fees change):</p>
+
+<ul>
+<li><strong>Registration fee:</strong> a one-off administrative charge, commonly a few hundred to about a thousand shillings. This is the only money you do not get back.</li>
+<li><strong>Minimum share capital:</strong> a required shareholding in the society. Shares earn dividends in profitable years but are generally not refundable while you remain a member; if you leave, they are usually transferred or sold rather than withdrawn.</li>
+<li><strong>Monthly deposits:</strong> the regular savings that build your borrowing power. Many societies set a modest minimum monthly contribution, and you can usually save more than the minimum.</li>
+</ul>
+
+<p>Read the membership terms before paying anything. The SACCO's own published terms are the authority on its fees, and a legitimate society will hand them over without hesitation.</p>
+
+<h2>Step 3: Register and Set Up Standing Deposits</h2>
+
+<p>Registration itself is straightforward. You will typically need your national ID, a passport photo, your KRA PIN, and the registration fee. Employer-based SACCOs deduct contributions through payroll via a check-off arrangement. Open-bond SACCOs commonly accept deposits through M-Pesa pay bill, bank transfer, or FOSA over-the-counter deposits.</p>
+
+<p>The single most important habit is consistency. A SACCO loan officer assessing your first application looks at the regularity of your deposits, not just the total. Saving KES 2,000 every month for six months reads better than KES 12,000 deposited once. If you can, automate the deposit on the same date each month.</p>
+
+<h2>Step 4: Wait Out the Qualifying Period, Then Borrow</h2>
+
+<p>Most SACCOs require around six months of membership and consistent saving before your first loan, though some open-bond societies advance smaller FOSA facilities earlier. After qualifying, the standard formula is a multiple of your deposits, commonly up to three times your savings, with guarantors covering the portion your own deposits do not secure.</p>
+
+<p>The payoff is the price. BOSA development loans are commonly quoted at around 1 to 1.25 per cent per month on a reducing balance (as at June 2026; verify with the specific SACCO, rates change). Because the interest is charged only on what you still owe, the effective cost over a year is far below a digital app's flat monthly fee on the same amount. Before you borrow from either, run the same amount and term through our <a href="/total-cost-calculator/">total cost calculator</a> and compare the totals side by side rather than the advertised rates.</p>
+
+<h2>What About Guarantors?</h2>
+
+<p>Guarantors worry new members more than anything else, and the concern deserves a straight answer. When you guarantee another member's loan, you are liable for the unsecured portion if they default, and your own deposits can be attached. So accept guarantee requests with the same seriousness you would bring to co-signing a bank loan. Some societies now offer self-guaranteed loans fully secured by your own deposits, and others accept collateral instead of guarantors for larger facilities. Ask which options the SACCO offers before you join if guarantors are a sticking point.</p>
+
+<h2>When a SACCO Is Not the Answer</h2>
+
+<p>A SACCO rewards planning and punishes urgency. If you need money tonight for an emergency, six months of qualifying deposits do not help, and an instant digital loan may still be the practical choice despite its cost. The honest position is that the two products solve different problems: apps sell speed, SACCOs sell cheap structured credit. Many financially steady borrowers eventually use both, keeping the app for the rare genuine emergency and the SACCO for everything that can be planned. We may earn a commission from some loan apps we compare on this site, which does not change this advice: planned borrowing is almost always cheaper through a SACCO.</p>`,
+    faqs: [
+      {
+        question: 'How much does it cost to join a SACCO in Kenya?',
+        answer:
+          'Typically a one-off registration fee of a few hundred to about a thousand shillings, plus a minimum share capital purchase and a minimum monthly deposit. Amounts vary by society, so confirm the current figures in the SACCO\\'s own membership terms before paying.',
+      },
+      {
+        question: 'How long after joining a SACCO can I get a loan?',
+        answer:
+          'Most SACCOs require about six months of consistent monthly deposits before the first BOSA loan. Some open-bond societies offer smaller FOSA advances earlier. The exact qualifying period is set in each society\\'s credit policy.',
+      },
+      {
+        question: 'Can I join a SACCO if I am not employed?',
+        answer:
+          'Yes. Open-bond SACCOs accept any Kenyan adult with a national ID, including business owners and informal-sector workers. You contribute directly through M-Pesa pay bill or bank deposit instead of a payroll check-off.',
+      },
+      {
+        question: 'How do I confirm a SACCO is legitimate?',
+        answer:
+          'Check that a deposit-taking SACCO appears on the register of licensed societies published by the Sacco Societies Regulatory Authority (SASRA). Licensed societies are supervised on capital, liquidity and reporting. Avoid any deposit-taking society that is not on the register.',
+      },
+      {
+        question: 'Do I lose my savings if I guarantee someone who defaults?',
+        answer:
+          'You are liable for the unsecured portion of the defaulted loan, and your deposits can be attached to cover it. Guarantee only people you trust, and ask whether the SACCO offers self-guaranteed loans secured by your own deposits instead.',
+      },
+    ],
+  },
 ]
