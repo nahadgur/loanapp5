@@ -10,6 +10,17 @@ export interface BlogPost {
   featuredImage: string | null;
   status: string;
   publishedAt: string;
+  /** Parent hub slug (see data/guides.ts). Empty string = unmapped. Resolved
+   *  centrally in all-blog-posts.ts via HUB_MAP, or set inline by the writer. */
+  hub?: string;
+  /** Draft spokes 404, and are excluded from /blog, hub spoke-grids and the
+   *  sitemap until the publisher flips them live. Defaults to false. The legacy
+   *  `status` field is unrelated and not used for gating. */
+  draft?: boolean;
+  /** Optional structured FAQs for FAQPage schema on the spoke. */
+  faqs?: { question: string; answer: string }[];
+  /** Optional review date for Article schema; falls back to publishedAt. */
+  lastReviewedAt?: string;
 }
 
 export const blogPosts: BlogPost[] = [

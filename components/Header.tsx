@@ -14,6 +14,7 @@ const hubLinks: { href: string; label: string; warn?: boolean }[] = [
 const navLinks = [
   { href: '/#calculator', label: 'Calculator' },
   { href: '/#compare',    label: 'Compare' },
+  { href: '/guides',      label: 'Guides' },
   { href: '/blog',        label: 'Blog' },
 ];
 

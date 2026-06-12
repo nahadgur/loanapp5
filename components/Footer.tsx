@@ -46,7 +46,8 @@ export default function Footer() {
                 ['/#calculator',          'Loan Calculator'],
                 ['/total-cost-calculator','True Cost Calculator'],
                 ['/loan-finder',          'Loan Finder'],
-                ['/blog',                 'Guides & Blog'],
+                ['/guides',               'Loan Guides'],
+                ['/blog',                 'Blog'],
               ].map(([href, label]) => (
                 <li key={href}>
                   <Link href={href} className="hover:text-emerald-400 hover:translate-x-1 inline-flex items-center gap-1.5 transition-transform">

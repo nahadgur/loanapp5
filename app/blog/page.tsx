@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { getAllBlogPosts } from '@/data/all-blog-posts';
+import { getLiveBlogPosts } from '@/data/all-blog-posts';
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -42,7 +42,7 @@ const CATEGORY_CONFIG = [
 ];
 
 export default function BlogPage() {
-  const posts = getAllBlogPosts();
+  const posts = getLiveBlogPosts();
 
   const categorised = CATEGORY_CONFIG.map(cat => ({
     ...cat,

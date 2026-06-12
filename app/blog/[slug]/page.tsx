@@ -1,14 +1,28 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { getBlogPostBySlug, getAllBlogSlugs, getRelatedBlogPosts } from '@/data/all-blog-posts';
+import { getBlogPostBySlug, getLiveBlogSlugs, getRelatedBlogPosts } from '@/data/all-blog-posts';
+import { GUIDES_BY_SLUG } from '@/data/guides';
+import { SpokeHero } from '@/components/SpokeHero';
+import {
+  SITE_URL,
+  EDITORIAL,
+  organizationSchema,
+  websiteSchema,
+  editorialEntitySchema,
+  breadcrumbSchema,
+  faqPageSchema,
+  articleSchemaFor,
+  jsonLd,
+} from '@/lib/schema';
 import type { Metadata } from 'next';
 
 interface Props {
   params: Promise<{ slug: string }>;
 }
 
+// Draft spokes are not pre-rendered; live posts only.
 export async function generateStaticParams() {
-  const slugs = getAllBlogSlugs();
+  const slugs = getLiveBlogSlugs();
   return slugs.map((slug) => ({ slug }));
 }
 
@@ -36,14 +50,39 @@ export default async function BlogPostPage({ params }: Props) {
   const { slug } = await params;
   const post = getBlogPostBySlug(slug);
 
-  if (!post) {
+  // Draft gate: drafts 404 until the publisher flips them live.
+  if (!post || post.draft) {
     notFound();
   }
 
   const relatedPosts = getRelatedBlogPosts(slug, 3);
+  const hub = post.hub ? GUIDES_BY_SLUG[post.hub] : undefined;
+  const reviewed = post.lastReviewedAt || post.publishedAt;
+  const url = `${SITE_URL}/blog/${post.slug}`;
+  const plain = post.content.replace(/<[^>]+>/g, ' ');
+  const readMins = Math.max(3, Math.round(plain.split(/\s+/).filter(Boolean).length / 200));
 
   return (
     <div className="min-h-screen bg-white text-gray-900">
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(
+        organizationSchema(),
+        websiteSchema(),
+        editorialEntitySchema(),
+        breadcrumbSchema([
+          { name: 'Home', url: `${SITE_URL}/` },
+          { name: 'Blog', url: `${SITE_URL}/blog` },
+          ...(hub ? [{ name: hub.shortTitle, url: `${SITE_URL}/guides/${hub.slug}` }] : []),
+          { name: post.title, url },
+        ]),
+        articleSchemaFor({
+          url,
+          headline: post.title,
+          description: post.metaDescription,
+          datePublished: post.publishedAt,
+          dateModified: reviewed,
+        }),
+        ...(post.faqs && post.faqs.length ? [faqPageSchema(post.faqs)] : []),
+      )} />
       {/* Header */}
       <header className="border-b-2 border-black bg-white sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 py-4">
@@ -87,23 +126,33 @@ export default async function BlogPostPage({ params }: Props) {
       <article className="max-w-4xl mx-auto px-4 py-12">
         {/* Header */}
         <header className="mb-8">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-gray-900 mb-4 leading-tight">
-            {post.title}
-          </h1>
-          <p className="text-lg text-gray-500 mb-4">
+          <h1 className="sr-only">{post.title}</h1>
+          <SpokeHero
+            title={post.title}
+            hubName={hub ? hub.shortTitle : null}
+            hubSlug={post.hub || post.slug}
+            readMins={readMins}
+          />
+          <p className="text-lg text-gray-500 mt-6 mb-4">
             {post.excerpt}
           </p>
-          <div className="flex items-center gap-4 text-sm text-gray-400">
+          <div className="flex flex-wrap items-center gap-4 text-sm text-gray-400">
+            <span className="font-mono font-bold uppercase text-xs text-gray-600">By {EDITORIAL.byline}</span>
             <time dateTime={post.publishedAt}>
-              {new Date(post.publishedAt).toLocaleDateString('en-GB', {
+              Reviewed {new Date(reviewed).toLocaleDateString('en-GB', {
                 year: 'numeric',
                 month: 'long',
                 day: 'numeric'
               })}
             </time>
-            <span className="px-2 py-1 bg-emerald-50 text-emerald-600  text-xs">
+            <span className="px-2 py-1 bg-emerald-50 text-emerald-600 text-xs">
               {post.category || 'Loan Guide'}
             </span>
+            {hub && (
+              <Link href={`/guides/${hub.slug}`} className="text-emerald-600 hover:underline font-medium">
+                {hub.shortTitle} hub
+              </Link>
+            )}
           </div>
         </header>
 
