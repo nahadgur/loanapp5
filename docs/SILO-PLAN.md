@@ -86,4 +86,9 @@ Spokes take narrower angles (how-to, comparison, troubleshooting, eligibility).
 ## 6. Status tracker
 
 10 hubs (built, /guides live). Spokes: 68 legacy posts mapped live via HUB_MAP
-(H1:7 H2:8 H3:6 H4:13 H5:3 H6:0 H7:2 H8:14 H9:7 H10:7) + 1 writer d
+(H1:7 H2:8 H3:6 H4:13 H5:3 H6:0 H7:2 H8:14 H9:7 H10:7) + 2 writer drafts; target
+~100 (~10/hub). Slug rules + SVG hero apply (fleet handoffs).
+
+Writer drafts (draft:true, awaiting publisher):
+- 2026-06-12 H6 `how-to-join-a-sacco-in-kenya-for-cheaper-loans` (blogPosts-3c.ts)
+- 2026-06-13 H7 `zenka-loan-review-kenya` (blogPosts-3c.ts)

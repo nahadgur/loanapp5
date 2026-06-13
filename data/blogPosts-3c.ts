@@ -555,12 +555,12 @@ Branch has a formal complaint escalation path. If in-app support does not resolv
       {
         question: 'How much does it cost to join a SACCO in Kenya?',
         answer:
-          'Typically a one-off registration fee of a few hundred to about a thousand shillings, plus a minimum share capital purchase and a minimum monthly deposit. Amounts vary by society, so confirm the current figures in the SACCO\\'s own membership terms before paying.',
+          'Typically a one-off registration fee of a few hundred to about a thousand shillings, plus a minimum share capital purchase and a minimum monthly deposit. Amounts vary by society, so confirm the current figures in the SACCO\'s own membership terms before paying.',
       },
       {
         question: 'How long after joining a SACCO can I get a loan?',
         answer:
-          'Most SACCOs require about six months of consistent monthly deposits before the first BOSA loan. Some open-bond societies offer smaller FOSA advances earlier. The exact qualifying period is set in each society\\'s credit policy.',
+          'Most SACCOs require about six months of consistent monthly deposits before the first BOSA loan. Some open-bond societies offer smaller FOSA advances earlier. The exact qualifying period is set in each society\'s credit policy.',
       },
       {
         question: 'Can I join a SACCO if I am not employed?',
@@ -579,4 +579,89 @@ Branch has a formal complaint escalation path. If in-app support does not resolv
       },
     ],
   },
+
+  // ── Post 5: Zenka loan review (H7 spoke, draft) ────────────────────────
+  {
+    id: 212,
+    slug: 'zenka-loan-review-kenya',
+    title: 'Zenka Loan Review for Kenyan Borrowers',
+    metaTitle: 'Zenka Loan Review Kenya: Rates, Limits and Safety',
+    metaDescription:
+      'An honest Zenka loan review for Kenya: loans of KES 500 to 30,000 over 21 to 61 days, the real fee cost, eligibility, CRB reporting and licensing checks.',
+    excerpt:
+      'Zenka offers small, short-term loans on fairly clear terms. Here is what a Zenka loan costs, who qualifies, how limits grow, and the licensing and CRB points to check first.',
+    category: 'App Reviews',
+    featuredImage: null,
+    status: 'draft',
+    publishedAt: '2026-06-13',
+    lastReviewedAt: '2026-06-13',
+    hub: 'loan-app-reviews',
+    draft: true,
+    content: `<p>Zenka offers digital loans in Kenya from KES 500 to KES 30,000, repayable over 21 to 61 days, with a service fee of roughly 9 to 17 per cent per month (as at June 2026, verify as rates change). It suits first-time borrowers who want clear terms, though its maximum limit trails the largest apps.</p>
+
+<h2>Zenka at a Glance</h2>
+
+<p>Zenka is a fintech loan app aimed at quick, small to mid-size borrowing. The headline numbers, drawn from the app's published terms and current as at June 2026, are a loan range of KES 500 to KES 30,000, repayment windows of 21 to 61 days, and disbursement to M-Pesa usually within about 5 to 15 minutes of approval. Treat every figure here as a dated snapshot and confirm the current terms in the app before you borrow, because lenders revise pricing and limits often.</p>
+
+<p>To apply you need an Android phone, a national ID and an active M-Pesa account. There is no iOS app and no collateral. Like most app lenders, Zenka scores you on your phone and M-Pesa data rather than a payslip, which is why two applicants with similar incomes can be offered very different limits. For a sense of where it sits against the wider market, see our <a href="/guides/loan-app-reviews/">guide to loan app reviews</a>.</p>
+
+<h2>How Much a Zenka Loan Really Costs</h2>
+
+<p>Zenka quotes a service fee for a fixed term rather than an annual percentage rate, currently in the region of 9 to 17 per cent per month depending on the loan and your profile (as at June 2026, verify as rates change). As with every app loan, the number that matters is not the headline percentage but the total shillings you repay over the actual days you hold the money. A fee that looks small for a three-week loan is a high annualised cost.</p>
+
+<p>Because Zenka allows terms up to 61 days, a longer loan accrues more fee than the same amount repaid quickly, so borrow only what you can clear and for as short a period as you realistically need. Before you commit, run the exact amount and term through our <a href="/total-cost-calculator/">total cost calculator</a> and compare the figure against one or two other apps rather than judging Zenka on its advertised rate alone.</p>
+
+<h2>Who Qualifies and How Limits Grow</h2>
+
+<p>Zenka is known for reasonable first-time limits compared with some rivals, but a first offer is rarely the maximum. The pattern that raises your limit is the familiar one across app lending: borrow a modest amount, repay on or before the due date, and repeat so the app sees a clean cycle. Trying to jump to the KES 30,000 ceiling early usually triggers a smaller offer or a decline, because there is no history to support it.</p>
+
+<p>Keeping your M-Pesa active and avoiding missed payments does more for your limit than reinstalling the app or reapplying repeatedly. Zenka cannot promise approval to anyone, and neither can we; eligibility rests on the data the app reads and on your credit record.</p>
+
+<h2>Is Zenka Safe, and Does It Report to CRB?</h2>
+
+<p>Two checks matter before borrowing from any Kenyan app. First, licensing: digital credit providers must be licensed by the Central Bank of Kenya, and you should confirm a lender's current status on the <a href="https://www.centralbank.go.ke" rel="noopener">CBK Digital Credit Providers register</a> rather than relying on an app-store badge. Do this for Zenka before you borrow, since the register is updated as licences are granted or withdrawn.</p>
+
+<p>Second, credit reporting: Zenka reports repayment behaviour to Kenya's credit reference bureaus, which means a default can be listed and a clean record can help you. That cuts both ways, so do not borrow on the assumption that a small loan is invisible. You can read the app's own data and repayment terms on its <a href="https://play.google.com/store/apps/details?id=com.finserve.zenka" rel="noopener">official Google Play listing</a>. Its Play rating sat at about 4.0 out of 5 as at June 2026; we do not publish invented user ratings, and an app-store score is a rough signal, not a verdict.</p>
+
+<h2>Repaying On Time and Avoiding Extra Charges</h2>
+
+<p>Repayment is through M-Pesa, and the cheapest Zenka loan is one cleared on or before its due date. Late repayment attracts additional charges, and rolling a balance forward stacks new fees on the old one, which is how a small, manageable loan can quietly become an expensive one. Set a reminder a day or two ahead of the due date and, where you can, repay early; on a fixed-fee product there is rarely a penalty for clearing sooner and you free up your limit for next time.</p>
+
+<p>If you can see a payment slipping, contact Zenka before the due date rather than after. Most lenders prefer an arranged plan to a default, and addressing it early protects both your charges and your credit record. Ignoring it does the opposite, because the balance grows and a missed payment can be reported to the bureaus.</p>
+
+<h2>Pros, Cons and Who Zenka Suits</h2>
+
+<p>On the positive side, the fee structure is relatively clear, first-time limits are workable, and customer support is reasonably responsive. The trade-offs are real too: the KES 30,000 maximum is lower than several competitors, the app is Android-only, and some borrowers find it occasionally glitchy. None of these is unusual for the category, but together they decide whether Zenka fits your need.</p>
+
+<p>Zenka makes most sense for a first-time or returning borrower who wants a small, short loan on transparent terms and does not need a large limit. If you need a bigger ceiling or a longer term, a bank-backed product may serve you better; for a side-by-side on two of the biggest apps, see our <a href="/blog/tala-vs-branch-comparison-kenya/">comparison of Tala and Branch</a>. We may earn a commission from some apps we list, which never changes our figures or our advice: compare on total cost and licensing, and borrow only what you can repay on time.</p>`,
+    faqs: [
+      {
+        question: 'How much can I borrow from Zenka in Kenya?',
+        answer:
+          'Zenka offers loans from KES 500 to KES 30,000 as at June 2026, though first-time offers are usually well below the maximum. Limits grow as you borrow small amounts and repay on time. Confirm the current range in the app, since lenders revise limits often.',
+      },
+      {
+        question: 'How long do you get to repay a Zenka loan?',
+        answer:
+          'Repayment terms run from about 21 to 61 days (as at June 2026, verify in the app). A longer term accrues more in fees, so borrow for the shortest period you realistically need and repay on or before the due date.',
+      },
+      {
+        question: 'Is Zenka licensed by the Central Bank of Kenya?',
+        answer:
+          'Digital lenders in Kenya must be licensed by the CBK. Before borrowing, confirm the current status of Zenka on the CBK Digital Credit Providers register rather than relying on an app-store badge, because the register is updated as licences change.',
+      },
+      {
+        question: 'Does Zenka report to CRB?',
+        answer:
+          'Yes. Zenka reports repayment behaviour to the Kenyan credit reference bureaus, so a default can be listed and on-time repayment can help your record. Do not treat a small loan as invisible to your credit history.',
+      },
+      {
+        question: 'What does a Zenka loan cost?',
+        answer:
+          'Zenka charges a service fee for a fixed term, roughly 9 to 17 per cent per month depending on the loan (as at June 2026, verify as rates change). Judge the cost by the total shillings repaid over the term, not the headline rate; the total cost calculator works this out.',
+      },
+    ],
+  },
 ]
+
+ 
