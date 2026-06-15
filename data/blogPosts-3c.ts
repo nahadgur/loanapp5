@@ -885,5 +885,79 @@ Branch has a formal complaint escalation path. If in-app support does not resolv
       },
     ],
   },
+
+  // ── Post 9: Daily vs monthly interest (H2 loan-costs-fees) ─────────────
+  {
+    id: 216,
+    slug: 'daily-vs-monthly-interest-on-loan-apps-in-kenya',
+    title: 'Daily vs Monthly Interest on Loan Apps in Kenya',
+    metaTitle: 'Daily vs Monthly Loan App Interest in Kenya',
+    metaDescription:
+      'Daily vs monthly interest on Kenyan loan apps: why a small daily fee can cost more than a monthly one, how to compare on total cost, and which to choose.',
+    excerpt:
+      'A small daily fee can quietly outrun a monthly one. Here is how daily and monthly loan app interest differ in Kenya, how to compare them on the only number that matters, and which suits your situation.',
+    category: 'Loan Guides',
+    featuredImage: null,
+    status: 'draft',
+    publishedAt: '2026-06-15',
+    lastReviewedAt: '2026-06-15',
+    hub: 'loan-costs-fees',
+    draft: true,
+    content: `<p>Daily and monthly interest are two different ways Kenyan loan apps price the same money, and the smaller-looking number is often the dearer one. A daily fee on a short overdraft can outrun a monthly facility fee once the loan runs on. The only fair test is the total shillings you repay, not the headline rate.</p>
+
+<h2>Why Daily and Monthly Pricing Are Not the Same</h2>
+
+<p>Loan apps in Kenya advertise their cost in whichever unit looks smallest. A fixed-term product such as an M-Shwari or a Tala loan usually quotes a monthly facility fee, while an overdraft such as Fuliza charges a fee for each day the balance stays outstanding. The two are not comparable on their advertised figures, because a daily charge keeps accruing for as long as you hold the money, whereas a monthly fee is set once for the term. Reading a daily rate against a monthly rate tells you almost nothing about what you will actually pay. For the wider picture of <a href="/guides/loan-costs-fees/">how loan app charges and fees fit together</a>, the hub guide sets out every cost that sits behind the rate.</p>
+
+<p>The distinction matters because the same shillings can carry a completely different price depending on the structure. A daily product is built to be cheap for a day or two and to grow steadily after that. A monthly product front-loads the cost into a single fee and then stays flat until the due date. Neither is automatically cheaper. Which one wins comes down entirely to how long you keep the money.</p>
+
+<h2>Turning Both Into One Number You Can Compare</h2>
+
+<p>The honest way to compare is to convert both to the total you would repay for your exact amount and term. Take an illustrative KES 5,000 borrowed for 30 days. An app quoting a flat monthly fee of, say, 7.5% would add about KES 375, so you repay roughly KES 5,375. An overdraft charging around 1% a day on the same balance would add about KES 50 each day, so over the full 30 days it reaches roughly KES 1,500, close to three times as much. These figures are illustrative rather than current quotes, and real charges differ by app and by borrower, so treat any rate as something to verify because rates change.</p>
+
+<p>That conversion is exactly what the <a href="/total-cost-calculator/">total cost calculator</a> does for your own amount and term, lining the options up on the total you would repay rather than the advertised rate. Our worked example of <a href="/blog/how-much-will-i-pay-back-on-a-10000-loan-in-kenya/">what you would repay on a KES 10,000 loan</a> shows the same method applied to a larger sum, and the pattern holds at any size: the headline unit hides the comparison until you reduce both to total shillings.</p>
+
+<h2>Where Daily-Rate Borrowing Catches People Out</h2>
+
+<p>The trap in daily pricing is that it rewards speed and punishes delay, and most borrowers underestimate how long they actually keep the money. A daily-fee overdraft looks almost free for a day or two, which is precisely its design, but it has no fixed end, so a balance left running for a fortnight quietly doubles in cost compared with clearing it in three days. People treat it as spare cash rather than a loan, and the fee accrues in the background every day it is outstanding.</p>
+
+<p>A monthly facility fee behaves the opposite way. It is fixed the moment you take the loan, so repaying a few days early saves you nothing, while running a few days late triggers separate penalties rather than more of the same interest. Knowing which logic your loan follows tells you where the risk sits: with a daily product the danger is time, and with a monthly product the danger is the due date.</p>
+
+<h2>Late Repayment Changes the Maths Again</h2>
+
+<p>Whichever structure you start with, missing the due date rewrites the cost. On a monthly loan a late payment usually adds a penalty fee and can roll the balance over, stacking new charges on the old. On a daily overdraft, simply not clearing it means the daily fee keeps running with no ceiling in sight. Either way the cheap-looking option becomes the expensive one once it overruns, which is why sizing the loan to what you can repay on time matters more than the rate you begin with. The <a href="https://www.centralbank.go.ke" rel="noopener">Central Bank of Kenya</a> requires licensed digital lenders to disclose their charges, so the total cost and any penalty terms are in the agreement if you read them before accepting.</p>
+
+<h2>Which to Choose for Your Situation</h2>
+
+<p>For a very short, genuine gap that you will close within a day or two, a daily-fee overdraft can be the cheaper tool, because you pay only for the days you use. For anything you will hold for most of a month, a fixed monthly fee is usually more predictable and often cheaper outright. The mistake is leaning on a daily product as though it were free, or taking a 30-day loan for a 2-day need. Match the pricing structure to how long you genuinely need the money, then compare the shortlist on total cost rather than the advertised rate. We may earn affiliate commission from some apps we mention, which never changes this guidance or how we compare them.</p>`,
+    faqs: [
+      {
+        question: 'Is daily or monthly interest cheaper on Kenyan loan apps?',
+        answer:
+          'Neither is automatically cheaper. A daily fee is cheap for a day or two and grows the longer you hold the money, while a monthly fee is fixed for the term. For a very short gap the daily product can win, but for most of a month the monthly fee is usually cheaper. Compare both as total shillings repaid.',
+      },
+      {
+        question: 'How do I compare a daily rate with a monthly rate?',
+        answer:
+          'Convert both to the total you would repay for your exact amount and term, not the advertised unit. A total cost calculator does this by adding every fee over the days you actually hold the loan, so two apps quoting different units line up on one comparable number.',
+      },
+      {
+        question: 'Why does a small daily fee add up so fast?',
+        answer:
+          'A daily fee accrues for every day the balance is outstanding and has no fixed end, so a charge that looks tiny for one day keeps stacking. A balance left running for two weeks can cost several times what it would have cost if cleared in a couple of days.',
+      },
+      {
+        question: 'Does a loan app have to tell me the total cost in Kenya?',
+        answer:
+          'Licensed digital lenders are required by the Central Bank of Kenya to disclose their charges, so the total cost and penalty terms should be in the agreement before you accept. Read them first, and verify any figure, since rates and rules change.',
+      },
+      {
+        question: 'Is an overdraft like Fuliza cheaper than a monthly loan?',
+        answer:
+          'Only if you clear it quickly. A daily-fee overdraft is built to be cheap for very short use, but left running it can cost more than a fixed monthly loan of the same size. Treat any rate as a dated figure to verify, and compare the total you would repay over the days you need it.',
+      },
+    ],
+  },
 ]
 
+ 
