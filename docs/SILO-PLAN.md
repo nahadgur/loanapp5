@@ -87,7 +87,7 @@ Spokes take narrower angles (how-to, comparison, troubleshooting, eligibility).
 
 10 hubs (built, /guides live). Spokes: 68 legacy posts mapped live via HUB_MAP
 (H1:7 H2:8 H3:6 H4:13 H5:3 H6:0 H7:2 H8:14 H9:7 H10:7) + 1 published writer spoke
-(H6) + 4 writer drafts; target ~100 (~10/hub). Slug rules + SVG hero apply (fleet handoffs).
+(H6) + 5 writer drafts; target ~100 (~10/hub). Slug rules + SVG hero apply (fleet handoffs).
 
 Published writer spokes (live):
 - 2026-06-15 H6 `how-to-join-a-sacco-in-kenya-for-cheaper-loans` (blogPosts-3c.ts)
@@ -96,4 +96,5 @@ Writer drafts (draft:true, awaiting publisher):
 - 2026-06-13 H7 `zenka-loan-review-kenya` (blogPosts-3c.ts)
 - 2026-06-13 H5 `risks-of-using-unlicensed-loan-apps-in-kenya` (blogPosts-3c.ts)
 - 2026-06-15 H3 `how-long-does-a-default-stay-on-your-crb-record-in-kenya` (blogPosts-3c.ts)
-- 2026-06-
+- 2026-06-15 H1 `best-loan-apps-for-bad-credit-in-kenya` (blogPosts-3c.ts)
+- 2026-06-15 H2 `daily-vs-monthly-interest-on-loan-apps-in-kenya` (blogPosts-3c.ts)
