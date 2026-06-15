@@ -508,10 +508,10 @@ Branch has a formal complaint escalation path. If in-app support does not resolv
     category: 'How-To Guides',
     featuredImage: null,
     status: 'published',
-    publishedAt: '2026-06-12',
-    lastReviewedAt: '2026-06-12',
+    publishedAt: '2026-06-15',
+    lastReviewedAt: '2026-06-15',
     hub: 'sacco-vs-digital',
-    draft: true,
+    draft: false,
     content: `<p>To join a SACCO in Kenya you pick a society whose common bond you qualify for, pay a one-off registration fee, buy the minimum share capital, and start saving monthly. After roughly six months of consistent deposits, most SACCOs will lend you a multiple of your savings at a fraction of what a loan app charges. This guide walks through each step, the real costs, and the waiting period.</p>
 
 <h2>Step 1: Choose a SACCO You Actually Qualify For</h2>
@@ -662,6 +662,228 @@ Branch has a formal complaint escalation path. If in-app support does not resolv
       },
     ],
   },
+
+  // ── Post 6: Risks of unlicensed loan apps (H5 spoke, draft) ────────────
+  {
+    id: 213,
+    slug: 'risks-of-using-unlicensed-loan-apps-in-kenya',
+    title: 'The Risks of Using Unlicensed Loan Apps in Kenya',
+    metaTitle: 'Risks of Unlicensed Loan Apps in Kenya 2026',
+    metaDescription:
+      'Unlicensed loan apps in Kenya bring hidden costs, contact harassment and no recourse. Learn the risks and how to check the CBK register before you borrow.',
+    excerpt:
+      'An unlicensed loan app sits outside Central Bank rules on pricing and data use. Here are the real risks, how to spot one, and what to do if an unlicensed lender has already harmed you.',
+    category: 'Safety and Licensing',
+    featuredImage: null,
+    status: 'draft',
+    publishedAt: '2026-06-13',
+    lastReviewedAt: '2026-06-13',
+    hub: 'cbk-licensed-lenders',
+    draft: true,
+    content: `<p>An unlicensed loan app in Kenya is one that does not appear on the Central Bank of Kenya register of digital credit providers. Borrowing from one exposes you to undisclosed charges, misuse of your phone and contact data, and almost no recourse when something goes wrong. The single best protection is to confirm a lender is licensed before you borrow.</p>
+
+<h2>Why Licensing Is the Line That Matters</h2>
+
+<p>For years, digital lenders in Kenya operated with little oversight, and that gap is where abusive pricing and contact harassment took hold. That changed when the Central Bank of Kenya was given authority over digital credit providers and required them to be licensed under a framework introduced in 2022. A licensed lender operates under rules covering how it prices loans, how it discloses charges, and how it may use your personal data. An unlicensed app answers to none of that.</p>
+
+<p>This is why licensing is the floor, not a bonus. A low advertised rate from an app outside the register is not a saving once you account for the ways an unregulated lender can recover money and harvest data. Our <a href="/guides/cbk-licensed-lenders/">guide to CBK-licensed digital lenders</a> sets out the wider framework; this article focuses on what specifically goes wrong when an app is not on it.</p>
+
+<h2>The Real Risks of an Unlicensed App</h2>
+
+<p>The dangers cluster into a few predictable areas, and they tend to arrive together rather than one at a time.</p>
+
+<h3>Hidden and shifting costs</h3>
+
+<p>Licensed providers must disclose their charges. Unlicensed apps frequently do not, deducting processing or facilitation fees upfront so you receive less than you borrowed while repaying the full amount, then adding penalties and rollover charges that were never made clear. The headline rate becomes meaningless when the real cost is decided after you have accepted the loan.</p>
+
+<h3>Data harvesting and contact harassment</h3>
+
+<p>The most notorious tactic of unregulated apps is reading your phone contacts and using them to pressure you, calling or messaging family, colleagues and friends about your debt. This is not just unpleasant; it can breach the Data Protection Act, 2019. The Office of the Data Protection Commissioner has investigated and penalised digital lenders for misusing borrowers' contact lists, which establishes that the practice is unlawful. An unlicensed app, operating outside Central Bank oversight, is far more likely to behave this way and far harder to hold to account.</p>
+
+<h3>No meaningful recourse</h3>
+
+<p>When a licensed lender breaks the rules, there is a regulator and a rulebook behind it. With an unlicensed app there is often no registered Kenyan entity, no published terms, and no complaints process that responds. If the app overcharges you, misreports you, or harasses your contacts, your options narrow to the data-protection and criminal channels rather than a financial regulator that can compel the lender to put things right.</p>
+
+<h2>How to Spot and Check Before You Borrow</h2>
+
+<p>Verification is quick and it is the habit that prevents almost all of the problems above. The Central Bank of Kenya maintains and updates the list of licensed digital credit providers, and you can check whether an app appears on it at the <a href="https://www.centralbank.go.ke" rel="noopener">CBK Digital Credit Providers register</a>. Because the register changes as licences are granted or withdrawn, rely on the current list rather than an older screenshot or a badge in the app store.</p>
+
+<p>Alongside the register, a few warning signs mark an app worth avoiding: terms that are vague or absent, a demand for access to your contacts before it will lend, pressure to borrow immediately, and reviews describing threats or third-party calls. For the step-by-step method, see our guide on <a href="/blog/how-to-check-whether-your-favorite-loan-app-is-licensed-by-the-central-bank-of-kenya/">how to check whether a loan app is licensed by the Central Bank of Kenya</a>. If you would rather borrow only from vetted, regulated options, our <a href="/cbk-licensed/">list of CBK-licensed apps</a> is the safer starting point.</p>
+
+<h2>What to Do If an Unlicensed App Has Already Harmed You</h2>
+
+<p>If you have already borrowed from an unlicensed lender and it is harassing you or misusing your data, you still have rights. Document everything, screenshots of messages, call logs and any third-party contact, then complain to the <a href="https://www.odpc.go.ke" rel="noopener">Office of the Data Protection Commissioner</a>, which handles misuse of personal data such as contact harassment. Where an app is operating illegally or threats are involved, the matter can also be reported to the authorities. Reporting protects other borrowers as well as you, and it is part of how the worst apps have been pushed out of the market.</p>
+
+<p>Revoking the app's access to your contacts, messages and location in your phone settings stops further data being read, though it does not delete what has already been taken; a formal data-deletion request to the lender covers that. Keeping the loan small and clearing it quickly limits how much leverage an unregulated lender has over you in the meantime.</p>
+
+<h2>Choosing a Safer Alternative</h2>
+
+<p>The point of all this is not to avoid borrowing but to borrow from lenders that answer to a regulator. A licensed app is bound by rules on disclosure and data use, gives you a complaints route, and cannot lawfully harass you. Confirm licensing first, then compare the licensed options on the total you will actually repay rather than the advertised rate. We may earn affiliate commission from some of the apps we list, which funds the site and never changes what you pay or which lenders we treat as safe; an app earns its place through licensing and cost, not through what it pays us.</p>`,
+    faqs: [
+      {
+        question: 'What is an unlicensed loan app in Kenya?',
+        answer:
+          'It is a digital lender that does not appear on the Central Bank of Kenya register of licensed digital credit providers. Such apps operate outside CBK rules on pricing disclosure and data use, which is where most predatory charges and harassment occur.',
+      },
+      {
+        question: 'How do I check if a loan app is licensed?',
+        answer:
+          'Check the app against the Central Bank of Kenya published list of licensed Digital Credit Providers. The register is updated as licences are granted or withdrawn, so rely on the current CBK list rather than an app-store claim or an old screenshot.',
+      },
+      {
+        question: 'Can an unlicensed loan app legally call my contacts?',
+        answer:
+          'Using your contacts to shame or pressure you can breach the Data Protection Act, 2019. The Office of the Data Protection Commissioner has penalised lenders for this, and you can complain to it with evidence such as screenshots and call logs.',
+      },
+      {
+        question: 'What happens if I already borrowed from an unlicensed app?',
+        answer:
+          'You still have rights. Document any harassment or data misuse, revoke the app\'s access to your contacts and messages in your phone settings, and report the lender to the Office of the Data Protection Commissioner. Keep the loan small and clear it quickly to limit its leverage.',
+      },
+      {
+        question: 'Are unlicensed apps cheaper than licensed ones?',
+        answer:
+          'A low advertised rate is not a real saving when an unlicensed app adds undisclosed fees, penalties and rollover charges after you accept. Compare licensed options on the total you will repay, not the headline rate, and treat licensing as the floor before cost.',
+      },
+    ],
+  },
+  {
+    id: 214,
+    slug: 'how-long-does-a-default-stay-on-your-crb-record-in-kenya',
+    title: 'How Long a Default Stays on Your CRB Record in Kenya',
+    metaTitle: 'How Long a CRB Default Stays on Record in Kenya',
+    metaDescription:
+      'How long a default stays on your CRB record in Kenya: the retention window after you settle, why unpaid debts stay indefinitely, and how to check and fix your record.',
+    excerpt:
+      'A negative CRB listing does not vanish the day you pay. Here is how long a default is kept after settlement, why an unpaid balance stays indefinitely, and what you can actually do about it.',
+    category: 'CRB and Credit',
+    featuredImage: null,
+    status: 'draft',
+    publishedAt: '2026-06-15',
+    lastReviewedAt: '2026-06-15',
+    hub: 'crb-credit-checks',
+    draft: true,
+    content: `<p>A negative listing on your Kenyan CRB record does not vanish the moment you clear the debt. Under the Central Bank of Kenya framework the record is retained and continues to be shared for a set period, commonly cited as five years from the date the loan is settled. An unpaid debt can stay listed indefinitely until you clear it.</p>
+
+<h2>How Long a Negative Listing Actually Lasts</h2>
+
+<p>The point most borrowers miss is that a Credit Reference Bureau does not delete history the day a loan is paid. It keeps a record of how the account was run, including any default, and continues to share that record with lenders for a defined retention window. As of June 2026, that window for a settled negative listing is commonly cited as five years from the date the debt was cleared, under the <a href="https://www.centralbank.go.ke" rel="noopener">Central Bank of Kenya Credit Reference Bureau Regulations</a>. Some references point to longer retention periods in line with global credit-reporting practice, and the Central Bank has at times changed the rules and applied temporary measures, so treat any single figure as a guide and confirm the current position with the bureau, because these rules change.</p>
+
+<p>It helps to understand what is actually being kept. Your file holds both positive and negative information, and the full credit history can be retained for longer than the negative-listing window, which is what lets you build a track record over time. If you want the wider picture of how the system works, our overview of <a href="/guides/crb-credit-checks/">CRB and credit checks in Kenya</a> sets out the three bureaus, your rights, and how lenders use the data.</p>
+
+<h2>Settling the Debt Versus Clearing the Record</h2>
+
+<p>Paying off the loan and removing the listing are two different things. When you settle a defaulted loan, the status on your record updates to show it is cleared, and that cleared status is what matters most to a new lender looking at you. The historical entry of the default may still sit on the file for the retention window, but it reads as settled rather than outstanding.</p>
+
+<p>Once a debt is cleared you can request a clearance certificate from the bureau as proof, which some lenders and employers ask to see. The practical takeaway is that clearing even a small balance is worth it, because a settled status reopens borrowing far sooner than waiting for the record itself to age off. Our step-by-step guide on <a href="/blog/how-to-clear-your-crb-name-in-kenya-and-get-a-clearance-certificate/">how to clear your CRB name and get a clearance certificate</a> walks through the process.</p>
+
+<h2>What Keeps a Listing on Your Record Longer</h2>
+
+<p>A few situations make a listing persist well beyond the usual window. The biggest is simply not paying. An unsettled default has no clock running on it in your favour, so it can stay listed indefinitely until you clear the balance. The retention countdown that borrowers think of as five years generally starts from settlement, not from the date you first fell behind.</p>
+
+<p>Size is not the escape route people assume it is either. Even very small mobile-loan defaults can be reported and kept on your record, and the rules around tiny balances have shifted over the years, so a forgotten KES few hundred can block much larger borrowing later. We cover this directly in our piece on whether <a href="/blog/do-small-mobile-loan-defaults-still-affect-your-crb-record-in-kenya/">small mobile-loan defaults still affect your CRB record</a>. The other thing that can keep a wrong entry on your file is an error that goes unchallenged, which is why checking your record matters as much as paying on time. If a listing is incorrect, you can raise it through the <a href="/blog/false-crb-listing-dispute-metropol-transunion-kenya/">CRB dispute process with Metropol or TransUnion</a> rather than waiting years for a mistake to clear itself.</p>
+
+<h2>How to Check Your Record and What You Can Do</h2>
+
+<p>You cannot manage a timeline you cannot see. Kenya has three licensed bureaus, Metropol, TransUnion and Creditinfo, and you are entitled to request your own report from any of them. Checking your own status does not damage your score, so there is no reason to avoid it. You can request your report directly from a bureau such as <a href="https://www.transunion.co.ke" rel="noopener">TransUnion Kenya</a>, and our <a href="/crb-check/">CRB check guide</a> explains how to read what comes back.</p>
+
+<p>From there the levers are straightforward. Settle any outstanding default to start the retention clock and unlock a clearance certificate, dispute anything that is plainly wrong with proof such as M-Pesa confirmations, and keep building positive history by borrowing modestly and repaying on time. No service can lawfully erase an accurate, unsettled default early, so be wary of anyone promising instant removal for a fee. The honest route is to clear what you owe, correct what is wrong, and let a clean recent record outweigh an old one. We may earn affiliate commission from some of the apps we list, which never changes this guidance.</p>`,
+    faqs: [
+      {
+        question: 'How long does a CRB default stay on your record in Kenya?',
+        answer:
+          'A settled negative listing is commonly cited as staying for five years from the date the debt was cleared, under the Central Bank of Kenya framework, though some references point to longer periods. Rules change, so confirm the current position with the bureau. An unpaid debt can stay listed indefinitely.',
+      },
+      {
+        question: 'Does clearing my loan remove the CRB listing immediately?',
+        answer:
+          'No. Settling the debt updates the status to cleared, which is what new lenders care about, but the historical entry can remain on your file for the retention window. Once cleared, you can request a clearance certificate as proof.',
+      },
+      {
+        question: 'Do small mobile-loan defaults stay on my record too?',
+        answer:
+          'Yes. Even very small amounts can be reported and retained, and the rules on tiny balances have shifted over the years. A forgotten few hundred shillings can block much larger borrowing, so clearing it is worth it regardless of size.',
+      },
+      {
+        question: 'Can I have an accurate default removed early?',
+        answer:
+          'Not for a fee. An accurate, unsettled default cannot lawfully be erased early, so treat promises of instant removal with caution. If a listing is wrong you can dispute it with the bureau and the lender, and a settled debt updates to cleared.',
+      },
+      {
+        question: 'How do I check what is on my CRB record?',
+        answer:
+          'Request your report from any of the three licensed bureaus, Metropol, TransUnion or Creditinfo. You are entitled to see your own record, and checking it does not harm your score.',
+      },
+    ],
+  },
+  {
+    id: 215,
+    slug: 'best-loan-apps-for-bad-credit-in-kenya',
+    title: 'Best Loan Apps for Bad Credit in Kenya',
+    metaTitle: 'Best Loan Apps for Bad Credit in Kenya',
+    metaDescription:
+      'Best loan apps for bad credit in Kenya: which lenders look past a negative CRB listing, why the Hustler Fund stands out, and how to widen your options first.',
+    excerpt:
+      'A negative CRB listing narrows your options but does not end them. Here are the loan apps most likely to lend to bad-credit borrowers in Kenya, and how to improve your odds before you apply.',
+    category: 'Loan Guides',
+    featuredImage: null,
+    status: 'draft',
+    publishedAt: '2026-06-15',
+    lastReviewedAt: '2026-06-15',
+    hub: 'best-cheapest-loan-apps',
+    draft: true,
+    content: `<p>If you have a negative CRB listing in Kenya your options narrow, but they do not disappear. The Hustler Fund is the main lender that does not report defaulters to a credit bureau, while M-Pesa-based products judge you partly on transaction history rather than your record alone. Clearing small debts first widens the field. We may earn affiliate commission from some apps we mention, which never changes this guidance.</p>
+
+<h2>What Bad Credit Actually Means for Loan Apps</h2>
+
+<p>Most licensed digital lenders in Kenya operate under the Central Bank of Kenya Digital Credit Providers framework, and the large majority both check the Credit Reference Bureaus and report repayment behaviour back to them. So when borrowers say they have bad credit, they usually mean a negative CRB listing from a past default, which a lender sees the moment it pulls your file. There is no app that simply ignores this for everyone, which is why honest selection matters more than chasing a guaranteed yes. For the wider picture of how the apps stack up on rate, limit and term, our guide to the <a href="/guides/best-cheapest-loan-apps/">best and cheapest loan apps in Kenya</a> is the place to start.</p>
+
+<p>One rule works in your favour. Under the Central Bank of Kenya Credit Reference Bureau Regulations, a bureau cannot receive negative credit information where the amount in question is below KES 1,000, a threshold that remains in force as of June 2026. That means a forgotten balance of a few hundred shillings should not be listed against you, though anything at or above the threshold can be. Rules and figures here change, so confirm the current position with the bureau or the <a href="https://www.centralbank.go.ke" rel="noopener">Central Bank of Kenya</a> before you rely on it.</p>
+
+<h2>Hustler Fund, the Main CRB-Blind Option</h2>
+
+<p>The Hustler Fund is the clearest route for someone with a damaged record. It is government-backed, accessed with your National ID through the *254# menu or the official app, and the government has consistently stated that defaulters are not negatively listed with the CRBs, a position still reported in 2026 as the Fund pursues recovery by other means. That makes it the one mainstream product where an existing CRB listing is not an automatic barrier to a first loan.</p>
+
+<p>The trade-offs are real. Interest is quoted at 8% per annum, the lowest on the market, but initial limits are small and the term is short, around 14 days, so it suits a genuine top-up rather than a large need. Eligibility still depends on the Fund's own scoring, so it is not a guaranteed approval. You can read the current terms on the official <a href="https://hustlerfund.go.ke" rel="noopener">Hustler Fund</a> portal, and treat any rate or limit you see as a figure to verify, since these change.</p>
+
+<h2>Apps That Weigh Your M-Pesa Behaviour</h2>
+
+<p>A second group leans heavily on how you run your M-Pesa line, which can help a thin or patchy file even though these lenders still check and report to CRB. M-Shwari, KCB M-Pesa and Fuliza build eligibility from your Safaricom transaction and savings history, so consistent activity counts in your favour. Fintech apps such as Tala and Branch read behavioural and phone data and often approve a modest first loan, which is why many borrowers rebuild through them. None of these will overlook a serious, unsettled default, but a clean recent pattern can outweigh an old, small one.</p>
+
+<p>On cost, expect roughly 7.5% per month on M-Shwari, about 8.64% per month on KCB M-Pesa, 6% to 15% per month on Tala and 4% to 24% per month on Branch, based on the published terms compared in June 2026. Rates move and depend on your profile, so verify before borrowing. If you are weighing two of the most common starting points, our breakdown of <a href="/blog/which-is-better-tala-or-branch-for-first-time-borrowers/">whether Tala or Branch is better for first-time borrowers</a> goes deeper, and the <a href="/loan-finder/">loan finder tool</a> lets you filter by amount and term for your situation.</p>
+
+<h2>How to Improve Your Odds Before You Apply</h2>
+
+<p>Before you make a single application, clear what you can. Settle any listed default, remembering that balances under KES 1,000 should not be reported in the first place, then request your report from any of the three bureaus, Metropol, TransUnion or Creditinfo, so you know exactly what a lender will see. Checking your own status does not harm your score.</p>
+
+<p>From there, borrow small and repay on time. Several apps report positive history as well as negative, so a short run of cleared loans rebuilds a thin record faster than waiting. Avoid taking a new loan to repay an old one, which lenders can see and which deepens the hole. If your main aim is simply the lowest total cost while you rebuild, our look at <a href="/blog/which-loan-app-in-kenya-is-actually-the-cheapest/">which loan app in Kenya is actually the cheapest</a> helps you keep repayments manageable. No legitimate app can promise approval, and no service can lawfully erase an accurate default for a fee, so be wary of either claim.</p>`,
+    faqs: [
+      {
+        question: 'Which loan app can I get with bad credit in Kenya?',
+        answer:
+          'The Hustler Fund is the main option, as the government has said it does not negatively list defaulters with the CRBs and it lends on your National ID. M-Pesa-based products like M-Shwari may also help if your transaction history is strong, but most apps still check CRB.',
+      },
+      {
+        question: 'Do loan apps in Kenya check your CRB record?',
+        answer:
+          'Most licensed digital lenders check the Credit Reference Bureaus and report repayment behaviour back to them under the Central Bank of Kenya framework. The Hustler Fund is the notable exception that does not negatively list defaulters. Confirm any lender current position before applying, as policies change.',
+      },
+      {
+        question: 'Can I get a loan while blacklisted on CRB?',
+        answer:
+          'It is possible but limited. The Hustler Fund does not block borrowers for a CRB listing, and clearing small debts helps elsewhere. A serious unsettled default will still stop most app loans, so settling it is usually the fastest way back to wider options.',
+      },
+      {
+        question: 'Do small defaults affect loan app approval?',
+        answer:
+          'A bureau cannot receive negative information for amounts below KES 1,000 under the CRB Regulations, so very small balances should not be listed. Anything at or above that can be reported and can block approval, so clear it regardless of size. Verify the current threshold, as rules change.',
+      },
+      {
+        question: 'Will borrowing from these apps fix my credit?',
+        answer:
+          'It can help. Several apps report positive repayment as well as defaults, so a short run of small loans repaid on time rebuilds a thin or damaged record over time. Avoid borrowing from one app to repay another, which lenders can see and which works against you.',
+      },
+    ],
+  },
 ]
 
- 
