@@ -10,7 +10,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
-              <img src="/logo-256.png" alt="LoanApp.co.ke logo" width={40} height={40} className="rounded-lg" />
+              <img src="/logo-white.svg" alt="LoanApp.co.ke logo" width={40} height={40} />
               <span className="font-bold text-2xl tracking-tighter">LOANAPP.CO.KE</span>
             </div>
             <p className="text-gray-400 max-w-sm font-mono text-sm leading-relaxed">
