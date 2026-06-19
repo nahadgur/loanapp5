@@ -958,6 +958,148 @@ Branch has a formal complaint escalation path. If in-app support does not resolv
       },
     ],
   },
+
+  // ── Post 10: What loan apps check before approving you (H9 loan-eligibility-limits) ─
+  {
+    id: 217,
+    slug: 'what-loan-apps-check-before-approving-you-in-kenya',
+    title: 'What Loan Apps Check Before Approving You in Kenya',
+    metaTitle: 'What Loan Apps Check Before Approving You in Kenya',
+    metaDescription:
+      'What Kenyan loan apps check before approving you: your M-Pesa history, CRB record, app behaviour and KYC, and how to strengthen each before you apply.',
+    excerpt:
+      'Loan apps approve on data, not paperwork. Here is what Kenyan lenders actually check before lending, from your M-Pesa history to your CRB record, and how to improve each before you apply.',
+    category: 'Loan Guides',
+    featuredImage: null,
+    status: 'draft',
+    publishedAt: '2026-06-16',
+    lastReviewedAt: '2026-06-16',
+    hub: 'loan-eligibility-limits',
+    draft: true,
+    content: `<p>Kenyan loan apps approve you on data, not paperwork. Before lending they read your M-Pesa transaction history, your record at the credit bureaus, the way you use the app itself, and basic ID and KYC details, then score the risk in seconds. Knowing what they check is the most reliable way to improve your odds before you apply.</p>
+
+<h2>Why Apps Score Behaviour, Not a Payslip</h2>
+
+<p>Traditional lenders ask for a payslip and bank statements. Most digital lenders in Kenya do neither, because their model is built on alternative data they can read instantly. They look at how money flows through your phone, your history with the credit bureaus, and how you behave inside the app, and they turn that into a decision almost immediately. This is why two people on similar incomes can see very different outcomes, and why a strong M-Pesa pattern can matter more than a formal salary. For the wider view of <a href="/guides/loan-eligibility-limits/">what decides your loan eligibility and limits</a>, the hub guide pulls the pieces together.</p>
+
+<p>It also means the levers are mostly in your control. The app is reading signals you produce every day, so they can be improved deliberately rather than simply waited out. We may earn affiliate commission from some apps we mention, which never changes this guidance.</p>
+
+<h2>Your M-Pesa and Transaction History</h2>
+
+<p>For most apps this is the single biggest input. Lenders that integrate with Safaricom, and fintech apps that ask permission to read your statements, look at how regularly money comes in, how much passes through, whether your balance sits near zero, and how long you have held the line. Steady inflows and active, varied use read as stability. Sporadic activity, or a line that is only days old, gives the app little to score, which is a common reason a first application is declined. If you have been turned down, our explanation of <a href="/blog/why-your-zenka-loan-application-was-rejected-and-what-your-m-pesa-history-may-be-saying/">what your M-Pesa history may be telling a lender</a> goes into the specific patterns that hurt.</p>
+
+<h2>Your CRB Record and Repayment History</h2>
+
+<p>Most licensed digital lenders check the Credit Reference Bureaus and report your repayment behaviour back to them. Kenya has three licensed bureaus, Metropol, TransUnion and Creditinfo, and an unsettled default on any of them is visible to a lender the moment it pulls your file. A clean or improving record helps; a negative listing is one of the most common silent blockers of approval. Checking your own status does not harm your score, so it is the first thing to do if approvals keep failing. The framework that requires this reporting sits with the <a href="https://www.centralbank.go.ke" rel="noopener">Central Bank of Kenya</a>, which licenses digital credit providers and sets the rules they follow. These rules and reporting practices change, so confirm the current position before you rely on it.</p>
+
+<h2>App Behaviour, Device and KYC Data</h2>
+
+<p>Beyond money and credit history, apps confirm who you are and read how you interact with them. KYC is the baseline: a valid National ID and a phone number registered in your name, which must match. Many fintech apps also request permission to read device and behavioural data, such as how you complete the application and, with your consent, details from the handset. How that data may be used is governed by the Data Protection Act, and the <a href="https://www.odpc.go.ke" rel="noopener">Office of the Data Protection Commissioner</a> has acted against lenders that misuse it, which is one more reason to borrow from licensed apps rather than unlicensed ones. Completing your profile honestly and consistently removes easy reasons for an app to decline you.</p>
+
+<h2>How to Strengthen What They See Before You Apply</h2>
+
+<p>Because the inputs are knowable, you can prepare for them. Keep your M-Pesa line active and let regular inflows build, settle any outstanding CRB default no matter how small, and complete your app profile and KYC accurately. Then borrow modestly and repay on or before the due date, since a short run of cleared loans builds the positive history that widens your options over time. Avoid firing applications at many apps at once, which can read as distress and rarely helps. If you want to start with the apps most likely to say yes, the <a href="/loan-finder/">loan finder</a> lets you filter by amount and term, and our look at <a href="/blog/which-loan-app-is-easiest-to-get-approved-in-kenya/">which loan app is easiest to get approved for</a> narrows the field further. No legitimate app can promise approval, so treat any guarantee as a warning sign rather than a selling point.</p>`,
+    faqs: [
+      {
+        question: 'What do loan apps check before approving you in Kenya?',
+        answer:
+          'Most apps score alternative data rather than documents: your M-Pesa transaction history, your record at the credit bureaus, how you use the app, and your ID and KYC details. They combine these into a risk decision in seconds, which is why outcomes differ even between people on similar incomes.',
+      },
+      {
+        question: 'Do loan apps in Kenya require a payslip?',
+        answer:
+          'Usually not. Most digital lenders rely on M-Pesa activity, repayment history and app behaviour instead of formal income documents, so consistent transaction flows and clean repayments often count for more than a payslip. Requirements vary by app, so check the lender terms before applying.',
+      },
+      {
+        question: 'Why do loan apps reject me even when I have money in M-Pesa?',
+        answer:
+          'A healthy balance is only one signal. A thin or short M-Pesa history, an unsettled CRB default, requesting more than your record supports, or a new SIM with little activity can each cause a decline. Checking your CRB status and starting with a smaller request usually helps diagnose it.',
+      },
+      {
+        question: 'Does my CRB record affect loan app approval?',
+        answer:
+          'Yes. Most licensed digital lenders check the three bureaus, Metropol, TransUnion and Creditinfo, and an unsettled default is a common silent blocker. Checking your own status does not harm your score, and clearing even a small balance can widen your options. Verify the current rules, as they change.',
+      },
+      {
+        question: 'How can I improve my chances of loan app approval?',
+        answer:
+          'Keep your M-Pesa line active, settle any CRB default however small, complete your KYC and profile accurately, then borrow modestly and repay on time to build positive history. Avoid applying to many apps at once. No legitimate app can guarantee approval, so be wary of any that claims to.',
+      },
+    ],
+  },
+
+  // ── Post 10: Loan without a payslip (H9 loan-eligibility-limits) ────────
+  {
+    id: 218,
+    slug: 'how-to-get-a-loan-without-a-payslip-in-kenya',
+    title: 'How to Get a Loan in Kenya Without a Payslip',
+    metaTitle: 'How to Get a Loan Without a Payslip in Kenya',
+    metaDescription:
+      'How to get a loan in Kenya without a payslip: which apps score your M-Pesa history instead of a salary, what they check, and how to qualify as an informal earner.',
+    excerpt:
+      'No salary slip, no problem. Here is how Kenyan loan apps lend on your M-Pesa history rather than formal employment, which products never ask for a payslip, and how to qualify as a self-employed or informal earner.',
+    category: 'Loan Guides',
+    featuredImage: null,
+    status: 'draft',
+    publishedAt: '2026-06-16',
+    lastReviewedAt: '2026-06-16',
+    hub: 'loan-eligibility-limits',
+    draft: true,
+    content: `<p>Yes, you can get a loan in Kenya without a payslip. Most digital lenders score your M-Pesa transaction history, repayment record and phone data rather than a salary slip, so informal traders and self-employed earners qualify regularly. Mobile-money products and the Hustler Fund are the most accessible starting points.</p>
+
+<h2>What Lenders Look At Instead of a Payslip</h2>
+
+<p>Formal employment is the exception, not the rule, for most Kenyan borrowers, and digital lenders have built their models around that. Instead of a salary slip they read alternative data: your M-Pesa transaction patterns, how regularly money moves through your line, your repayment history with them and on your Credit Reference Bureau file, and how you use the app itself. A consistent flow of mobile-money activity can carry more weight than a formal salary, which is why a busy trader often qualifies where a salaried worker with a thin record does not. For the fuller picture of <a href="/guides/loan-eligibility-limits/">how loan eligibility and limits work in Kenya</a>, the hub guide sets out everything lenders weigh before they lend.</p>
+
+<p>The practical takeaway is that the lever you control is your data, not your job title. Keeping your M-Pesa active, transacting regularly, and repaying every small loan on time builds exactly the signal these apps are looking for, and none of it requires a letter from an employer.</p>
+
+<h2>Mobile-Money Products That Do Not Ask for a Payslip</h2>
+
+<p>The most accessible no-payslip credit sits inside M-Pesa itself. M-Shwari, run with NCBA, and KCB M-Pesa are fixed-term loans accessed through the M-Pesa menu, and both build your limit from your Safaricom usage and savings rather than any income document. Fuliza, the overdraft that completes a transaction when your balance is short, works the same way. None of them ask for a payslip, because your transaction history is the application.</p>
+
+<p>The Hustler Fund is the other obvious route. It is government-backed and accessed with your National ID through the *254# menu or the official app, with interest quoted at 8% per annum as of June 2026, the lowest on the market, though initial limits are small and the term is short. You can confirm the current terms on the official <a href="https://hustlerfund.go.ke" rel="noopener">Hustler Fund</a> portal, and treat any rate or limit as a figure to verify, since these change. To line up the mobile-money options against each other for your amount, the <a href="/loan-finder/">loan finder tool</a> filters by what you actually qualify for.</p>
+
+<h2>App Lenders That Score Your Behaviour</h2>
+
+<p>Beyond M-Pesa, fintech apps such as Tala and Branch lend without a payslip by reading behavioural and phone data alongside your repayment record. They typically approve a modest first loan and then grow the limit as you repay, which makes them a common starting point for informal earners and first-time borrowers. Published monthly rates sat at roughly 6% to 15% for Tala and a wider band for Branch when compared in June 2026, and both depend on your profile, so verify before borrowing because rates move. If your aim is the quickest approval while you build a record, our look at <a href="/blog/which-loan-app-is-easiest-to-get-approved-in-kenya/">which loan app is easiest to get approved in Kenya</a> compares the softest entry points.</p>
+
+<h2>How to Strengthen a No-Payslip Application</h2>
+
+<p>A few habits move the odds in your favour. Transact through M-Pesa consistently rather than in bursts, so the apps see a steady pattern; start with a small loan you can clearly repay, and clear it on or before the due date; then repeat, letting each lender record a clean cycle. Limits are earned in steps, not jumps, and trying to leap to a large amount early usually triggers a rejection. Our guide to <a href="/blog/how-to-increase-tala-branch-loan-limit-kenya/">increasing your Tala and Branch limit</a> goes deeper on that build.</p>
+
+<p>Licensing is the floor to insist on. Borrow only from lenders on the Digital Credit Providers register, since unlicensed apps are where most predatory pricing and contact harassment occur, and the register is published and updated by the <a href="https://www.centralbank.go.ke" rel="noopener">Central Bank of Kenya</a>. A no-payslip loan from an unlicensed app is not a saving once collection practices are counted.</p>
+
+<h2>What a No-Payslip Loan Cannot Do</h2>
+
+<p>Borrowing without a payslip is normal in Kenya, but it does not bypass your credit record. Most licensed lenders still check the Credit Reference Bureaus, so a serious unsettled default will block approval regardless of how active your M-Pesa is, and away from the Hustler Fund most will also report your repayment back to the bureaus. No legitimate app can promise approval, and any service claiming to guarantee a loan or erase an accurate default for a fee should be treated as a warning sign. Size each loan to what you can repay on time, compare the licensed options on total cost rather than the headline rate, and treat every figure here as current to June 2026 and worth verifying with the lender. We may earn affiliate commission from some apps we mention, which never changes this guidance.</p>`,
+    faqs: [
+      {
+        question: 'Can I get a loan in Kenya without a payslip?',
+        answer:
+          'Yes. Most digital lenders score your M-Pesa transaction history, repayment record and phone data rather than a salary, so self-employed and informal earners qualify regularly. Mobile-money products and the Hustler Fund are the most accessible places to start.',
+      },
+      {
+        question: 'Which loan apps do not require a payslip?',
+        answer:
+          'M-Shwari, KCB M-Pesa, Fuliza and the Hustler Fund all lend on your mobile-money and ID rather than an income document, and fintech apps such as Tala and Branch score behavioural data. None asks for a payslip, though most still check your CRB record.',
+      },
+      {
+        question: 'Do I need to be employed to use the Hustler Fund?',
+        answer:
+          'No. The Hustler Fund is accessed with your National ID through the *254# menu or the official app, with no employment or payslip requirement. Initial limits are small and grow as you borrow and repay. Confirm the current rate and limits, as the government updates them.',
+      },
+      {
+        question: 'How can a self-employed person increase their loan limit?',
+        answer:
+          'Keep your M-Pesa line active with steady transactions, borrow modest amounts and repay on or before the due date, and stay with one or two apps long enough to build depth. Limits are earned from a track record, not from a salary, so consistency is what raises them.',
+      },
+      {
+        question: 'Will lenders check my CRB even if I have no payslip?',
+        answer:
+          'Most licensed digital lenders check the three bureaus, Metropol, TransUnion and Creditinfo, whether or not you have a payslip, and an unsettled default is a common silent blocker. Checking your own status does not harm your score, and clearing even a small balance widens your options.',
+      },
+    ],
+  },
 ]
 
  

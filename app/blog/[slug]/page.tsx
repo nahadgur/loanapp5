@@ -2,6 +2,8 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getBlogPostBySlug, getLiveBlogSlugs, getRelatedBlogPosts } from '@/data/all-blog-posts';
 import { GUIDES_BY_SLUG } from '@/data/guides';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 import { SpokeHero } from '@/components/SpokeHero';
 import {
   SITE_URL,
@@ -83,27 +85,7 @@ export default async function BlogPostPage({ params }: Props) {
         }),
         ...(post.faqs && post.faqs.length ? [faqPageSchema(post.faqs)] : []),
       )} />
-      {/* Header */}
-      <header className="border-b-2 border-black bg-white sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
-            <Link href="/" className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-gradient-to-br from-emerald-400 to-emerald-600 flex items-center justify-center text-xl">
-                
-              </div>
-              <div>
-                <h1 className="text-xl font-serif font-bold text-gray-900">LoanApp.co.ke</h1>
-                <p className="text-xs text-gray-500">Compare loan apps in Kenya</p>
-              </div>
-            </Link>
-            <nav className="hidden md:flex items-center gap-6 text-sm">
-              <Link href="/#calculator" className="text-gray-600 hover:text-emerald-600 transition-colors">Calculator</Link>
-              <Link href="/#compare" className="text-gray-600 hover:text-emerald-600 transition-colors">Compare</Link>
-              <Link href="/blog" className="text-gray-600 hover:text-emerald-600 transition-colors">Blog</Link>
-            </nav>
-          </div>
-        </div>
-      </header>
+      <Header />
 
       {/* Breadcrumb */}
       <div className="bg-gray-100 border-b-2 border-black">
@@ -241,12 +223,7 @@ export default async function BlogPostPage({ params }: Props) {
         </Link>
       </div>
 
-      {/* Footer */}
-      <footer className="border-t border-black bg-white py-8">
-        <div className="max-w-7xl mx-auto px-4 text-center text-sm text-gray-400">
-          <p>© {new Date().getFullYear()} LoanApp.co.ke. For informational purposes only. Always verify rates with official sources.</p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
