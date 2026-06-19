@@ -28,8 +28,9 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
 
           {/* Logo / wordmark */}
-          <Link href="/" className="font-bold text-xl tracking-tighter flex items-center gap-2 hover:opacity-80 transition-opacity">
-            LOANAPP<span className="text-gray-400">.CO.KE</span>
+          <Link href="/" className="flex items-center gap-2.5 hover:opacity-80 transition-opacity">
+            <img src="/logo-256.png" alt="LoanApp.co.ke logo" width={36} height={36} className="rounded-lg" />
+            <span className="font-bold text-xl tracking-tighter">LOANAPP<span className="text-gray-400">.CO.KE</span></span>
           </Link>
 
           {/* Desktop nav */}

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { FileText, AlertTriangle } from '@/components/Icons';
+import { AlertTriangle } from '@/components/Icons';
 
 export default function Footer() {
   return (
@@ -9,9 +9,9 @@ export default function Footer() {
 
           {/* Brand */}
           <div className="md:col-span-2">
-            <div className="font-bold text-2xl tracking-tighter flex items-center gap-2 mb-4">
-              <FileText className="w-6 h-6" />
-              LOANAPP.CO.KE
+            <div className="flex items-center gap-3 mb-4">
+              <img src="/logo-256.png" alt="LoanApp.co.ke logo" width={40} height={40} className="rounded-lg" />
+              <span className="font-bold text-2xl tracking-tighter">LOANAPP.CO.KE</span>
             </div>
             <p className="text-gray-400 max-w-sm font-mono text-sm leading-relaxed">
               Kenya&apos;s consumer guard for digital lending. Compare rates, avoid predatory apps, and borrow smarter.
