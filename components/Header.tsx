@@ -29,7 +29,7 @@ export default function Header() {
 
           {/* Logo / wordmark */}
           <Link href="/" className="flex items-center gap-2.5 hover:opacity-80 transition-opacity">
-            <img src="/logo-white.svg" alt="LoanApp.co.ke logo" width={36} height={36} />
+            <img src="/logo-transparent.png" alt="LoanApp.co.ke logo" width={36} height={36} className="bg-white border border-gray-200 p-1" />
             <span className="font-bold text-xl tracking-tighter">LOANAPP<span className="text-gray-400">.CO.KE</span></span>
           </Link>
 
