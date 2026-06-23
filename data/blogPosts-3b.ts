@@ -9,12 +9,12 @@ export const blogPosts3B: BlogPost[] = [
     title: 'M-Shwari vs KCB M-Pesa vs Zenka: Which Has the Lowest Interest in Kenya?',
     metaTitle: 'M-Shwari vs KCB M-Pesa vs Zenka Kenya 2026 | Interest Rate Comparison',
     metaDescription: 'Head-to-head comparison of M-Shwari, KCB M-Pesa, and Zenka in Kenya 2026. Interest rates, true total cost, loan limits, repayment terms, and who should use which app.',
-    excerpt: 'Three popular loan options — one M-Pesa menu, one bank-backed mobile product, one fintech app. We break down the true cost of each with real KES examples.',
+    excerpt: 'Three popular loan options, one M-Pesa menu, one bank-backed mobile product, one fintech app. We break down the true cost of each with real KES examples.',
     category: 'Comparisons',
     featuredImage: null,
     status: 'published',
     publishedAt: '2026-04-06',
-    content: `<p>M-Shwari, KCB M-Pesa, and Zenka are three of the most-used loan products in Kenya — and they are often compared because all three are accessible without visiting a bank branch. But their pricing structures, limits, and ideal use cases are very different. This guide breaks down the real cost of borrowing from each, with actual KES numbers, so you can make an informed choice.</p>
+    content: `<p>M-Shwari, KCB M-Pesa, and Zenka are three of the most-used loan products in Kenya, and they are often compared because all three are accessible without visiting a bank branch. But their pricing structures, limits, and ideal use cases are very different. This guide breaks down the real cost of borrowing from each, with actual KES numbers, so you can make an informed choice.</p>
 
 <h2>Quick Overview: The Three Products</h2>
 
@@ -35,7 +35,7 @@ export const blogPosts3B: BlogPost[] = [
 
 <h2>True Cost Comparison: KES 10,000 Loan</h2>
 
-<p>Headline interest rates are not the full story. The <strong>facility fee</strong> — deducted from your principal before disbursement — is money you pay but never receive. Here is what KES 10,000 actually costs you from each provider over 30 days:</p>
+<p>Headline interest rates are not the full story. The <strong>facility fee</strong>, deducted from your principal before disbursement, is money you pay but never receive. Here is what KES 10,000 actually costs you from each provider over 30 days:</p>
 
 <table>
 <thead><tr><th>Cost Component</th><th>M-Shwari</th><th>KCB M-Pesa</th><th>Zenka</th></tr></thead>
@@ -51,11 +51,11 @@ export const blogPosts3B: BlogPost[] = [
 </tbody>
 </table>
 
-<p><strong>M-Shwari wins on a 30-day KES 10,000 loan</strong> — saving KES 232 over KCB M-Pesa and KES 433 over Zenka. That gap widens significantly on larger amounts.</p>
+<p><strong>M-Shwari wins on a 30-day KES 10,000 loan</strong>, saving KES 232 over KCB M-Pesa and KES 433 over Zenka. That gap widens significantly on larger amounts.</p>
 
 <h2>True Cost Comparison: KES 50,000 Loan</h2>
 
-<p>For a KES 50,000 loan — the maximum for M-Shwari and near the Zenka ceiling — the cost differences become more dramatic:</p>
+<p>For a KES 50,000 loan, the maximum for M-Shwari and near the Zenka ceiling, the cost differences become more dramatic:</p>
 
 <table>
 <thead><tr><th>Component</th><th>M-Shwari (30d)</th><th>KCB M-Pesa (30d)</th><th>KCB M-Pesa (90d)</th></tr></thead>
@@ -68,7 +68,7 @@ export const blogPosts3B: BlogPost[] = [
 </tbody>
 </table>
 
-<p>The KCB M-Pesa 90-day option looks expensive in total cost — but the monthly instalment drops to approximately KES 21,800, which is far more manageable than the KES 55,313 lump sum on M-Shwari's 30-day term. For larger amounts, term length matters as much as rate.</p>
+<p>The KCB M-Pesa 90-day option looks expensive in total cost, but the monthly instalment drops to approximately KES 21,800, which is far more manageable than the KES 55,313 lump sum on M-Shwari's 30-day term. For larger amounts, term length matters as much as rate.</p>
 
 <h2>When to Choose M-Shwari</h2>
 
@@ -77,7 +77,7 @@ export const blogPosts3B: BlogPost[] = [
 <li>You already use M-Pesa regularly and have a good M-Shwari history</li>
 <li>You want the lowest total cost on a 30-day loan</li>
 <li>You do not have a KCB bank account (M-Shwari does not require one)</li>
-<li>You need money in the next 5 minutes — M-Shwari is instant</li>
+<li>You need money in the next 5 minutes, M-Shwari is instant</li>
 </ul>
 
 <p><strong>Best for:</strong> Emergencies, salary bridging, school fees due this week.</p>
@@ -122,11 +122,11 @@ export const blogPosts3B: BlogPost[] = [
 
 <h2>Related Guides on loanapp.co.ke</h2><ul><li><a href="/total-cost-calculator" style="color:#f59e0b">True Cost Calculator</a></li><li><a href="/cbk-licensed" style="color:#f59e0b">CBK Licensed Apps</a></li><li><a href="/loan-finder" style="color:#f59e0b">Loan Finder</a></li></ul><h2>Frequently Asked Questions</h2>
 
-<h3>Which is cheaper — M-Shwari or KCB M-Pesa?</h3>
+<h3>Which is cheaper, M-Shwari or KCB M-Pesa?</h3>
 <p>M-Shwari is cheaper for 30-day loans of the same amount. KCB M-Pesa becomes the better choice when you need more than KES 50,000 or want repayment terms longer than 30 days.</p>
 
 <h3>Does Zenka charge a facility fee?</h3>
-<p>Zenka does not publicly state a separate facility fee — the rate includes all charges. However, the effective cost per KES is higher than M-Shwari due to the higher stated interest rate.</p>
+<p>Zenka does not publicly state a separate facility fee, the rate includes all charges. However, the effective cost per KES is higher than M-Shwari due to the higher stated interest rate.</p>
 
 <h3>Can I use M-Shwari and KCB M-Pesa at the same time?</h3>
 <p>You can have accounts on both, but having active outstanding balances on both simultaneously may flag as over-indebtedness and limit future borrowing. Pay off one before taking a new loan on the other.</p>`,
@@ -144,7 +144,7 @@ export const blogPosts3B: BlogPost[] = [
     featuredImage: null,
     status: 'published',
     publishedAt: '2026-04-06',
-    content: `<p>Tala and Branch have been competing for Kenyan borrowers since 2014. A decade later, they remain the two dominant independent fintech loan apps — each with millions of users and slightly different approaches to credit scoring, pricing, and product design. This is the most detailed comparison available for 2026 Kenyan borrowers.</p>
+    content: `<p>Tala and Branch have been competing for Kenyan borrowers since 2014. A decade later, they remain the two dominant independent fintech loan apps, each with millions of users and slightly different approaches to credit scoring, pricing, and product design. This is the most detailed comparison available for 2026 Kenyan borrowers.</p>
 
 <h2>Side-by-Side: The Key Numbers</h2>
 
@@ -170,7 +170,7 @@ export const blogPosts3B: BlogPost[] = [
 
 <h2>Interest Rates: The Real Picture</h2>
 
-<p>Both apps advertise rate ranges rather than fixed rates — your actual rate depends on your credit score within their algorithm. For new users, Tala tends to give a slightly better starting rate. For established users with strong repayment histories, Branch can drop as low as 4% per month — significantly undercutting Tala's floor.</p>
+<p>Both apps advertise rate ranges rather than fixed rates, your actual rate depends on your credit score within their algorithm. For new users, Tala tends to give a slightly better starting rate. For established users with strong repayment histories, Branch can drop as low as 4% per month, significantly undercutting Tala's floor.</p>
 
 <p><strong>Real cost on KES 10,000 for 30 days:</strong></p>
 
@@ -189,7 +189,7 @@ export const blogPosts3B: BlogPost[] = [
 
 <h2>Loan Limits: Branch Wins Decisively</h2>
 
-<p>Tala caps at KES 50,000. Branch goes to KES 70,000 — a 40% higher maximum that matters significantly for business borrowers. Branch also offers 12-month repayment terms vs Tala's 30-day maximum, making Branch the clear winner for anyone needing more than KES 30,000.</p>
+<p>Tala caps at KES 50,000. Branch goes to KES 70,000, a 40% higher maximum that matters significantly for business borrowers. Branch also offers 12-month repayment terms vs Tala's 30-day maximum, making Branch the clear winner for anyone needing more than KES 30,000.</p>
 
 <h2>Repayment Terms: Not Even Close</h2>
 
@@ -204,21 +204,21 @@ export const blogPosts3B: BlogPost[] = [
 
 <h2>App Permissions: What Each App Accesses</h2>
 
-<p>Both apps request extensive permissions — this is how they build their credit scoring models. But there are differences in what each does with the data:</p>
+<p>Both apps request extensive permissions, this is how they build their credit scoring models. But there are differences in what each does with the data:</p>
 
 <table>
 <thead><tr><th>Permission</th><th>Tala</th><th>Branch</th></tr></thead>
 <tbody>
-<tr><td>Read SMS</td><td>Yes — reads M-Pesa, bank, and other SMS</td><td>Yes — same</td></tr>
-<tr><td>Access contacts</td><td>Yes — reads your phonebook</td><td>Yes — reads your phonebook</td></tr>
+<tr><td>Read SMS</td><td>Yes, reads M-Pesa, bank, and other SMS</td><td>Yes, same</td></tr>
+<tr><td>Access contacts</td><td>Yes, reads your phonebook</td><td>Yes, reads your phonebook</td></tr>
 <tr><td>Location</td><td>Yes</td><td>Yes</td></tr>
 <tr><td>Call history</td><td>Yes</td><td>Yes</td></tr>
 <tr><td>Camera</td><td>Yes (for ID verification)</td><td>Yes (for ID verification)</td></tr>
-<tr><td>Calls contacts on default?</td><td>Reported cases — policy states they should not</td><td>Reported cases — policy states they should not</td></tr>
+<tr><td>Calls contacts on default?</td><td>Reported cases, policy states they should not</td><td>Reported cases, policy states they should not</td></tr>
 </tbody>
 </table>
 
-<p><strong>Important:</strong> Both Tala and Branch maintain official policies that prohibit contacting your contacts for debt collection. However, there have been verified reports of this happening during default — particularly through third-party debt collectors. This is a risk with both apps, not unique to either.</p>
+<p><strong>Important:</strong> Both Tala and Branch maintain official policies that prohibit contacting your contacts for debt collection. However, there have been verified reports of this happening during default, particularly through third-party debt collectors. This is a risk with both apps, not unique to either.</p>
 
 <h2>Approval Odds: Who Gets Approved Easier?</h2>
 
@@ -229,7 +229,7 @@ export const blogPosts3B: BlogPost[] = [
 <li><strong>Branch</strong> tends to be slightly stricter for first-time users but offers more competitive rates as your history builds.</li>
 </ul>
 
-<p>Both apps approve or reject within minutes. If Tala rejects you, try Branch — and vice versa. Their algorithms are different enough that rejection by one does not mean rejection by both.</p>
+<p>Both apps approve or reject within minutes. If Tala rejects you, try Branch, and vice versa. Their algorithms are different enough that rejection by one does not mean rejection by both.</p>
 
 <h2>Customer Experience: User Reviews Analysis</h2>
 
@@ -278,7 +278,7 @@ export const blogPosts3B: BlogPost[] = [
 </tbody>
 </table>
 
-<p>The smart strategy: use Tala for your first 2–3 loans to establish a digital credit history, then switch to Branch for its better long-term rate trajectory and higher limits. Maintaining both accounts does not hurt — just do not have outstanding balances on both simultaneously.</p>
+<p>The smart strategy: use Tala for your first 2–3 loans to establish a digital credit history, then switch to Branch for its better long-term rate trajectory and higher limits. Maintaining both accounts does not hurt, just do not have outstanding balances on both simultaneously.</p>
 
 <h2>Related Guides on loanapp.co.ke</h2><ul><li><a href="/total-cost-calculator" style="color:#f59e0b">Compare Their True Costs</a></li><li><a href="/cbk-licensed" style="color:#f59e0b">CBK Licensed Lenders</a></li><li><a href="/crb-check" style="color:#f59e0b">Protect Your CRB Score</a></li></ul><h2>Frequently Asked Questions</h2>
 
@@ -298,23 +298,23 @@ export const blogPosts3B: BlogPost[] = [
     slug: 'top-loan-apps-ussd-no-smartphone-kenya',
     title: 'Top 10 Loan Apps That Work Without a Smartphone in Kenya (USSD-Based)',
     metaTitle: 'Loan Apps Without Smartphone Kenya 2026 | USSD Loan Codes',
-    metaDescription: 'No smartphone? No problem. These 10 Kenyan loan products work entirely via USSD codes on any basic phone — no app download, no internet, no data needed.',
-    excerpt: 'You do not need a smartphone to access loans in Kenya. These 10 products work on any basic phone via USSD — no app, no internet, no data required.',
+    metaDescription: 'No smartphone? No problem. These 10 Kenyan loan products work entirely via USSD codes on any basic phone, no app download, no internet, no data needed.',
+    excerpt: 'You do not need a smartphone to access loans in Kenya. These 10 products work on any basic phone via USSD, no app, no internet, no data required.',
     category: 'Comparisons',
     featuredImage: null,
     status: 'published',
     publishedAt: '2026-04-06',
-    content: `<p>Over 20 million Kenyans still use basic (non-smartphone) phones. Most loan app comparisons assume you have an Android phone — but the reality is that some of the best loan products in Kenya are accessible via USSD codes that work on any phone, from a KES 1,000 basic handset to the latest smartphone. This guide covers every major USSD-based loan option in Kenya for 2026.</p>
+    content: `<p>Over 20 million Kenyans still use basic (non-smartphone) phones. Most loan app comparisons assume you have an Android phone, but the reality is that some of the best loan products in Kenya are accessible via USSD codes that work on any phone, from a KES 1,000 basic handset to the latest smartphone. This guide covers every major USSD-based loan option in Kenya for 2026.</p>
 
 <h2>What Is USSD Lending?</h2>
 
-<p>USSD (Unstructured Supplementary Service Data) loans work by dialling a short code like *334# or *254# from any phone — no internet connection, no app download, and no data required. The loan application, approval, and disbursement happen entirely through the phone's call interface, with money going directly to your M-Pesa wallet.</p>
+<p>USSD (Unstructured Supplementary Service Data) loans work by dialling a short code like *334# or *254# from any phone, no internet connection, no app download, and no data required. The loan application, approval, and disbursement happen entirely through the phone's call interface, with money going directly to your M-Pesa wallet.</p>
 
-<p>USSD lending is actually faster than app-based lending in many cases — there is no app to open, no account to log into, and no loading screen to wait for. You dial, you answer a few prompts, and money appears in your M-Pesa.</p>
+<p>USSD lending is actually faster than app-based lending in many cases, there is no app to open, no account to log into, and no loading screen to wait for. You dial, you answer a few prompts, and money appears in your M-Pesa.</p>
 
 <h2>The Top 10 USSD Loan Products in Kenya</h2>
 
-<h3>1. Hustler Fund — *254# (Cheapest)</h3>
+<h3>1. Hustler Fund, *254# (Cheapest)</h3>
 
 <table>
 <thead><tr><th>Detail</th><th>Value</th></tr></thead>
@@ -330,7 +330,7 @@ export const blogPosts3B: BlogPost[] = [
 
 <p>The Hustler Fund is by far the cheapest USSD loan in Kenya at 8% per annum. First-time users start at KES 500–1,000 and build to KES 50,000 over successive cycles. No app, no internet, works on any Safaricom line. Dial *254# to register and apply.</p>
 
-<h3>2. M-Shwari — *334# (Most Popular)</h3>
+<h3>2. M-Shwari, *334# (Most Popular)</h3>
 
 <table>
 <thead><tr><th>Detail</th><th>Value</th></tr></thead>
@@ -346,7 +346,7 @@ export const blogPosts3B: BlogPost[] = [
 
 <p>M-Shwari via the M-Pesa USSD menu (*334#) is Kenya's most-used USSD loan product, with over 30 million eligible users. No separate registration needed if you already use M-Pesa regularly. Requires 6 months of M-Pesa activity for initial approval.</p>
 
-<h3>3. KCB M-Pesa — *334# (Highest Limits)</h3>
+<h3>3. KCB M-Pesa, *334# (Highest Limits)</h3>
 
 <table>
 <thead><tr><th>Detail</th><th>Value</th></tr></thead>
@@ -360,9 +360,9 @@ export const blogPosts3B: BlogPost[] = [
 </tbody>
 </table>
 
-<p>KCB M-Pesa offers the highest USSD loan limit in Kenya — up to KES 1,000,000 for qualified users — accessible entirely through the M-Pesa menu. A national ID is required for higher amounts. The 6-month repayment option makes large amounts manageable.</p>
+<p>KCB M-Pesa offers the highest USSD loan limit in Kenya, up to KES 1,000,000 for qualified users, accessible entirely through the M-Pesa menu. A national ID is required for higher amounts. The 6-month repayment option makes large amounts manageable.</p>
 
-<h3>4. Equity Eazzy Loan — *247# (Best Rate for Bank Customers)</h3>
+<h3>4. Equity Eazzy Loan, *247# (Best Rate for Bank Customers)</h3>
 
 <table>
 <thead><tr><th>Detail</th><th>Value</th></tr></thead>
@@ -376,9 +376,9 @@ export const blogPosts3B: BlogPost[] = [
 </tbody>
 </table>
 
-<p>Equity Bank's USSD banking code gives access to Eazzy Loans at 14% per annum — one of the cheapest rates available on any platform in Kenya. Requires an active Equity Bank account. Dial *247# on any phone linked to your Equity account.</p>
+<p>Equity Bank's USSD banking code gives access to Eazzy Loans at 14% per annum, one of the cheapest rates available on any platform in Kenya. Requires an active Equity Bank account. Dial *247# on any phone linked to your Equity account.</p>
 
-<h3>5. Timiza (Absa) — *848# (Competitive Bank Rate)</h3>
+<h3>5. Timiza (Absa), *848# (Competitive Bank Rate)</h3>
 
 <table>
 <thead><tr><th>Detail</th><th>Value</th></tr></thead>
@@ -392,9 +392,9 @@ export const blogPosts3B: BlogPost[] = [
 </tbody>
 </table>
 
-<p>Timiza by Absa Bank is one of the better-value USSD loans, combining a competitive 6% monthly rate with up to 90-day terms. Accessible to any Safaricom subscriber — no Absa bank account required for initial access, though higher limits require more information.</p>
+<p>Timiza by Absa Bank is one of the better-value USSD loans, combining a competitive 6% monthly rate with up to 90-day terms. Accessible to any Safaricom subscriber, no Absa bank account required for initial access, though higher limits require more information.</p>
 
-<h3>6. Fuliza — *334# (Overdraft Facility)</h3>
+<h3>6. Fuliza, *334# (Overdraft Facility)</h3>
 
 <table>
 <thead><tr><th>Detail</th><th>Value</th></tr></thead>
@@ -408,9 +408,9 @@ export const blogPosts3B: BlogPost[] = [
 </tbody>
 </table>
 
-<p>Fuliza is unique — it is an overdraft facility that kicks in automatically when you try to complete an M-Pesa transaction with insufficient funds. No separate application. However, the daily fees make it extremely expensive for anything beyond 1–3 day use. Always repay Fuliza the same day if possible.</p>
+<p>Fuliza is unique, it is an overdraft facility that kicks in automatically when you try to complete an M-Pesa transaction with insufficient funds. No separate application. However, the daily fees make it extremely expensive for anything beyond 1–3 day use. Always repay Fuliza the same day if possible.</p>
 
-<h3>7. MCo-opCash (Co-operative Bank) — *667#</h3>
+<h3>7. MCo-opCash (Co-operative Bank), *667#</h3>
 
 <table>
 <thead><tr><th>Detail</th><th>Value</th></tr></thead>
@@ -426,7 +426,7 @@ export const blogPosts3B: BlogPost[] = [
 
 <p>Co-operative Bank's USSD banking platform offers emergency loans to account holders via *667#. Like Equity, you need a Co-op Bank account, but once set up, the loan process is entirely USSD-based and works on any phone.</p>
 
-<h3>8. Stanbic Bank — *290#</h3>
+<h3>8. Stanbic Bank, *290#</h3>
 
 <table>
 <thead><tr><th>Detail</th><th>Value</th></tr></thead>
@@ -442,14 +442,14 @@ export const blogPosts3B: BlogPost[] = [
 
 <p>Stanbic Bank Kenya offers USSD banking via *290# for account holders, including personal loan access. Better suited for salaried employees with a Stanbic account.</p>
 
-<h3>9. NCBA Bank — *488#</h3>
+<h3>9. NCBA Bank, *488#</h3>
 
 <table>
 <thead><tr><th>Detail</th><th>Value</th></tr></thead>
 <tbody>
 <tr><td>USSD Code</td><td>*488#</td></tr>
 <tr><td>Interest rate</td><td>NCBA Loop rates apply</td></tr>
-<tr><td>Loan range</td><td>Account holders — varies</td></tr>
+<tr><td>Loan range</td><td>Account holders, varies</td></tr>
 <tr><td>Term</td><td>Up to 12 months</td></tr>
 <tr><td>Processing time</td><td>Instant</td></tr>
 <tr><td>CRB reporting</td><td>Yes</td></tr>
@@ -458,7 +458,7 @@ export const blogPosts3B: BlogPost[] = [
 
 <p>NCBA (the bank behind M-Shwari) also offers direct personal loans via USSD banking for account holders through *488#. Higher limits and longer terms than M-Shwari for NCBA customers.</p>
 
-<h3>10. Airtel Money Loans — *334# on Airtel (Airtel Network Only)</h3>
+<h3>10. Airtel Money Loans, *334# on Airtel (Airtel Network Only)</h3>
 
 <table>
 <thead><tr><th>Detail</th><th>Value</th></tr></thead>
@@ -479,22 +479,22 @@ export const blogPosts3B: BlogPost[] = [
 <table>
 <thead><tr><th>Use Case</th><th>Best USSD Option</th><th>Why</th></tr></thead>
 <tbody>
-<tr><td>Cheapest rate available</td><td>Hustler Fund (*254#)</td><td>8% per annum — nothing cheaper exists</td></tr>
+<tr><td>Cheapest rate available</td><td>Hustler Fund (*254#)</td><td>8% per annum, nothing cheaper exists</td></tr>
 <tr><td>Highest limit via USSD</td><td>KCB M-Pesa (*334#)</td><td>Up to KES 1,000,000</td></tr>
-<tr><td>No bank account needed</td><td>Hustler Fund or M-Shwari</td><td>M-Pesa only — no bank required</td></tr>
+<tr><td>No bank account needed</td><td>Hustler Fund or M-Shwari</td><td>M-Pesa only, no bank required</td></tr>
 <tr><td>Longest repayment term</td><td>KCB M-Pesa (6 months)</td><td>Or Equity Eazzy (12 months) if you have an account</td></tr>
 <tr><td>No CRB check</td><td>Hustler Fund</td><td>Only major USSD product that does not check CRB</td></tr>
-<tr><td>Emergency overdraft</td><td>Fuliza (*334#)</td><td>Automatic — no application needed</td></tr>
+<tr><td>Emergency overdraft</td><td>Fuliza (*334#)</td><td>Automatic, no application needed</td></tr>
 </tbody>
 </table>
 
 <h2>Tips for USSD Borrowers</h2>
 
 <ul>
-<li><strong>Always confirm the amount before entering your PIN</strong> — USSD transactions cannot be reversed after confirmation</li>
-<li><strong>Save your confirmation SMS</strong> — this is your receipt and dispute evidence if anything goes wrong</li>
-<li><strong>Set a calendar reminder for the repayment date</strong> — USSD products often do not send reminder notifications as reliably as apps</li>
-<li><strong>Start with Hustler Fund</strong> if you have never borrowed digitally — cheapest rate, no CRB check, works on any phone</li>
+<li><strong>Always confirm the amount before entering your PIN</strong>, USSD transactions cannot be reversed after confirmation</li>
+<li><strong>Save your confirmation SMS</strong>, this is your receipt and dispute evidence if anything goes wrong</li>
+<li><strong>Set a calendar reminder for the repayment date</strong>, USSD products often do not send reminder notifications as reliably as apps</li>
+<li><strong>Start with Hustler Fund</strong> if you have never borrowed digitally, cheapest rate, no CRB check, works on any phone</li>
 </ul>
 
 <h2>Related Guides on loanapp.co.ke</h2><ul><li><a href="/cbk-licensed" style="color:#f59e0b">CBK Licensed Apps</a></li><li><a href="/total-cost-calculator" style="color:#f59e0b">True Cost Calculator</a></li><li><a href="/loan-finder" style="color:#f59e0b">Loan Finder</a></li></ul><h2>Frequently Asked Questions</h2>
@@ -503,7 +503,7 @@ export const blogPosts3B: BlogPost[] = [
 <p>Most USSD loans disburse to M-Pesa. Bank-based USSD loans (Equity *247#, Co-op *667#) can disburse to your bank account instead. Airtel Money users can access Airtel-specific USSD loan products without M-Pesa.</p>
 
 <h3>What is the maximum I can borrow via USSD without visiting a bank?</h3>
-<p>KCB M-Pesa via *334# offers up to KES 1,000,000 for qualified users — the highest USSD-accessible loan limit in Kenya without visiting a branch.</p>
+<p>KCB M-Pesa via *334# offers up to KES 1,000,000 for qualified users, the highest USSD-accessible loan limit in Kenya without visiting a branch.</p>
 
 <h3>Do USSD loans work on any network?</h3>
 <p>Most M-Pesa products (*334#, *254#) require a Safaricom line. Equity (*247#) and Co-op (*667#) work on any network as long as the phone number is linked to your bank account. Airtel Money loans require an Airtel line.</p>`,

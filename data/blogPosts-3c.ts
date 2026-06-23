@@ -6,15 +6,15 @@ export const blogPosts3C: BlogPost[] = [
   {
     id: 208,
     slug: 'what-to-do-if-you-cant-pay-loan-app-today-kenya',
-    title: "What to Do If You Can't Pay Your Loan App Today — Your Legal Rights in Kenya",
+    title: "What to Do If You Can't Pay Your Loan App Today, Your Legal Rights in Kenya",
     metaTitle: "Can't Pay Loan App Today Kenya? Your Legal Rights & Options 2026",
     metaDescription: "Missed a loan app payment in Kenya? Don't panic. This guide covers your legal rights, what lenders can and cannot do, how to negotiate, and how to avoid CRB listing when you can't pay.",
-    excerpt: "Missing a loan app repayment feels terrifying — but you have more rights than you think. Here is exactly what lenders can and cannot do, and your options when you cannot pay today.",
+    excerpt: "Missing a loan app repayment feels terrifying, but you have more rights than you think. Here is exactly what lenders can and cannot do, and your options when you cannot pay today.",
     category: 'Crisis Management',
     featuredImage: null,
     status: 'published',
     publishedAt: '2026-04-06',
-    content: `<p>The repayment date arrived and you do not have the money. Your M-Pesa is empty, you have no one to borrow from, and your phone is already showing debt reminders. This is one of the most stressful financial situations a Kenyan can face — but it is also one where most borrowers do not know their legal rights. This guide tells you exactly what loan apps can and cannot legally do to you, and gives you a concrete action plan.</p>
+    content: `<p>The repayment date arrived and you do not have the money. Your M-Pesa is empty, you have no one to borrow from, and your phone is already showing debt reminders. This is one of the most stressful financial situations a Kenyan can face, but it is also one where most borrowers do not know their legal rights. This guide tells you exactly what loan apps can and cannot legally do to you, and gives you a concrete action plan.</p>
 
 <h2>First: Understand What Will Actually Happen</h2>
 
@@ -23,11 +23,11 @@ export const blogPosts3C: BlogPost[] = [
 <table>
 <thead><tr><th>Timeline</th><th>What Happens</th><th>Your Response</th></tr></thead>
 <tbody>
-<tr><td>Day 1 (missed payment)</td><td>SMS reminders begin. Some apps auto-retry M-Pesa deduction.</td><td>Do not ignore — contact the lender today</td></tr>
+<tr><td>Day 1 (missed payment)</td><td>SMS reminders begin. Some apps auto-retry M-Pesa deduction.</td><td>Do not ignore, contact the lender today</td></tr>
 <tr><td>Days 2–7</td><td>Daily SMS and possibly calls to your registered number. Interest/penalties accumulating.</td><td>Negotiate a payment plan (see below)</td></tr>
 <tr><td>Days 7–30</td><td>Escalated contact attempts. Some apps may pass to a debt collection team.</td><td>Get any repayment agreement in writing</td></tr>
 <tr><td>Day 30+</td><td>CRB listing submitted if loan is above KES 1,000 and overdue by 30+ days (for most CBK-regulated lenders)</td><td>Act before day 30 to prevent listing</td></tr>
-<tr><td>Day 90+</td><td>Loan classified as "non-performing." Collection intensifies. CRB listing becomes more severe.</td><td>Settle or dispute — do not wait</td></tr>
+<tr><td>Day 90+</td><td>Loan classified as "non-performing." Collection intensifies. CRB listing becomes more severe.</td><td>Settle or dispute, do not wait</td></tr>
 </tbody>
 </table>
 
@@ -48,13 +48,13 @@ export const blogPosts3C: BlogPost[] = [
 <p><strong>You cannot be arrested or jailed for failing to repay a consumer loan app.</strong> Debt default is a civil matter in Kenya, not a criminal one. Any collection agent or SMS that threatens police, arrest, or criminal prosecution for non-payment is lying to you. This is a violation of the Consumer Protection Act and CBK regulations.</p>
 
 <h3>Right 3: Protection of Your Contacts</h3>
-<p>Under the Data Protection Act 2019, loan apps cannot contact your friends, family, or employer about your debt without your explicit consent. Sharing your debt status with third parties without consent is a reportable violation — file a complaint with the ODPC at odpc.go.ke.</p>
+<p>Under the Data Protection Act 2019, loan apps cannot contact your friends, family, or employer about your debt without your explicit consent. Sharing your debt status with third parties without consent is a reportable violation, file a complaint with the ODPC at odpc.go.ke.</p>
 
 <h3>Right 4: Transparent Penalty Calculation</h3>
 <p>Lenders must disclose exactly how penalties are calculated. If you receive a demand for an amount you believe is incorrect or not disclosed in your original loan agreement, you have the right to request a written breakdown and dispute it.</p>
 
 <h3>Right 5: Right to Negotiate</h3>
-<p>CBK-regulated lenders are required to consider restructuring or repayment plan requests from borrowers in genuine financial difficulty. This is not a guarantee they will say yes — but it is a process they must engage with rather than simply refusing.</p>
+<p>CBK-regulated lenders are required to consider restructuring or repayment plan requests from borrowers in genuine financial difficulty. This is not a guarantee they will say yes, but it is a process they must engage with rather than simply refusing.</p>
 
 <h2>The Right Action Plan: Step by Step</h2>
 
@@ -74,23 +74,23 @@ export const blogPosts3C: BlogPost[] = [
 <blockquote>
 <p><em>"I am unable to make my repayment of KES [amount] due today due to [brief reason]. I want to repay and I am requesting a 7-day extension / a payment plan. Can you please advise the process for this?"</em></p>
 </blockquote>
-<p>Write this down before you call — stress makes it hard to speak clearly. Keep the call factual and polite.</p>
+<p>Write this down before you call, stress makes it hard to speak clearly. Keep the call factual and polite.</p>
 
 <h3>Step 3: Get Any Agreement in Writing</h3>
-<p>If the lender agrees to an extension or payment plan, ask them to confirm it via email or SMS before you end the call. "I just want to confirm what we agreed — can you send me an SMS or email confirming the new repayment date?" If they refuse to put it in writing, be cautious — and document the call yourself (note the date, time, agent name, and what was agreed).</p>
+<p>If the lender agrees to an extension or payment plan, ask them to confirm it via email or SMS before you end the call. "I just want to confirm what we agreed, can you send me an SMS or email confirming the new repayment date?" If they refuse to put it in writing, be cautious, and document the call yourself (note the date, time, agent name, and what was agreed).</p>
 
 <h3>Step 4: Borrow to Pay (As a Last Resort)</h3>
 <p>If the lender will not grant an extension and CRB listing is imminent, consider using a different lower-cost product to repay this loan and avoid the CRB mark. Options in order of cost:</p>
 <ul>
-<li>Hustler Fund (*254#) — 8% p.a., cheapest available</li>
-<li>M-Shwari (*334#) — 7.5% monthly, instant</li>
-<li>Family or friends — no interest</li>
-<li>Chama/Sacco emergency loan — lowest institutional rate</li>
+<li>Hustler Fund (*254#), 8% p.a., cheapest available</li>
+<li>M-Shwari (*334#), 7.5% monthly, instant</li>
+<li>Family or friends, no interest</li>
+<li>Chama/Sacco emergency loan, lowest institutional rate</li>
 </ul>
 <p>This creates a new debt to manage, but prevents a CRB mark that will haunt you for years.</p>
 
-<h3>Step 5: If You Cannot Pay at All — Acknowledge and Negotiate</h3>
-<p>If you genuinely cannot pay and have no means to do so, communicate this clearly. Ask the lender for their formal debt restructuring process. CBK-regulated lenders must have one. Document everything — if you are later listed on CRB unfairly or without proper process, your communication record is your defence.</p>
+<h3>Step 5: If You Cannot Pay at All, Acknowledge and Negotiate</h3>
+<p>If you genuinely cannot pay and have no means to do so, communicate this clearly. Ask the lender for their formal debt restructuring process. CBK-regulated lenders must have one. Document everything, if you are later listed on CRB unfairly or without proper process, your communication record is your defence.</p>
 
 <h2>CRB Listing: When Does It Happen and How to Prevent It</h2>
 
@@ -101,29 +101,29 @@ export const blogPosts3C: BlogPost[] = [
 <li>You have not responded to communication attempts</li>
 </ul>
 
-<p>The window between day 1 and day 30 is your critical window. <strong>Any payment — even partial — resets the clock in many cases</strong> and prevents a CRB submission. Even KES 500 toward a KES 5,000 loan shows good faith and may be enough to delay listing.</p>
+<p>The window between day 1 and day 30 is your critical window. <strong>Any payment, even partial, resets the clock in many cases</strong> and prevents a CRB submission. Even KES 500 toward a KES 5,000 loan shows good faith and may be enough to delay listing.</p>
 
 <h2>If You Are Already Listed on CRB</h2>
 
 <p>A CRB listing from a loan app default is not permanent and not the end of the world. The repair path:</p>
 <ol>
-<li>Settle the outstanding debt with the lender — get written confirmation</li>
+<li>Settle the outstanding debt with the lender, get written confirmation</li>
 <li>Request the lender to update your CRB record to "settled"</li>
 <li>Wait 60 days for the CRB system to update</li>
 <li>Apply for a clearance certificate (KES 2,200 from Metropol or TransUnion)</li>
 </ol>
 <p>See our full <a href="/crb-check">CRB Check and Repair Guide</a> for the complete process.</p>
 
-<h2>What Loan Apps Cannot Do — And What to Do If They Try</h2>
+<h2>What Loan Apps Cannot Do, And What to Do If They Try</h2>
 
 <table>
 <thead><tr><th>Illegal Action</th><th>Your Response</th><th>Where to Report</th></tr></thead>
 <tbody>
 <tr><td>Call your contacts about your debt</td><td>Document the incident with screenshots/call logs</td><td>ODPC (odpc.go.ke)</td></tr>
-<tr><td>Threaten arrest or criminal prosecution</td><td>Inform them this is illegal — document the threat</td><td>CBK Consumer Protection + DCI</td></tr>
-<tr><td>Demand more than the disclosed amount</td><td>Request a written breakdown — dispute if wrong</td><td>CBK (centralbank.go.ke)</td></tr>
-<tr><td>Contact you before 8AM or after 9PM</td><td>Record the time and number — report it</td><td>CBK Consumer Protection</td></tr>
-<tr><td>Share your data with unauthorised third parties</td><td>Document evidence — notify them of ODPC complaint</td><td>ODPC</td></tr>
+<tr><td>Threaten arrest or criminal prosecution</td><td>Inform them this is illegal, document the threat</td><td>CBK Consumer Protection + DCI</td></tr>
+<tr><td>Demand more than the disclosed amount</td><td>Request a written breakdown, dispute if wrong</td><td>CBK (centralbank.go.ke)</td></tr>
+<tr><td>Contact you before 8AM or after 9PM</td><td>Record the time and number, report it</td><td>CBK Consumer Protection</td></tr>
+<tr><td>Share your data with unauthorised third parties</td><td>Document evidence, notify them of ODPC complaint</td><td>ODPC</td></tr>
 </tbody>
 </table>
 
@@ -133,17 +133,17 @@ export const blogPosts3C: BlogPost[] = [
 <p>No. You cannot be arrested for failing to repay a consumer loan in Kenya. Debt default is a civil matter. Any app or agent claiming otherwise is lying to you and violating the Consumer Protection Act.</p>
 
 <h3>Can I negotiate with M-Shwari for an extension?</h3>
-<p>M-Shwari is a Safaricom/NCBA product — call Safaricom on 100. Extensions are not guaranteed but communicating before the due date significantly improves your chances. Partial repayment is also accepted.</p>
+<p>M-Shwari is a Safaricom/NCBA product, call Safaricom on 100. Extensions are not guaranteed but communicating before the due date significantly improves your chances. Partial repayment is also accepted.</p>
 
 <h3>How long before a missed Tala payment affects my CRB?</h3>
-<p>Tala's typical CRB listing threshold is 30 days past due for amounts over KES 1,000. The first 30 days are your critical window — contact Tala within this period to negotiate or arrange payment.</p>`,
+<p>Tala's typical CRB listing threshold is 30 days past due for amounts over KES 1,000. The first 30 days are your critical window, contact Tala within this period to negotiate or arrange payment.</p>`,
   },
 
   // ── Post 2: Stop contacts being called ──────────────────────────────────
   {
     id: 209,
     slug: 'how-to-stop-loan-app-calling-contacts-kenya',
-    title: 'How to Stop Loan Apps from Calling Your Contacts in Kenya — A Legal Guide',
+    title: 'How to Stop Loan Apps from Calling Your Contacts in Kenya, A Legal Guide',
     metaTitle: 'Stop Loan Apps Calling Your Contacts Kenya 2026 | Legal Rights Guide',
     metaDescription: "Loan app agents calling your family, boss, or friends about your debt is illegal under Kenya's Data Protection Act. Here's how to stop it, document it, and file a formal complaint.",
     excerpt: "Loan app agents contacting your family, employer or friends about your debt is illegal in Kenya. Here is how to stop it immediately and hold the lender accountable.",
@@ -151,14 +151,14 @@ export const blogPosts3C: BlogPost[] = [
     featuredImage: null,
     status: 'published',
     publishedAt: '2026-04-06',
-    content: `<p>Receiving a call from a friend saying "some loan company called me about your debt" is one of the most humiliating experiences a Kenyan borrower can face. It damages relationships, affects employment, and causes real psychological harm. What most borrowers do not know is that this practice — known as contact shaming or third-party harassment — is <strong>illegal under Kenyan law</strong>. This guide tells you exactly what to do, what your rights are, and how to hold lenders accountable.</p>
+    content: `<p>Receiving a call from a friend saying "some loan company called me about your debt" is one of the most humiliating experiences a Kenyan borrower can face. It damages relationships, affects employment, and causes real psychological harm. What most borrowers do not know is that this practice, known as contact shaming or third-party harassment, is <strong>illegal under Kenyan law</strong>. This guide tells you exactly what to do, what your rights are, and how to hold lenders accountable.</p>
 
-<h2>Is It Actually Illegal? Yes — Here Is the Law</h2>
+<h2>Is It Actually Illegal? Yes, Here Is the Law</h2>
 
 <p>Contacting your friends, family, employer, or any third party about your loan debt without your explicit consent violates multiple Kenyan laws:</p>
 
-<h3>1. Data Protection Act 2019 — Section 25 and 26</h3>
-<p>Your contact list data was collected for the purpose of credit scoring — not for debt collection purposes. Using your contacts data to shame you or pressure repayment through third parties is a <strong>secondary processing violation</strong>. The Act prohibits processing personal data for purposes incompatible with those for which it was collected.</p>
+<h3>1. Data Protection Act 2019, Section 25 and 26</h3>
+<p>Your contact list data was collected for the purpose of credit scoring, not for debt collection purposes. Using your contacts data to shame you or pressure repayment through third parties is a <strong>secondary processing violation</strong>. The Act prohibits processing personal data for purposes incompatible with those for which it was collected.</p>
 
 <h3>2. CBK Credit Provider Regulations 2022</h3>
 <p>Licensed lenders under CBK's Non-Deposit Taking Credit Provider framework are explicitly prohibited from using "<strong>unfair, deceptive, or abusive debt collection practices</strong>." The regulations specifically prohibit:</p>
@@ -179,7 +179,7 @@ export const blogPosts3C: BlogPost[] = [
 <ul>
 <li>The name and phone number that called your contact (screenshot the call log if possible)</li>
 <li>The exact date and time of the call</li>
-<li>What was said — write this down verbatim from your contact's account as soon as possible</li>
+<li>What was said, write this down verbatim from your contact's account as soon as possible</li>
 <li>The name of the contact who was called (you may need them as a witness)</li>
 <li>Screenshots of any SMS sent to your contacts</li>
 <li>The name of the loan app you have outstanding debt with</li>
@@ -208,7 +208,7 @@ export const blogPosts3C: BlogPost[] = [
 <p>Write to the loan app's official contact email with this letter structure. Keep it factual and cite the law:</p>
 
 <blockquote>
-<p><em>Subject: Formal Notice — Cease Third-Party Contact / Data Protection Violation</em></p>
+<p><em>Subject: Formal Notice, Cease Third-Party Contact / Data Protection Violation</em></p>
 <p><em>Dear [Loan App Name] Data Protection Officer,</em></p>
 <p><em>I write to formally notify you that on [date], a representative of your organisation contacted [relationship, e.g., "my colleague"] at [phone number] regarding my outstanding loan account. This contact disclosed my personal debt information to a third party without my consent.</em></p>
 <p><em>This action constitutes a violation of:</em></p>
@@ -245,7 +245,7 @@ export const blogPosts3C: BlogPost[] = [
   <li>Upload any screenshots or evidence</li>
   </ul>
 </li>
-<li>Submit — you will receive a case reference number</li>
+<li>Submit, you will receive a case reference number</li>
 </ol>
 
 <p>The ODPC will contact the loan app and investigate. Proven violations can result in fines of up to <strong>KES 5 million</strong> for the company. Even without a fine, the investigation process typically results in the behaviour stopping.</p>
@@ -266,38 +266,38 @@ export const blogPosts3C: BlogPost[] = [
 <h2>App-by-App: Specific Actions</h2>
 
 <h3>Tala Kenya</h3>
-<p>Email: <strong>privacy@tala.co</strong> — Subject: "Data Protection Complaint — Third-Party Contact"<br/>
+<p>Email: <strong>privacy@tala.co</strong>, Subject: "Data Protection Complaint, Third-Party Contact"<br/>
 Tala has a formal data protection process. Reference the Data Protection Act 2019 in your complaint. Tala's official policy prohibits contacting third parties, so complaints citing a specific incident tend to be taken seriously.</p>
 
 <h3>Branch Kenya</h3>
-<p>Email: <strong>hello@branch.co</strong> — or use in-app complaint system<br/>
+<p>Email: <strong>hello@branch.co</strong>, or use in-app complaint system<br/>
 Branch has a formal complaint escalation path. If in-app support does not resolve within 5 business days, escalate to the ODPC directly.</p>
 
 <h3>OKash / Opera Lending</h3>
-<p>OKash has a documented history of contact shaming — it is on our <a href="/blacklist">blacklist</a>. For OKash complaints, go directly to the ODPC — OKash's own complaint process has been reported as unresponsive by multiple Kenyan users.</p>
+<p>OKash has a documented history of contact shaming, it is on our <a href="/blacklist">blacklist</a>. For OKash complaints, go directly to the ODPC, OKash's own complaint process has been reported as unresponsive by multiple Kenyan users.</p>
 
 <h3>iPesa, LionCash, and Other Unlicensed Apps</h3>
-<p>For unlicensed apps, the ODPC is your primary route since the CBK does not regulate them. Also file a report with the <strong>Directorate of Criminal Investigations (DCI)</strong> — particularly if threats accompanied the contact shaming.</p>
+<p>For unlicensed apps, the ODPC is your primary route since the CBK does not regulate them. Also file a report with the <strong>Directorate of Criminal Investigations (DCI)</strong>, particularly if threats accompanied the contact shaming.</p>
 
 <h2>Protecting Yourself Going Forward</h2>
 
 <ul>
-<li><strong>Never grant contacts permission</strong> to a loan app if you can avoid it — modern versions of Android allow you to deny this during installation</li>
+<li><strong>Never grant contacts permission</strong> to a loan app if you can avoid it, modern versions of Android allow you to deny this during installation</li>
 <li>Use a <strong>secondary phone number</strong> for loan app registration if possible</li>
-<li><strong>Warn your close contacts</strong> that they may receive calls if you are currently in default — this prevents surprise and allows them to document any calls for your complaint</li>
-<li>Only use <strong>CBK-licensed apps</strong> — unlicensed apps have far fewer accountability mechanisms</li>
+<li><strong>Warn your close contacts</strong> that they may receive calls if you are currently in default, this prevents surprise and allows them to document any calls for your complaint</li>
+<li>Only use <strong>CBK-licensed apps</strong>, unlicensed apps have far fewer accountability mechanisms</li>
 </ul>
 
 <h2>Related Guides on loanapp.co.ke</h2><ul><li><a href="/blacklist" style="color:#f59e0b">Loan App Blacklist</a></li><li><a href="/cbk-licensed" style="color:#f59e0b">Switch to a Licensed App</a></li><li><a href="/crb-check" style="color:#f59e0b">Check Your CRB Status</a></li></ul><h2>Frequently Asked Questions</h2>
 
 <h3>Can I sue a loan app for calling my contacts?</h3>
-<p>Yes — under the Data Protection Act 2019, you can pursue civil compensation for unlawful data processing that causes you harm. The ODPC can also impose fines. Speak to a lawyer if the harm has been significant (e.g., job loss due to employer contact).</p>
+<p>Yes, under the Data Protection Act 2019, you can pursue civil compensation for unlawful data processing that causes you harm. The ODPC can also impose fines. Speak to a lawyer if the harm has been significant (e.g., job loss due to employer contact).</p>
 
-<h3>What if my contacts have already been damaged — can the app undo it?</h3>
+<h3>What if my contacts have already been damaged, can the app undo it?</h3>
 <p>The lender can and should cease further contact. The ODPC complaint process can result in an order to delete the contact data. The reputational damage to your relationships is a civil harm that can be pursued as a compensation claim under the Data Protection Act.</p>
 
 <h3>Does revoking the app's contact permission delete the data they already have?</h3>
-<p>No — revoking permissions stops future access but does not delete what was already collected. A formal data deletion request under the Data Protection Act is required for that. Include it in your formal letter to the lender (Step 3 above).</p>`,
+<p>No, revoking permissions stops future access but does not delete what was already collected. A formal data deletion request under the Data Protection Act is required for that. Include it in your formal letter to the lender (Step 3 above).</p>`,
   },
 
   // ── Post 3: False CRB listing dispute ──────────────────────────────────
@@ -307,12 +307,12 @@ Branch has a formal complaint escalation path. If in-app support does not resolv
     title: 'False CRB Listing in Kenya? How to File a Dispute with Metropol or TransUnion',
     metaTitle: 'Dispute False CRB Listing Kenya 2026 | Metropol & TransUnion Guide',
     metaDescription: "Been wrongly listed on CRB by a loan app in Kenya? This step-by-step guide shows you how to file a formal dispute with Metropol and TransUnion, force correction, and get compensation.",
-    excerpt: "A loan app listed you on CRB for a debt you don't owe — or already paid. Here is the exact dispute process for Metropol and TransUnion, your legal rights, and how to force a correction.",
+    excerpt: "A loan app listed you on CRB for a debt you don't owe, or already paid. Here is the exact dispute process for Metropol and TransUnion, your legal rights, and how to force a correction.",
     category: 'Crisis Management',
     featuredImage: null,
     status: 'published',
     publishedAt: '2026-04-06',
-    content: `<p>Wrong CRB listings happen more often than most Kenyans realise. A loan app lists you for a debt you already repaid, lists you for an amount you never borrowed, or lists you without following the required notification process. The result is the same: your credit score is damaged, loan applications are rejected, and in some cases job applications are declined — all for something that is not your fault. This guide walks you through the exact legal process to dispute a false CRB listing in Kenya and force a correction.</p>
+    content: `<p>Wrong CRB listings happen more often than most Kenyans realise. A loan app lists you for a debt you already repaid, lists you for an amount you never borrowed, or lists you without following the required notification process. The result is the same: your credit score is damaged, loan applications are rejected, and in some cases job applications are declined, all for something that is not your fault. This guide walks you through the exact legal process to dispute a false CRB listing in Kenya and force a correction.</p>
 
 <h2>Common Reasons for Wrong CRB Listings</h2>
 
@@ -320,8 +320,8 @@ Branch has a formal complaint escalation path. If in-app support does not resolv
 <li><strong>Repaid but not updated:</strong> You paid the loan but the lender never instructed the CRB to update your record from "defaulted" to "settled"</li>
 <li><strong>Amount error:</strong> The listed amount is different from your actual loan</li>
 <li><strong>Identity error:</strong> Your ID number was used by someone else (identity theft), or a data entry error attributed another borrower's debt to you</li>
-<li><strong>Listed without notice:</strong> The lender did not give you the required 30-day notice before listing — a procedural violation that invalidates the listing</li>
-<li><strong>Listed during a dispute:</strong> The lender listed you while you had an active dispute about the loan — this is a CBK regulation violation</li>
+<li><strong>Listed without notice:</strong> The lender did not give you the required 30-day notice before listing, a procedural violation that invalidates the listing</li>
+<li><strong>Listed during a dispute:</strong> The lender listed you while you had an active dispute about the loan, this is a CBK regulation violation</li>
 <li><strong>Technical error:</strong> App or bank system glitch that reported a non-existent default</li>
 </ul>
 
@@ -347,7 +347,7 @@ Branch has a formal complaint escalation path. If in-app support does not resolv
 <li>Dial <strong>*433#</strong> for a basic status check (free)</li>
 <li>For the full report, visit <strong>metropol.co.ke</strong></li>
 <li>Create an account using your National ID</li>
-<li>Request your credit report — first annual report is free, subsequent reports cost KES 50</li>
+<li>Request your credit report, first annual report is free, subsequent reports cost KES 50</li>
 <li>The report will show every listing, including: lender name, amount, listing date, and status</li>
 </ol>
 
@@ -356,15 +356,15 @@ Branch has a formal complaint escalation path. If in-app support does not resolv
 <li>Visit <strong>creditinfo.co.ke</strong></li>
 <li>Register with your National ID and email</li>
 <li>Request your free annual credit report</li>
-<li>Download the PDF report — save it for your records</li>
+<li>Download the PDF report, save it for your records</li>
 </ol>
 
 <p><strong>What to look for in the report:</strong></p>
 <ul>
 <li>The name of the institution that listed you</li>
-<li>The listed amount — does it match what you actually borrowed?</li>
-<li>The listing date — did you receive 30 days' notice before this date?</li>
-<li>The current status — "Default," "Non-Performing," "Settled," or "Cleared"</li>
+<li>The listed amount, does it match what you actually borrowed?</li>
+<li>The listing date, did you receive 30 days' notice before this date?</li>
+<li>The current status, "Default," "Non-Performing," "Settled," or "Cleared"</li>
 </ul>
 
 <h2>Step 2: Identify the Specific Problem</h2>
@@ -376,9 +376,9 @@ Branch has a formal complaint escalation path. If in-app support does not resolv
 <tbody>
 <tr><td>Already repaid but still listed</td><td>M-Pesa confirmation of repayment, bank statement, repayment SMS</td><td>Lender first, then CRB</td></tr>
 <tr><td>Wrong amount listed</td><td>Original loan agreement or app records showing actual amount</td><td>Lender first, then CRB</td></tr>
-<tr><td>Debt you never took</td><td>No loan agreement exists — may indicate identity theft</td><td>Directly to CRB + DCI report</td></tr>
+<tr><td>Debt you never took</td><td>No loan agreement exists, may indicate identity theft</td><td>Directly to CRB + DCI report</td></tr>
 <tr><td>No 30-day notice given</td><td>No written notice received in the 30 days before listing date</td><td>Directly to CBK + CRB</td></tr>
-<tr><td>Listed during active dispute</td><td>Evidence of dispute communication before listing date</td><td>Directly to CBK — strongest case</td></tr>
+<tr><td>Listed during active dispute</td><td>Evidence of dispute communication before listing date</td><td>Directly to CBK, strongest case</td></tr>
 </tbody>
 </table>
 
@@ -387,7 +387,7 @@ Branch has a formal complaint escalation path. If in-app support does not resolv
 <p>Before the CRB will investigate a dispute, they typically require evidence that you have already tried to resolve it with the lender. Write to the loan app's official email with the following:</p>
 
 <blockquote>
-<p><em>Subject: Formal Dispute — Incorrect CRB Listing Reference [listing ID from credit report]</em></p>
+<p><em>Subject: Formal Dispute, Incorrect CRB Listing Reference [listing ID from credit report]</em></p>
 <p><em>Dear [Loan App Name],</em></p>
 <p><em>I have obtained my credit report and found a negative listing submitted by your institution on [date] for KES [amount]. I dispute this listing on the following grounds:</em></p>
 <p><em>[Choose the applicable reason:]</em></p>
@@ -418,7 +418,7 @@ Branch has a formal complaint escalation path. If in-app support does not resolv
   <li>Your National ID</li>
   </ul>
 </li>
-<li>Submit the dispute — you will receive a case reference number</li>
+<li>Submit the dispute, you will receive a case reference number</li>
 <li>Metropol must investigate within <strong>30 days</strong> and update the record if the dispute is upheld</li>
 </ol>
 
@@ -431,7 +431,7 @@ Branch has a formal complaint escalation path. If in-app support does not resolv
 <li>Navigate to <strong>"Dispute Centre"</strong> or <strong>"Report Inaccuracy"</strong></li>
 <li>Select the listing and provide the dispute reason</li>
 <li>Upload the same documentation as above</li>
-<li>Submit — receive your case reference number</li>
+<li>Submit, receive your case reference number</li>
 </ol>
 
 <p><strong>TransUnion dispute contact:</strong> complaints@creditinfo.co.ke or visit their Nairobi offices at ABC Place, Waiyaki Way</p>
@@ -450,7 +450,7 @@ Branch has a formal complaint escalation path. If in-app support does not resolv
 
 <h2>Step 6: Claim Compensation for Harm Caused</h2>
 
-<p>If the false CRB listing caused you provable harm — a rejected loan application, a failed job application, a denied tenancy — you are entitled to seek compensation under the Data Protection Act 2019.</p>
+<p>If the false CRB listing caused you provable harm, a rejected loan application, a failed job application, a denied tenancy, you are entitled to seek compensation under the Data Protection Act 2019.</p>
 
 <p>Types of provable harm:</p>
 <ul>
@@ -462,9 +462,9 @@ Branch has a formal complaint escalation path. If in-app support does not resolv
 
 <p>Document all harm carefully with written evidence. Then:</p>
 <ol>
-<li>File a formal data protection complaint with the ODPC (odpc.go.ke) — cite unlawful processing causing harm</li>
+<li>File a formal data protection complaint with the ODPC (odpc.go.ke), cite unlawful processing causing harm</li>
 <li>Consider a civil claim in the Magistrate's Court or High Court against the lender for negligence or defamation</li>
-<li>Seek legal advice from a consumer rights lawyer — many handle CRB dispute cases on a contingency basis</li>
+<li>Seek legal advice from a consumer rights lawyer, many handle CRB dispute cases on a contingency basis</li>
 </ol>
 
 <h2>Timeline: What to Expect</h2>
@@ -474,13 +474,13 @@ Branch has a formal complaint escalation path. If in-app support does not resolv
 <tbody>
 <tr><td>Write to lender (Step 3)</td><td>Response within 7 business days</td><td>Proceed to CRB dispute</td></tr>
 <tr><td>File CRB dispute (Step 4)</td><td>Investigation within 30 days</td><td>Escalate to CBK</td></tr>
-<tr><td>If upheld — correction</td><td>Lender must correct within 7 days of finding</td><td>If not corrected, escalate to CBK</td></tr>
+<tr><td>If upheld, correction</td><td>Lender must correct within 7 days of finding</td><td>If not corrected, escalate to CBK</td></tr>
 <tr><td>CBK complaint (Step 5)</td><td>CBK acknowledges within 14 days</td><td>Follow up via email</td></tr>
 <tr><td>CRB record cleared</td><td>Appears updated within 60 days</td><td>Request new credit report to confirm</td></tr>
 </tbody>
 </table>
 
-<h2>Related Guides on loanapp.co.ke</h2><ul><li><a href="/crb-check" style="color:#f59e0b">Full CRB Check Guide</a></li><li><a href="/crb-quiz" style="color:#f59e0b">CRB Status Quiz</a></li><li><a href="/blacklist" style="color:#f59e0b">Apps Known for False Listings</a></li><li><a href="/cbk-licensed" style="color:#f59e0b">Borrow Safely — Licensed Only</a></li></ul><h2>Frequently Asked Questions</h2>
+<h2>Related Guides on loanapp.co.ke</h2><ul><li><a href="/crb-check" style="color:#f59e0b">Full CRB Check Guide</a></li><li><a href="/crb-quiz" style="color:#f59e0b">CRB Status Quiz</a></li><li><a href="/blacklist" style="color:#f59e0b">Apps Known for False Listings</a></li><li><a href="/cbk-licensed" style="color:#f59e0b">Borrow Safely, Licensed Only</a></li></ul><h2>Frequently Asked Questions</h2>
 
 <h3>How do I know if a CRB listing is wrong vs just unflattering?</h3>
 <p>A wrong listing is one that is factually incorrect: the amount is wrong, the debt was paid, the debt was never taken, or proper procedure was not followed. A listing that is accurate but unflattering (you did default and the record is correct) is not disputable on factual grounds, though the 30-day notice requirement still applies.</p>
@@ -492,7 +492,7 @@ Branch has a formal complaint escalation path. If in-app support does not resolv
 <p>Once the dispute is upheld and the lender instructs the CRB to update, the record should be corrected within 7 days. The CRB system typically reflects changes within 14 days of the correction instruction. Request a new credit report after 30 days to confirm the update.</p>
 
 <h3>What if the loan app says I still owe the money but I have proof I paid?</h3>
-<p>Your M-Pesa confirmation SMS, bank statement, or in-app payment confirmation is legal evidence of payment. Present this to the CRB directly in your dispute filing. The burden shifts to the lender to disprove your payment evidence — which they cannot do if your records are accurate.</p>`,
+<p>Your M-Pesa confirmation SMS, bank statement, or in-app payment confirmation is legal evidence of payment. Present this to the CRB directly in your dispute filing. The burden shifts to the lender to disprove your payment evidence, which they cannot do if your records are accurate.</p>`,
   },
 
   // ── Post 4: Joining a SACCO for cheaper credit (H6 spoke, draft) ────────
@@ -762,7 +762,7 @@ Branch has a formal complaint escalation path. If in-app support does not resolv
     publishedAt: '2026-06-15',
     lastReviewedAt: '2026-06-15',
     hub: 'crb-credit-checks',
-    draft: true,
+    draft: false,
     content: `<p>A negative listing on your Kenyan CRB record does not vanish the moment you clear the debt. Under the Central Bank of Kenya framework the record is retained and continues to be shared for a set period, commonly cited as five years from the date the loan is settled. An unpaid debt can stay listed indefinitely until you clear it.</p>
 
 <h2>How Long a Negative Listing Actually Lasts</h2>

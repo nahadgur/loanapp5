@@ -14,7 +14,6 @@ const hubLinks: { href: string; label: string; warn?: boolean }[] = [
 const navLinks = [
   { href: '/#calculator', label: 'Calculator' },
   { href: '/#compare',    label: 'Compare' },
-  { href: '/guides',      label: 'Guides' },
   { href: '/blog',        label: 'Blog' },
 ];
 
@@ -64,6 +63,12 @@ export default function Header() {
                     <span className="flex items-center gap-2">{l.warn && <AlertTriangle className="w-3.5 h-3.5 text-red-500" />}{l.label}</span>
                   </Link>
                 ))}
+                <Link
+                  href="/guides"
+                  className="block px-4 py-3 text-sm font-mono font-bold uppercase border-t-2 border-black bg-gray-50 hover:bg-black hover:text-white transition-colors"
+                >
+                  All Guides →
+                </Link>
               </div>
             </div>
 

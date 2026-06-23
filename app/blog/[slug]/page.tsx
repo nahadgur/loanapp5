@@ -99,6 +99,14 @@ export default async function BlogPostPage({ params }: Props) {
             <svg className="w-4 h-4 mx-2 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
+            {hub && (
+              <>
+                <Link href={`/guides/${hub.slug}`} className="font-medium text-emerald-700 hover:text-emerald-600 transition-colors">{hub.shortTitle}</Link>
+                <svg className="w-4 h-4 mx-2 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </>
+            )}
             <span className="text-gray-600 truncate max-w-[200px]">{post.title}</span>
           </nav>
         </div>
@@ -173,12 +181,12 @@ export default async function BlogPostPage({ params }: Props) {
         />
 
         {/* CTA */}
-        <div className="mt-12 p-6 bg-gradient-to-r from-emerald-900/30 to-cyan-900/30 border border-emerald-300">
+        <div className="mt-12 p-6 bg-emerald-50 border-2 border-black">
           <h3 className="text-xl font-serif font-bold text-gray-900 mb-2">Ready to compare loan apps?</h3>
-          <p className="text-gray-500 mb-4">Use our calculator to see exactly what you'll pay back with each app.</p>
+          <p className="text-gray-600 mb-4">Use our calculator to see exactly what you&apos;ll pay back with each app.</p>
           <Link
             href="/#calculator"
-            className="inline-flex items-center px-5 py-2.5 bg-black hover:bg-emerald-600 text-gray-900 font-mono font-bold uppercase transition-colors"
+            className="inline-flex items-center px-5 py-2.5 bg-black hover:bg-emerald-600 text-white font-mono font-bold uppercase transition-colors"
           >
             Try the Calculator  ›
           </Link>
