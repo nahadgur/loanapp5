@@ -82,12 +82,25 @@ Three-day waiver on daily fee for balances <= KSh1,000 (1% access fee still appl
 ---
 
 ## Remediation status (this site)
-DONE (verified figures applied, fabrications stripped, em/en dashes = 0 fleet-wide):
-fuliza-charge-per-day, clear-name-from-crb, m-shwari-interest, pay-back-fuliza-early,
-which-loan-apps-dont-report-to-crb, lowest-interest-rate, okash-charge, hidden-fees,
-kcb-vs-m-shwari, tala-vs-branch-first-time, best-loan-app-emergency-money,
-best-emergency-medical-bills, school-fees-banks-vs-digital. (13 posts.)
+DONE (verified figures applied, fabrications stripped, em/en dashes = 0 file-wide). 21 posts:
+fuliza-charge-per-day, clear-name-from-crb, m-shwari-interest-per-month,
+pay-back-fuliza-early, which-loan-apps-dont-report-to-crb, lowest-interest-rate,
+okash-charge, hidden-fees, which-is-better-kcb-m-pesa-or-m-shwari,
+tala-vs-branch-first-time, best-loan-app-emergency-money, best-emergency-medical-bills,
+school-fees-banks-vs-digital, how-much-does-tala-charge-in-interest,
+how-much-does-branch-charge-in-interest, which-is-cheaper-hustler-fund-or-m-shwari,
+how-much-can-i-borrow-from-hustler-fund, what-is-the-maximum-hustler-fund-limit,
+how-much-will-i-pay-back-on-a-10000-loan-in-kenya,
+m-shwari-vs-kcb-m-pesa...rates-limits-and-repayment-terms,
+equity-eazzy-loan-vs-timiza...for-smes.
 
-TODO (long tail, ~45 autoblog posts still carry the fabrication pattern). Priority
-next: dedicated per-app pages (Tala charge, Branch charge, Zenka charge, Timiza,
-Equity Eazzy, Hustler Fund) using the figures above; then the remaining comparisons.
+TODO (long tail, ~39 autoblog posts still carry the fabrication pattern). Next candidates
+(behaviour/how-to pages, lighter on figures): how-do-i-get-approved-for-tala,
+what-happens-if-you-dont-pay-tala, how-to-repay-a-branch-loan-through-m-pesa,
+how-to-increase-your-tala-limit, how-do-i-increase-my-m-shwari-loan-limit,
+how-do-i-increase-my-hustler-fund-limit, how-to-move-from-hustler-personal-to-business,
+what-happens-if-you-default-on-m-shwari, how-much-can-i-borrow-from-m-shwari-first-time,
+why-your-zenka-loan-application-was-rejected,
+hidden-mobile-loan-fees...processing-facilitation-insurance, then the rest of the 60.
+NB: a Zenka *charge* page does not exist yet (only the rejection page); Zenka figures in
+the pack are ready if one is created.
