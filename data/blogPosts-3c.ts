@@ -2,6 +2,66 @@ import type { BlogPost } from './blogPosts'
 
 export const blogPosts3C: BlogPost[] = [
 
+  // ── Post: How much does Zenka charge (verified figures) ───────────────
+  {
+    id: 219,
+    slug: 'how-much-does-zenka-charge-for-a-loan',
+    title: 'How Much Does Zenka Charge for a Loan in Kenya?',
+    metaTitle: 'How Much Does Zenka Charge for a Loan in Kenya?',
+    metaDescription: 'Zenka charges a one-off interest charge of about 2.45% to 39% of the amount borrowed, with no processing fee, on loans of KES 500 to KES 200,000 over up to 91 days. Here is how its pricing works and how to keep it low.',
+    excerpt: 'Zenka charges a single one-off interest charge of roughly 2.45% to 39% of what you borrow, no processing fee, on loans up to KES 200,000 over 91 days. Here is how the pricing works and how to keep it at the low end.',
+    category: 'Loan Costs',
+    featuredImage: null,
+    status: 'published',
+    publishedAt: '2026-06-23',
+    lastReviewedAt: '2026-06-23',
+    hub: 'loan-costs-fees',
+    draft: false,
+    content: `<p><strong>Quick answer:</strong> Zenka charges a one-off interest charge of roughly 2.45% to 39% of the amount you borrow, set by your profile and the loan term, with no processing fee. Loans run from KES 500 to KES 200,000 over terms of up to 91 days. Because the charge is a one-off rather than daily or monthly interest, you see the full cost upfront in the app before you accept.</p>
+
+<h2>How Zenka's charge works</h2>
+<p>Zenka applies a single interest charge to your loan rather than a recurring daily or monthly rate. That charge ranges from about 2.45% to 39% of the principal, depending on your borrower profile and how long you take the loan for. There is no separate processing fee. Your exact charge, limit and term are shown in the app before you confirm, so check them against the figures here.</p>
+
+<table>
+<thead><tr><th>&nbsp;</th><th>Zenka (Kenya)</th></tr></thead>
+<tbody>
+<tr><td>Charge</td><td>One-off, about 2.45% to 39% of principal</td></tr>
+<tr><td>Loan range</td><td>KES 500 to KES 200,000</td></tr>
+<tr><td>Term</td><td>Up to 91 days</td></tr>
+<tr><td>Processing fee</td><td>None</td></tr>
+<tr><td>Pricing</td><td>Varies by borrower and term</td></tr>
+</tbody>
+</table>
+
+<h2>Why the range is so wide</h2>
+<p>The gap between 2.45% and 39% is large because Zenka prices each loan to the borrower and the term. A short loan for a well-rated borrower sits near the bottom of the range, while a longer loan or a thinner credit profile sits higher. Annualised, a short-term one-off charge can look like a very high APR, but that figure overstates the cost of a loan you repay in a few weeks. Judge it by the shillings you actually repay, not an annualised headline.</p>
+
+<h2>A note on licensing</h2>
+<p>Zenka Digital Limited appears in the Central Bank of Kenya Digital Credit Provider directory, so it is a licensed lender. That matters, because a licensed lender reports to the credit bureaus and is bound by CBK rules. You can confirm any lender yourself, which our guide on <a href="/blog/how-to-check-whether-your-favorite-loan-app-is-licensed-by-the-central-bank-of-kenya">checking a loan app licence</a> explains.</p>
+
+<h2>Is Zenka expensive?</h2>
+<p>For a short loan repaid on time, Zenka's one-off charge can be reasonable, but it is not the cheapest option in Kenya. The government Hustler Fund and the M-Pesa products usually cost less, as our guide to <a href="/blog/which-loan-app-has-the-lowest-interest-rate-in-kenya">the lowest-rate loan apps</a> shows. Always compare the total you will repay rather than the headline charge, using our <a href="/total-cost-calculator/">total cost calculator</a>, and watch for the kind of costs covered in <a href="/blog/what-are-the-hidden-fees-in-loan-apps-kenya">hidden loan-app fees</a>.</p>
+
+<h2>Keep the cost down</h2>
+<p>Borrow only what you need, choose the shortest term you can manage so the one-off charge stays at the lower end, and repay on time to build your record and improve future pricing. If your application is declined, our guide on <a href="/blog/why-your-zenka-loan-application-was-rejected-and-what-your-m-pesa-history-may-be-saying">why a Zenka application is rejected</a> explains what your M-Pesa history may be saying.</p>
+
+<h2>Frequently asked questions</h2>
+<h3>How much does Zenka charge for a loan in Kenya?</h3>
+<p>A one-off interest charge of roughly 2.45% to 39% of the amount borrowed, set by your profile and term, with no separate processing fee. Loans run from KES 500 to KES 200,000 over up to 91 days.</p>
+<h3>Does Zenka charge a processing fee?</h3>
+<p>No. The cost is a single interest charge shown upfront in the app. There is no separate processing fee.</p>
+<h3>Is Zenka licensed in Kenya?</h3>
+<p>Yes. Zenka Digital Limited appears in the CBK Digital Credit Provider directory, so it is a licensed lender bound by CBK rules.</p>
+<h3>How can I get Zenka's lowest charge?</h3>
+<p>Take the shortest term you can manage and borrow only what you need, since the one-off charge is lower on shorter loans, and build a repayment record to improve your pricing.</p>`,
+    faqs: [
+      { question: 'How much does Zenka charge for a loan in Kenya?', answer: 'A one-off interest charge of roughly 2.45% to 39% of the amount borrowed, set by your profile and term, with no separate processing fee. Loans run from KES 500 to KES 200,000 over up to 91 days.' },
+      { question: 'Does Zenka charge a processing fee?', answer: 'No. The cost is a single interest charge shown upfront in the app. There is no separate processing fee.' },
+      { question: 'Is Zenka licensed in Kenya?', answer: 'Yes. Zenka Digital Limited appears in the CBK Digital Credit Provider directory, so it is a licensed lender bound by CBK rules.' },
+      { question: "How can I get Zenka's lowest charge?", answer: 'Take the shortest term you can manage and borrow only what you need, since the one-off charge is lower on shorter loans, and build a repayment record to improve your pricing.' },
+    ],
+  },
+
   // ── Post 1: Can't pay today ───────────────────────────────────────────
   {
     id: 208,
@@ -24,8 +84,8 @@ export const blogPosts3C: BlogPost[] = [
 <thead><tr><th>Timeline</th><th>What Happens</th><th>Your Response</th></tr></thead>
 <tbody>
 <tr><td>Day 1 (missed payment)</td><td>SMS reminders begin. Some apps auto-retry M-Pesa deduction.</td><td>Do not ignore, contact the lender today</td></tr>
-<tr><td>Days 2–7</td><td>Daily SMS and possibly calls to your registered number. Interest/penalties accumulating.</td><td>Negotiate a payment plan (see below)</td></tr>
-<tr><td>Days 7–30</td><td>Escalated contact attempts. Some apps may pass to a debt collection team.</td><td>Get any repayment agreement in writing</td></tr>
+<tr><td>Days 2 to 7</td><td>Daily SMS and possibly calls to your registered number. Interest/penalties accumulating.</td><td>Negotiate a payment plan (see below)</td></tr>
+<tr><td>Days 7 to 30</td><td>Escalated contact attempts. Some apps may pass to a debt collection team.</td><td>Get any repayment agreement in writing</td></tr>
 <tr><td>Day 30+</td><td>CRB listing submitted if loan is above KES 1,000 and overdue by 30+ days (for most CBK-regulated lenders)</td><td>Act before day 30 to prevent listing</td></tr>
 <tr><td>Day 90+</td><td>Loan classified as "non-performing." Collection intensifies. CRB listing becomes more severe.</td><td>Settle or dispute, do not wait</td></tr>
 </tbody>
