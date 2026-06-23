@@ -82,7 +82,15 @@ Three-day waiver on daily fee for balances <= KSh1,000 (1% access fee still appl
 ---
 
 ## Remediation status (this site)
-DONE (verified figures applied, fabrications stripped, em/en dashes = 0 file-wide). 21 posts:
+DONE — 30 posts clean (verified figures, fabrications stripped, em/en dashes = 0 file-wide).
+Wave 1 (13 high-impression), Wave 2 (8 per-app figure pages), Wave 3 (8 how-to/behaviour
+pages: get-approved-for-tala [was Philippines], dont-pay-tala [fake 284% APR],
+repay-branch-via-mpesa, increase-tala-limit, increase-mshwari-limit, increase-hustler-limit,
+default-on-m-shwari [fixed USSD *234->*334], mshwari-first-time-limit), plus NEW page
+how-much-does-zenka-charge-for-a-loan (id 219). Also tightened M-Shwari max claim (1M is
+KCB-only per pack) on the two KCB/M-Shwari comparison pages.
+
+Original wave-1 list (verified figures applied). 21 posts:
 fuliza-charge-per-day, clear-name-from-crb, m-shwari-interest-per-month,
 pay-back-fuliza-early, which-loan-apps-dont-report-to-crb, lowest-interest-rate,
 okash-charge, hidden-fees, which-is-better-kcb-m-pesa-or-m-shwari,
