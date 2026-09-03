@@ -17,6 +17,10 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  // www is the host the deploy serves; the apex redirects to it. Without a
+  // canonical Google is left to pick a host for every page itself.
+  metadataBase: new URL('https://www.loanapp.co.ke'),
+  alternates: { canonical: '/' },
   title: 'LoanApp.co.ke - Compare Loan Apps in Kenya | Find the Cheapest Rates',
   description: "Compare interest rates, limits, and terms across 12+ loan apps in Kenya. Calculate exactly what you'll pay back with M-Shwari, Tala, Branch, Fuliza, Hustler Fund, and more.",
   keywords: 'loan apps Kenya, M-Pesa loans, Tala, Branch, M-Shwari, Fuliza, Hustler Fund, KCB M-Pesa, loan comparison Kenya, cheapest loans Kenya',
@@ -24,6 +28,7 @@ export const metadata: Metadata = {
     title: 'LoanApp.co.ke - Compare Loan Apps in Kenya',
     description: 'Find the cheapest loan in Kenya. Compare interest rates across 12+ apps.',
     type: 'website',
+    url: 'https://www.loanapp.co.ke/',
     locale: 'en_KE',
   },
   verification: {
