@@ -7,6 +7,7 @@ import {
   TrendingDown, Calculator, Clock, Zap, Star, ArrowRight, FileText,
   CheckCircle2, XCircle,
 } from '@/components/Icons';
+import { jsonLd, organizationSchema, websiteSchema } from '@/lib/schema';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
@@ -107,6 +108,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-white text-gray-900">
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLd(organizationSchema(), websiteSchema())} />
       <Header />
 
       {/* ── Hero: two-column ── */}

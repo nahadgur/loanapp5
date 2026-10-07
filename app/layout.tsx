@@ -28,6 +28,7 @@ export const metadata: Metadata = {
     title: 'LoanApp.co.ke - Compare Loan Apps in Kenya',
     description: 'Find the cheapest loan in Kenya. Compare interest rates across 12+ apps.',
     type: 'website',
+    siteName: 'LoanApp.co.ke',
     url: 'https://www.loanapp.co.ke/',
     locale: 'en_KE',
   },

@@ -5,7 +5,7 @@
 // /blog/[slug]. App-review spokes use Article (not Review/Product) because there
 // is no disclosed, real rating method behind a star score.
 
-export const SITE_URL = 'https://loanapp.co.ke';
+export const SITE_URL = 'https://www.loanapp.co.ke';
 export const SITE_NAME = 'LoanApp.co.ke';
 
 const orgId = `${SITE_URL}/#organization`;
@@ -38,8 +38,9 @@ export function websiteSchema() {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     '@id': websiteId,
-    url: SITE_URL,
+    url: `${SITE_URL}/`,
     name: SITE_NAME,
+    alternateName: ['LoanApp Kenya'],
     publisher: { '@id': orgId },
     inLanguage: 'en-KE',
   };
